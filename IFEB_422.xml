@@ -22,14 +22,14 @@
                     <seg xml:lang="fr">Amélioration digitale</seg>
                     <seg xml:lang="en">Digital enhancement</seg>
                 </edition>
-                <editor role="digital-editor" resp="#AS" when="2024-11-02">Alessio
+                <editor role="digital-editor" resp="#AS" when="2024-11-06">Alessio
                     Sopracasa</editor>
             </editionStmt>
             <publicationStmt>
                 <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
                     Methodologies for Historical Research in Byzantine Studies</authority>
                 <idno type="filename"/>
-                <idno type="SigiDocID">s-EASvxx</idno>
+                <idno type="SigiDocID">s-XLonb1</idno>
                 <idno type="sequence"/>
                 <date/>
                 <availability>
@@ -40,19 +40,21 @@
             </publicationStmt>
             <sourceDesc>
                 <listPerson type="issuer">
-                    <person gender="M" role="military">
+                    <person gender="M" role="civil">
                         <persName xml:lang="grc">
-                            <forename>Προκόπιος</forename>
+                            <forename>Γεώργιος</forename>
+                            <surname>Ἑξαμιλίτης</surname>
                         </persName>
                         <persName xml:lang="fr">
-                            <forename>Procope</forename>
+                            <forename>Georges</forename>
+                            <surname>Hexamilitès</surname>
                         </persName>
                         <persName xml:lang="en">
-                            <forename>Prokopios</forename>
+                            <forename>George</forename>
+                            <surname>Hexamilites</surname>
                         </persName>
-                        <idno type="PmbZ"
-                            ana="https://www.degruyter.com/database/PMBZ/entry/PMBZ28924/html"
-                            >26770</idno>
+                        <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Georgios/20167/"
+                            >Georgios 20167</idno>
                     </person>
                 </listPerson>
                 <msDesc>
@@ -78,10 +80,10 @@
                             <rs type="collection-name" xml:lang="en">IFEB</rs>
                             <rs type="collection-name" xml:lang="fr">IFEB</rs>
                         </collection>
-                        <idno type="inv-nr-current">717</idno>
+                        <idno type="inv-nr-current">364</idno>
                         <altIdentifier>
                             <repository/>
-                            <idno type="inv-nr-former">810</idno>
+                            <idno type="inv-nr-former">422</idno>
                         </altIdentifier>
                     </msIdentifier>
                     <msContents>
@@ -109,31 +111,19 @@
                                         <seg xml:lang="en">Lead</seg>
                                     </material>
                                     <dimensions type="support" unit="mm">
-                                        <dim type="diameter">20</dim>
+                                        <dim type="diameter"/>
                                     </dimensions>
                                     <measure type="weight" unit="g"/>
                                     <measure type="axis" unit="clock"/>
                                     <measure type="overstrikeOrient" unit="clock"/>
-                                    <measure type="channelOrient" unit="clock"/>
+                                    <measure type="channelOrient" unit="clock">11-5</measure>
                                     <measure type="countermark" unit="clock"/>
                                 </support>
-                                <condition rend="corroded worn-edge">
-                                    <p xml:lang="fr">En mauvais état de conservation: très oxydé en
-                                        particulier à l'avers, ce qui laisse visible seulement la
-                                        tête du personnage représenté, rogné au pourtour; profondes
-                                        échancures aux orifices du canal, en particulier à l'orifice
-                                        supérieur, avec perte d'une portion du support, entraînant
-                                        la disparition de la fin des trois des quatre lignes
-                                        restantes de la légende au revers, où la première ligne est
-                                        perdue.</p>
-                                    <p xml:lang="en">In a poor state of conservation: highly
-                                        corroded, particularly on the obverse, leaving only the head
-                                        of the figure visible, and trimmed around the edges; deep
-                                        indentations at the channel openings, particularly at the
-                                        upper opening, with loss of part of the support, resulting
-                                        in the disappearance of the end of three of the four
-                                        remaining lines of the legend on the reverse, where the
-                                        first line is entirely lost.</p>
+                                <condition rend="corroded broken">
+                                    <p xml:lang="fr">Le support est cassé le long du canal et la
+                                        moitié droite est perdue; oxydation en cours.</p>
+                                    <p xml:lang="en">The support is broken along the channel and the
+                                        right half is lost; oxidation in progress.</p>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
@@ -147,7 +137,7 @@
                                         <seg xml:lang="en">Round</seg>
                                     </rs>
                                     <rs type="matrix" subtype="not-surviving">
-                                        <idno type="SigiDoc">m-pL0Yuc</idno>
+                                        <idno type="SigiDoc">m-YgLTsf</idno>
                                     </rs>
                                 </layout>
                             </layoutDesc>
@@ -157,17 +147,17 @@
                         <origin>
                             <origPlace>
                                 <seg xml:lang="fr">
-                                    <placeName>Longobardie</placeName>
+                                    <placeName>Arménoiaques</placeName>
                                 </seg>
                                 <seg xml:lang="en">
-                                    <placeName>Longobardia</placeName>
+                                    <placeName>Armeniakon</placeName>
                                 </seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="0951" notAfter="1000"
-                                evidence="historical-context titulature parallel" cert="high"
+                            <origDate type="analysis" notBefore="1040" notAfter="1060"
+                                evidence="parallel prosopography titulature" cert="high"
                                 resp="#JCC #VP #AS">
-                                <seg xml:lang="fr">Xe siècle (deuxième moitié).</seg>
-                                <seg xml:lang="en">10th C., second half.</seg>
+                                <seg xml:lang="fr">1040-1060.</seg>
+                                <seg xml:lang="en">1040-1060.</seg>
                             </origDate>
                         </origin>
                         <provenance type="found" subtype="discovered">
@@ -205,12 +195,10 @@
                                         <dimensions type="written" unit="mm">
                                             <dim type="diameter"/>
                                         </dimensions>
-                                        <p xml:lang="fr">Iconographie avec, d'après la pièce
-                                            parallèle, légende invocative circulaire et épigraphe en
-                                            colonne de part et d'autre de l'effigie.</p>
-                                        <p xml:lang="en">Iconography with, according to the parallel
-                                            seal, a circular invocative legend and epigraph in
-                                            columns on either side of the image.</p>
+                                        <p xml:lang="fr">Iconographie avec sigle conservé seulement
+                                            à gauche.</p>
+                                        <p xml:lang="en">Iconography with sigla preserved only on
+                                            the left.</p>
                                     </layout>
                                 </layoutDesc>
                             </objectDesc>
@@ -222,21 +210,16 @@
                             <decoDesc>
                                 <decoNote>
                                     <figure>
-                                        <figDesc n="r" ana="person male saint St-Prokopios bust" xml:lang="fr">L'état de conservation
-                                            du sceau ne permet de voir que la tête d'un saint
-                                            imberbe et aux cheveux bouclées, représenté en buste: la
-                                            pièce parallèle d'Athènes permet de l'identifier en tant
-                                            que saint Procope.</figDesc>
-                                        <figDesc n="r" ana="person male saint St-Prokopios bust" xml:lang="en">The state of
-                                            preservation of the seal only makes it possible to see
-                                            the head of a beardless saint with curly hair, depicted
-                                            in bust form: the parallel piece from Athens makes it
-                                            possible to identify him as saint Procopius.</figDesc>
-                                        <figDesc n="decoR" xml:lang="fr">D'après la pièce parallèle
-                                            et le revers de notre exemplaire, cercle de
+                                        <figDesc n="r" ana="person female Virgin bust praying"
+                                            xml:lang="fr">Buste de la Vierge, esquissant le geste de
+                                            l'allocution (Minimalorantengestus).</figDesc>
+                                        <figDesc n="r" ana="person female Virgin bust praying"
+                                            xml:lang="en">Bust of the Virgin, sketching the gesture
+                                            of the address (Minimalorantengestus).</figDesc>
+                                        <figDesc n="decoR" xml:lang="fr">Traces d'un cercle de
                                             grènetis.</figDesc>
-                                        <figDesc n="decoR" xml:lang="en">According to the parallel
-                                            seal and the obverse of our piece, circle of dots.</figDesc>
+                                        <figDesc n="decoR" xml:lang="en">Vestiges of a circle of
+                                            dots.</figDesc>
                                     </figure>
                                 </decoNote>
                             </decoDesc>
@@ -260,8 +243,10 @@
                                         <dimensions type="written" unit="mm">
                                             <dim type="diameter"/>
                                         </dimensions>
-                                        <p xml:lang="fr">Légende linéaire sur 5 lignes, dont la première a disparu.</p>
-                                        <p xml:lang="en">Linear legend of 5 lines, of which the first one is lost.</p>
+                                        <p xml:lang="fr">Légende linéaire sur 7 lignes, dont la
+                                            première a presque entièrement disparu.</p>
+                                        <p xml:lang="en">Linear legend of 7 lines, of which the
+                                            first one is almost entirely lost.</p>
                                     </layout>
                                 </layoutDesc>
                             </objectDesc>
@@ -274,10 +259,14 @@
                                 <decoNote>
                                     <figure>
                                         <!--<figDesc n="v" ana="" xml:lang=""/>-->
-                                        <figDesc n="decoV" xml:lang="fr">Cercle de grènetis
-                                            très partiellement conservé.</figDesc>
-                                        <figDesc n="decoV" xml:lang="en">Circle of dots very partially
-                                            preserved.</figDesc>
+                                        <figDesc n="decoV" xml:lang="fr">Cercle de grènetis très
+                                            partiellement conservé; sur la base de la pièce
+                                            parallèle, une croisette accostée de tirets précédait la
+                                            légende sur une ligne séparée.</figDesc>
+                                        <figDesc n="decoV" xml:lang="en">Circle of dots very
+                                            partially preserved; on the base of the parallel, a
+                                            crosslet flanked by dashes preceded the legend on a
+                                            separate line.</figDesc>
                                     </figure>
                                 </decoNote>
                             </decoDesc>
@@ -305,7 +294,7 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="AS" when="2024-11-01">Creation of the XML record.</change>
+            <change who="AS" when="2024-11-06">Creation of the XML record.</change>
         </revisionDesc>
     </teiHeader>
     <facsimile>
@@ -327,12 +316,7 @@
     <text>
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
-                <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"> 
-                      <ab>
-                          
-                      </ab>
-                  </div>
-                  <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc"> 
+                <div type="textpart" n="obv" subtype="sigla" rend="columns" xml:lang="grc"> 
                       <ab>
                           
                       </ab>
@@ -344,12 +328,7 @@
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
-                <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"> 
-                      <ab>
-                          
-                      </ab>
-                  </div>
-                  <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc">
+                <div type="textpart" n="obv" subtype="sigla" rend="columns" xml:lang="grc"> 
                       <ab>
                           
                       </ab>
@@ -376,8 +355,32 @@
             <div type="commentary" subtype="footnotes"/>
             <div type="bibliography" subtype="edition"/>
             <div type="bibliography" subtype="parallels">
-                <bibl>
-                    <ptr target="Athens1996"/>, <citedRange unit="part">52</citedRange>.</bibl>
+                <p>Collection K.P. Stamoulès: <bibl>
+                        <ptr target="Stamoules1930"/>, <citedRange unit="part"
+                        >78</citedRange></bibl> = <bibl>
+                        <ptr target="Wassiliou2002"/>, <citedRange unit="part">7b</citedRange>.
+                    </bibl>
+                    <!-- Honorem, S.133, Nr.4 : autre // ?????? à vérifier, pas vu -->
+                </p>
+            </div>
+            <div type="bibliography" subtype="discussion">
+                <p>
+                    <bibl>
+                        <ptr target="Wassiliou2002"/>, <citedRange unit="page">247</citedRange>
+                        (mention du sceau IFEB);<bibl>
+                            <ptr target="Laurent1931"/>, p. <citedRange unit="page">782, no.
+                                5</citedRange> et <citedRange unit="page">793-794, no. 2</citedRange>
+                            (mention et bref commentaire de l'édition Konstantopoulos, coll.
+                            Stamoules du parallèle)</bibl>; <bibl>
+                            <ptr target="SBS_Articles2002-2006"/>, p. <citedRange unit="page"
+                                >148</citedRange> (mention de l'édition Wassiliou, 2002 du
+                            parallèle)</bibl>; <bibl>
+                            <ptr target="PBW"/>, <citedRange unit="entry"><ref
+                                    target="http://pbw2016.kdl.kcl.ac.uk/boulloterion/2580/"
+                                    >boulloterion 2580</ref></citedRange>
+                        </bibl>
+                    </bibl>
+                </p>
             </div>
         </body>
     </text>
