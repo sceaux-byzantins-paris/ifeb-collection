@@ -22,14 +22,14 @@
                     <seg xml:lang="fr">Amélioration digitale</seg>
                     <seg xml:lang="en">Digital enhancement</seg>
                 </edition>
-                <editor role="digital-editor" resp="#AS" when="2024-11-02">Alessio
+                <editor role="digital-editor" resp="#AS" when="2024-12-04">Alessio
                     Sopracasa</editor>
             </editionStmt>
             <publicationStmt>
                 <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
                     Methodologies for Historical Research in Byzantine Studies</authority>
                 <idno type="filename"/>
-                <idno type="SigiDocID">s-kEnitq</idno>
+                <idno type="SigiDocID">s-GjiFba</idno>
                 <idno type="sequence"/>
                 <date/>
                 <availability>
@@ -40,19 +40,19 @@
             </publicationStmt>
             <sourceDesc>
                 <listPerson type="issuer">
-                    <person gender="M" role="civil">
+                    <person gender="M" role="military">
                         <persName xml:lang="grc">
-                            <forename>Λέων</forename>
+                            <forename>Κοσμᾶς</forename>
                         </persName>
                         <persName xml:lang="fr">
-                            <forename>Léon</forename>
+                            <forename>Kosmas</forename>
                         </persName>
                         <persName xml:lang="en">
-                            <forename>Leo</forename>
+                            <forename>Kosmas</forename>
                         </persName>
                         <idno type="PmbZ"
-                            ana="https://www.degruyter.com/database/PMBZ/entry/PMBZ15539/html"
-                            >4376</idno>
+                            ana="https://www.degruyter.com/database/PMBZ/entry/PMBZ26261/html"
+                            >24107</idno>
                     </person>
                 </listPerson>
                 <msDesc>
@@ -78,10 +78,10 @@
                             <rs type="collection-name" xml:lang="en">IFEB</rs>
                             <rs type="collection-name" xml:lang="fr">IFEB</rs>
                         </collection>
-                        <idno type="inv-nr-current">181</idno>
+                        <idno type="inv-nr-current">621</idno>
                         <altIdentifier>
                             <repository/>
-                            <idno type="inv-nr-former">214</idno>
+                            <idno type="inv-nr-former">714</idno>
                         </altIdentifier>
                     </msIdentifier>
                     <msContents>
@@ -109,27 +109,21 @@
                                         <seg xml:lang="en">Lead</seg>
                                     </material>
                                     <dimensions type="support" unit="mm">
-                                        <dim type="diameter"/>
+                                        <dim type="diameter">19</dim>
                                     </dimensions>
                                     <measure type="weight" unit="g"/>
                                     <measure type="axis" unit="clock"/>
                                     <measure type="overstrikeOrient" unit="clock"/>
-                                    <measure type="channelOrient" unit="clock">12-6</measure>
+                                    <measure type="channelOrient" unit="clock"/>
                                     <measure type="countermark" unit="clock"/>
                                 </support>
                                 <condition rend="corroded worn-edge">
-                                    <p xml:lang="fr">État de conservation moyen: oxydation en cours;
-                                        rogné au pourtour; échancré aux orifices du canal;
-                                        boursouflure à l'extrémité supérieure du canal; la lettre
-                                        inférieure du monogramme à l'avers ainsi que la dernière
-                                        ligne de la légende au revers ont presque entièrement
-                                        disparu.</p>
-                                    <p xml:lang="en">Average state of preservation: oxidation in
-                                        progress; trimmed around the edges; indentations at the
-                                        channel openings; swelling at the upper end of the channel;
-                                        the lower letter of the monogram on the obverse and the last
-                                        line of the legend on the reverse are almost entirely
-                                        lost.</p>
+                                    <p xml:lang="fr">Très oxydé; fortement rogné sur le pourtour
+                                        notamment sur la gauche (de l'avers), avec perte de la
+                                        moitié de la légende circulaire.</p>
+                                    <p xml:lang="en">Very xorroded; heavily trimmed around the
+                                        edges, especially on the left (on the obverse), with loss of
+                                        half the circular legend.</p>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
@@ -143,7 +137,7 @@
                                         <seg xml:lang="en">Round</seg>
                                     </rs>
                                     <rs type="matrix" subtype="not-surviving">
-                                        <idno type="SigiDoc">m-tSDdNG</idno>
+                                        <idno type="SigiDoc">m-pmtRin</idno>
                                     </rs>
                                 </layout>
                             </layoutDesc>
@@ -161,11 +155,10 @@
                                         >Thessalonica</placeName>
                                 </seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="0701" notAfter="0900"
-                                evidence="historical-context titulature parallel" cert="medium"
-                                resp="#JCC #VP #AS">
-                                <seg xml:lang="fr">VIIIe-IXe siècle.</seg>
-                                <seg xml:lang="en">8th-9th C.</seg>
+                            <origDate type="analysis" notBefore="0901" notAfter="1000"
+                                evidence="titulature epigraphy" cert="high" resp="#JCC #VP #AS">
+                                <seg xml:lang="fr">Xe siècle.</seg>
+                                <seg xml:lang="en">10th C.</seg>
                             </origDate>
                         </origin>
                         <provenance type="found" subtype="discovered">
@@ -203,10 +196,10 @@
                                         <dimensions type="written" unit="mm">
                                             <dim type="diameter"/>
                                         </dimensions>
-                                        <p xml:lang="fr">Monogramme invocatif cruciforme de type
-                                            Laurent V cantonné des syllabes habituelles.</p>
-                                        <p xml:lang="en">Cruciform invocative monogram of the
-                                            Laurent V type, flanked by the usual syllables.</p>
+                                        <p xml:lang="fr">Iconographie avec légende circulaire et
+                                            épigraphe en colonne.</p>
+                                        <p xml:lang="en">Iconography with a circular legend and
+                                            epigraph in columns.</p>
                                     </layout>
                                 </layoutDesc>
                             </objectDesc>
@@ -218,12 +211,31 @@
                             <decoDesc>
                                 <decoNote>
                                     <figure>
-                                        <!--<figDesc n="r" ana="" xml:lang="fr"/>-->
-                                        <!--<figDesc n="r" ana="" xml:lang="en"/>-->
-                                        <figDesc n="decoR" xml:lang="fr">Cercle de feuillage
-                                            partiellement conservé.</figDesc>
-                                        <figDesc n="decoR" xml:lang="en">Wreath border partially
-                                            preserved.</figDesc>
+                                        <figDesc n="r"
+                                            ana="2-persons male saint St-Demetrios St-Nestor standing blessing military"
+                                            xml:lang="fr">L'état de conservation du sceau ne permet
+                                            pas d'identifier l'iconographie: on voit deux
+                                            personnages représentés debout: la pièce parallèle de
+                                            Vienne permet de les identifier en tant que saint
+                                            Dèmètrios à droite bénissant saint Nestor à gauche, les
+                                            deux représentés en tenue militaire. Pour une
+                                            description plus détaillée et un commentaire sur cette
+                                            représentation, voir l'édition de la pièce parallèle
+                                            [1].</figDesc>
+                                        <figDesc n="r"
+                                            ana="2-persons male saint St-Demetrios St-Nestor standing blessing military"
+                                            xml:lang="en">The state of preservation of the seal does
+                                            not allow the iconography to be identified: two figures
+                                            are shown standing; the Vienna parallel piece allows
+                                            them to be identified as Saint Demetrios on the right
+                                            blessing Saint Nestor on the left, both depicted in
+                                            military garb. For a more detailed description and
+                                            commentary on this depiction, see the edition of the
+                                            parallel piece [1].</figDesc>
+                                        <figDesc n="decoR" xml:lang="fr">Double cercle de grènetis
+                                            enfermant la légende circulaire.</figDesc>
+                                        <figDesc n="decoR" xml:lang="en">Double circle of dots
+                                            enclosing the circular legend.</figDesc>
                                     </figure>
                                 </decoNote>
                             </decoDesc>
@@ -247,12 +259,8 @@
                                         <dimensions type="written" unit="mm">
                                             <dim type="diameter"/>
                                         </dimensions>
-                                        <p xml:lang="fr">Légende linéaire sur 6 lignes, dont la
-                                            dernière a presque disparu; une croisette précède la
-                                            légende sur une même ligne.</p>
-                                        <p xml:lang="en">Linear legend of 6 lines, of which the last
-                                            one is almost lost; a crosslet precedes the legend on
-                                            the same line.</p>
+                                        <p xml:lang="fr">Légende linéaire sur 5 lignes.</p>
+                                        <p xml:lang="en">Linear legend of 5 lines.</p>
                                     </layout>
                                 </layoutDesc>
                             </objectDesc>
@@ -265,10 +273,10 @@
                                 <decoNote>
                                     <figure>
                                         <!--<figDesc n="v" ana="" xml:lang=""/>-->
-                                        <figDesc n="decoV" xml:lang="fr">Cercle de feuillage dont il
-                                            ne reste quasiment rien.</figDesc>
-                                        <figDesc n="decoV" xml:lang="en">Wreath border of which
-                                            virtually nothing remains.</figDesc>
+                                        <figDesc n="decoV" xml:lang="fr">Cercle de grènetis très
+                                            partiellement conservé.</figDesc>
+                                        <figDesc n="decoV" xml:lang="en">Circle of dots very
+                                            partially preserved.</figDesc>
                                     </figure>
                                 </decoNote>
                             </decoDesc>
@@ -296,7 +304,7 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="AS" when="2024-12-03">Creation of the XML record.</change>
+            <change who="AS" when="2024-12-04">Creation of the XML record.</change>
         </revisionDesc>
     </teiHeader>
     <facsimile>
@@ -362,72 +370,38 @@
                 <p xml:lang="fr"/>
             </div>
             <div type="commentary" subtype="text">
-                <p xml:lang="fr">On signalera l'existence des sceaux d'un Léon commerciaire impérial
-                    et <hi rend="italic">abydikos</hi> de Thessalonique datés du IXe siècle [1]: il
-                    s'agit peut-être de la même personne, qu'il faudra identifier, selon Zacos et
-                    Veglery, avec le propriétaire de notre sceau [2].</p>
+                <p xml:lang="fr">Selon W. Seibt et Al.-K. Wassiliou-Seibt ce sceau représente l'une
+                    des étapes de la carrière de Kosmas, dont ils reconstituent le <hi rend="italic"
+                        >cursus honorum</hi> sur la base des sceaux qu'ils estiment pouvoir lui
+                    attribuer [2].</p>
+                <p xml:lang="fr">Le sceau de ce même Kosmas en tant que <hi rend="italic"
+                        >bardarios</hi>, commerciaire et protonotaire de Thessalonique [3] présente
+                    à l'avers la même iconographie que le sceau de l'IFEB: si la comparaison entre
+                    la photo de l'édition du premier [4] avec celle du sceau IFEB ne peut pas être
+                    conbcluante, il n'est pas impossible que les deux sceaux soient des avers
+                    parallèles, ce qui poserait donc la question d'un <hi rend="italic"
+                        >boullotèrion</hi> partiellement remployé lors d'un changement de fonction
+                    dans la carrière de Kosmas.</p>
+                <!-- pas sûr du tout: voir aussi Schlumberger p. 103, nr 1 et Lebedeva nr 3 avec le Christ et saint Kosmas;
+                identification iconographie à repenser-->
             </div>
             <div type="commentary" subtype="footnotes">
-                <p xml:lang="fr" xml:id="footnote-1"><bibl>
-                        <ptr target="DOsealsOnline"/>, <citedRange unit="part"><ref
-                                target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.994/view"
-                                >BZS.1955.1.994</ref></citedRange>
-                    </bibl>; <bibl>
-                        <ptr target="DOsealsOnline"/>, <citedRange unit="part"><ref
-                                target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.993/view"
-                                >BZS.1955.1.993</ref></citedRange>
-                    </bibl>; <bibl>
-                        <ptr target="DOsealsOnline"/>, <citedRange unit="part"><ref
-                                target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.992/view"
-                                >BZS.1955.1.992</ref></citedRange>
-                    </bibl>, et la bibliographie citée.</p>
-                <p xml:lang="fr" xml:id="footnote-2"><bibl>
-                        <ptr target="Zacos1"/>, p. <citedRange unit="page">1167</citedRange>
-                    </bibl>; <bibl><ptr target="PmbZOnline"/>, <citedRange unit="entry"><ref
-                                target="https://www.degruyter.com/database/PMBZ/entry/PMBZ15631/html"
-                                >4466</ref></citedRange></bibl>.</p>
+                <p xml:lang="fr" xml:id="footnote-1"><bibl><ptr target="BBÖ2"/>, <citedRange
+                            unit="part">224</citedRange></bibl>.</p>
+                <p xml:lang="fr" xml:id="footnote-2"><bibl><ptr target="BBÖ2"/>, p. <citedRange
+                            unit="page">223</citedRange></bibl>.</p>
+                <p xml:lang="fr" xml:id="footnote-3"><bibl><ptr target="BBÖ2"/>, <citedRange
+                            unit="part">224</citedRange></bibl>.</p>
+                <p xml:lang="fr" xml:id="footnote-4"><bibl><ptr target="BBÖ2"/>, pl. <citedRange
+                            unit="page">17</citedRange></bibl>.</p>
             </div>
             <div type="bibliography" subtype="edition"/>
-            <div type="bibliography" subtype="parallels">
-                <p>Collection Dumbarton Oaks, BZS.1947.2.171: <bibl>
-                        <ptr target="Zacos1"/>, <citedRange unit="part">3134</citedRange></bibl> = <bibl>
-                        <ptr target="DOseals1"/>, <citedRange>18.4a</citedRange>
-                    </bibl> = <bibl>
-                        <ptr target="DOsealsOnline"/>, <citedRange unit="part"><ref
-                                target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1947.2.171/view"
-                                >BZS.1947.2.171</ref></citedRange>
-                    </bibl>; </p>
-                <p>Collection Dumbarton Oaks, BZS.1958.106.3951: <bibl>
-                        <ptr target="Zacos1"/>, <citedRange unit="part">2101d</citedRange></bibl> = <bibl>
-                        <ptr target="DOseals1"/>, <citedRange>18.4b</citedRange>
-                    </bibl> = <bibl>
-                        <ptr target="DOsealsOnline"/>, <citedRange unit="part"><ref
-                                target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1958.106.3951/view"
-                                >BZS.1958.106.3951</ref></citedRange>
-                    </bibl>; </p>
-                <p>Collection privée américaine: <bibl>
-                        <ptr target="Braunlin1999"/>, <citedRange unit="part">4</citedRange>
-                    </bibl>.</p>
-                <p>Un autre sceau, appartenant à la collection Sorlin-Dorigny, qui pourraît être un parallèle est édité par <bibl>
-                        <ptr target="Schlumberger1884"/>, p. <citedRange unit="page"
-                            >740</citedRange>
-                    </bibl>, avec une mauvaise lecture du terme <hi rend="italic">abydètikos</hi>
-                    (lu <hi rend="italic">aulètès</hi>) = <bibl>
-                        <ptr target="Mordtmann1882-83"/>, <citedRange unit="part">11</citedRange> (avec lecture exacte)
-                    </bibl> = <!-- Konstantopulos (JIAN 3) 21; idem (JIAN 5) 5; idem, in: JIAN 13 (1911) 31f; Panchenko 21???-->.</p>
-            </div>
+            <div type="bibliography" subtype="parallels"/>
             <div type="bibliography" subtype="discussion">
-                <p> Sur le parallèle de la collection privée américaine: <bibl><ptr
-                            target="SBS_Articles1997-2001"/>, p. <citedRange unit="page">161, no.
-                            4</citedRange></bibl>; sur les parallèles de la collection de Dumbarton
-                    Oaks: <bibl><ptr target="PmbZOnline"/><ref
-                            target="https://www.degruyter.com/database/PMBZ/entry/PMBZ15539/html"
-                            >4376</ref></bibl>; voir aussi <bibl>
-                        <ptr target="Bibicou1963"/>, p. <citedRange unit="page">232, no.
-                            80</citedRange>
-                    </bibl>.</p>
+                <p>Le sceau de l'IFEB est mentionné dans <bibl><ptr target="BBÖ2"/>, p. <citedRange
+                            unit="page">223, et n. 463</citedRange>.</bibl>
+                </p>
             </div>
-            <!-- revoir PmbZ 4376 -->
         </body>
     </text>
 </TEI>
