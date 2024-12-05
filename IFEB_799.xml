@@ -22,14 +22,14 @@
                     <seg xml:lang="fr">Amélioration digitale</seg>
                     <seg xml:lang="en">Digital enhancement</seg>
                 </edition>
-                <editor role="digital-editor" resp="#AS" when="2024-12-04">Alessio
+                <editor role="digital-editor" resp="#AS" when="2024-12-05">Alessio
                     Sopracasa</editor>
             </editionStmt>
             <publicationStmt>
                 <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
                     Methodologies for Historical Research in Byzantine Studies</authority>
                 <idno type="filename"/>
-                <idno type="SigiDocID">s-GjiFba</idno>
+                <idno type="SigiDocID">s-ZdR3IH</idno>
                 <idno type="sequence"/>
                 <date/>
                 <availability>
@@ -42,17 +42,17 @@
                 <listPerson type="issuer">
                     <person gender="M" role="military">
                         <persName xml:lang="grc">
-                            <forename>Κοσμᾶς</forename>
+                            <forename>Ἀρσαβήρ</forename>
                         </persName>
                         <persName xml:lang="fr">
-                            <forename>Kosmas</forename>
+                            <forename>Arsavir</forename>
                         </persName>
                         <persName xml:lang="en">
-                            <forename>Kosmas</forename>
+                            <forename>Arsavir</forename>
                         </persName>
                         <idno type="PmbZ"
-                            ana="https://www.degruyter.com/database/PMBZ/entry/PMBZ26261/html"
-                            >24107</idno>
+                            ana="https://www.degruyter.com/database/PMBZ/entry/PMBZ11690/html"
+                            >604</idno>
                     </person>
                 </listPerson>
                 <msDesc>
@@ -78,10 +78,10 @@
                             <rs type="collection-name" xml:lang="en">IFEB</rs>
                             <rs type="collection-name" xml:lang="fr">IFEB</rs>
                         </collection>
-                        <idno type="inv-nr-current">621</idno>
+                        <idno type="inv-nr-current">706</idno>
                         <altIdentifier>
                             <repository/>
-                            <idno type="inv-nr-former">714</idno>
+                            <idno type="inv-nr-former">799</idno>
                         </altIdentifier>
                     </msIdentifier>
                     <msContents>
@@ -109,21 +109,27 @@
                                         <seg xml:lang="en">Lead</seg>
                                     </material>
                                     <dimensions type="support" unit="mm">
-                                        <dim type="diameter">19</dim>
+                                        <dim type="diameter">28</dim>
                                     </dimensions>
                                     <measure type="weight" unit="g"/>
                                     <measure type="axis" unit="clock"/>
                                     <measure type="overstrikeOrient" unit="clock"/>
-                                    <measure type="channelOrient" unit="clock"/>
+                                    <measure type="channelOrient" unit="clock">1-7</measure>
                                     <measure type="countermark" unit="clock"/>
                                 </support>
-                                <condition rend="corroded worn-edge">
-                                    <p xml:lang="fr">Très oxydé; fortement rogné sur le pourtour
-                                        notamment sur la gauche (de l'avers), avec perte de la
-                                        moitié de la légende circulaire.</p>
-                                    <p xml:lang="en">Very xorroded; heavily trimmed around the
-                                        edges, especially on the left (on the obverse), with loss of
-                                        half the circular legend.</p>
+                                <condition rend="worn-edge">
+                                    <p xml:lang="fr">Fortement rogné en particulier sur la partie
+                                        gauche (par rapport à l'avers), profondes échancrues aux
+                                        orifices du canal, en particulier le supérieur: cet état de
+                                        conservation a entraîné la perte d'une bonne moitié du
+                                        monogramme à l'avers et de la fin des lignes de la légende
+                                        au revers.</p>
+                                    <p xml:lang="en">Heavily trimmed, particularly on the left-hand
+                                        side (when looking at the obverse), with deep indentations
+                                        at the channel openings, especially the upper one: this
+                                        state of preservation has resulted in the loss of a large
+                                        half of the monogram on the obverse and of the end of the
+                                        lenged's lines on the reverse.</p>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
@@ -137,7 +143,7 @@
                                         <seg xml:lang="en">Round</seg>
                                     </rs>
                                     <rs type="matrix" subtype="not-surviving">
-                                        <idno type="SigiDoc">m-pmtRin</idno>
+                                        <idno type="SigiDoc">m-r2oBFp</idno>
                                     </rs>
                                 </layout>
                             </layoutDesc>
@@ -155,10 +161,11 @@
                                         >Thessalonica</placeName>
                                 </seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="0901" notAfter="1000"
-                                evidence="titulature epigraphy" cert="high" resp="#JCC #VP #AS">
-                                <seg xml:lang="fr">Xe siècle.</seg>
-                                <seg xml:lang="en">10th C.</seg>
+                            <origDate type="analysis" notBefore="0801" notAfter="0850"
+                                evidence="historical-context titulature related-seal" cert="high"
+                                resp="#JCC #VP #AS">
+                                <seg xml:lang="fr">IXe siècle (première moitié).</seg>
+                                <seg xml:lang="en">9th C., first half.</seg>
                             </origDate>
                         </origin>
                         <provenance type="found" subtype="discovered">
@@ -196,10 +203,23 @@
                                         <dimensions type="written" unit="mm">
                                             <dim type="diameter"/>
                                         </dimensions>
-                                        <p xml:lang="fr">Iconographie avec légende circulaire et
-                                            épigraphe en colonne.</p>
-                                        <p xml:lang="en">Iconography with a circular legend and
-                                            epigraph in columns.</p>
+                                        <p xml:lang="fr">Monogramme invocatif curciforme d'un type
+                                            non défini en raison de l'état de conservation du sceau:
+                                            la présence du thêta central, du êta à l'extrémité
+                                            droite et du bêta à l'extrémité inférieure fait penser
+                                            aux types Laurent V ou VIII (avec une préférence pour le
+                                            type V car la branche supérieure ne semble pas présenter
+                                            de rhô et l'espace restant en haut du champ ne semble
+                                            pas lui laisser assez de place, avec un omicron-upsilon;
+                                            par contre, un tau et un omicron pourraient bien y
+                                            figurer); le monogramme est contonné des syllabes
+                                            habituelles.</p>
+                                        <p xml:lang="en">Cruciform invocative monogram of an
+                                            undefined type due to the state of preservation of the
+                                            seal: the presence of the central theta, the eta at the
+                                            right end and the beta at the lower end suggests the
+                                            Laurent V or VIII type; the monogram is flanked by the
+                                            usual syllables.</p>
                                     </layout>
                                 </layoutDesc>
                             </objectDesc>
@@ -211,31 +231,10 @@
                             <decoDesc>
                                 <decoNote>
                                     <figure>
-                                        <figDesc n="r"
-                                            ana="2-persons male saint St-Demetrios St-Nestor standing blessing military"
-                                            xml:lang="fr">L'état de conservation du sceau ne permet
-                                            pas d'identifier l'iconographie: on voit deux
-                                            personnages représentés debout: la pièce parallèle de
-                                            Vienne permet de les identifier en tant que saint
-                                            Dèmètrios à droite bénissant saint Nestor à gauche, les
-                                            deux représentés en tenue militaire. Pour une
-                                            description plus détaillée et un commentaire sur cette
-                                            représentation, voir l'édition de la pièce parallèle
-                                            [1].</figDesc>
-                                        <figDesc n="r"
-                                            ana="2-persons male saint St-Demetrios St-Nestor standing blessing military"
-                                            xml:lang="en">The state of preservation of the seal does
-                                            not allow the iconography to be identified: two figures
-                                            are shown standing; the Vienna parallel piece allows
-                                            them to be identified as Saint Demetrios on the right
-                                            blessing Saint Nestor on the left, both depicted in
-                                            military garb. For a more detailed description and
-                                            commentary on this depiction, see the edition of the
-                                            parallel piece [1].</figDesc>
-                                        <figDesc n="decoR" xml:lang="fr">Double cercle de grènetis
-                                            enfermant la légende circulaire.</figDesc>
-                                        <figDesc n="decoR" xml:lang="en">Double circle of dots
-                                            enclosing the circular legend.</figDesc>
+                                        <!--<figDesc n="r" ana="" xml:lang="fr"/>-->
+                                        <figDesc n="decoR" xml:lang="fr">Cercle de
+                                            feuillage.</figDesc>
+                                        <figDesc n="decoR" xml:lang="en">Wreath border.</figDesc>
                                     </figure>
                                 </decoNote>
                             </decoDesc>
@@ -259,8 +258,8 @@
                                         <dimensions type="written" unit="mm">
                                             <dim type="diameter"/>
                                         </dimensions>
-                                        <p xml:lang="fr">Légende linéaire sur 5 lignes.</p>
-                                        <p xml:lang="en">Linear legend of 5 lines.</p>
+                                        <p xml:lang="fr">Légende linéaire sur 4 lignes.</p>
+                                        <p xml:lang="en">Linear legend of 4 lines.</p>
                                     </layout>
                                 </layoutDesc>
                             </objectDesc>
@@ -273,10 +272,13 @@
                                 <decoNote>
                                     <figure>
                                         <!--<figDesc n="v" ana="" xml:lang=""/>-->
-                                        <figDesc n="decoV" xml:lang="fr">Cercle de grènetis très
-                                            partiellement conservé.</figDesc>
-                                        <figDesc n="decoV" xml:lang="en">Circle of dots very
-                                            partially preserved.</figDesc>
+                                        <figDesc n="decoV" xml:lang="fr">Cercle de feuillage; une
+                                            croisette ayant la branche inférieure plus longue que
+                                            les autres précède le début de la légende sur une même
+                                            ligne.</figDesc>
+                                        <figDesc n="decoV" xml:lang="en">Wreath border; a crosslet
+                                            with the lower branch longer than the others precedes
+                                            the beginning of the legend on the same line.</figDesc>
                                     </figure>
                                 </decoNote>
                             </decoDesc>
@@ -304,7 +306,7 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="AS" when="2024-12-04">Creation of the XML record.</change>
+            <change who="AS" when="2024-12-05">Creation of the XML record.</change>
         </revisionDesc>
     </teiHeader>
     <facsimile>
@@ -370,49 +372,24 @@
                 <p xml:lang="fr"/>
             </div>
             <div type="commentary" subtype="text">
-                <p xml:lang="fr">Selon W. Seibt et Al.-K. Wassiliou-Seibt ce sceau représente l'une
-                    des étapes de la carrière de Kosmas, dont ils reconstituent le <hi rend="italic"
-                        >cursus honorum</hi> sur la base des sceaux qu'ils estiment pouvoir lui
-                    attribuer [2].</p>
-                <p xml:lang="fr">L'absence de reproductions de qualité pour l'ensemble des sceaux se
-                    rapportant à la carrière de Kosmas rend ardu le rapprochement des choix
-                    iconographiques fait par le sigillant, d'autant plus que ces derniers ont été
-                    interprétés de manière très variée par les éditeurs des différentes pièces. Presque toutes les bulles qui lui ont été
-                    attribuées portent deux personnages saints à l'avers, mais l'identité de ces
-                    personnages reste parfois difficile à établir: ceci est le cas pour l'étape
-                    précédente de sa carrière en tant que <hi rend="italic">bardarios</hi>,
-                    commerciaire et protonotaire de Thessalonique [3] et aussi pour la suivante, en
-                    tant que stratège de Thessalonique [4]. Ici nous avons retenu l'identification
-                    proposée par W. Seibt et Al.K. Wassiliou-Seibt. L'établissement précis de
-                    l'iconographie va permettre de constater si certains de ces sceaux sont des
-                    parallèles par l'avers et donc de poser la question du remploi partiel du <hi rend="italic"
-                        >boullotèrion</hi> lors d'un avancement dans la carrière de Kosmas.</p>
+                <p xml:lang="fr"/>
             </div>
-            <div type="commentary" subtype="footnotes">
-                <p xml:lang="fr" xml:id="footnote-1"><bibl><ptr target="BBÖ2"/>, <citedRange
-                            unit="part">224</citedRange></bibl>.</p>
-                <p xml:lang="fr" xml:id="footnote-2"><bibl><ptr target="BBÖ2"/>, p. <citedRange
-                            unit="page">223</citedRange></bibl>.</p>
-                <p xml:lang="fr" xml:id="footnote-3"><bibl><ptr target="BBÖ2"/>, <citedRange
-                            unit="part">224</citedRange></bibl>; <bibl><ptr target="Lebedeva1931"/>,
-                            <citedRange unit="part">3</citedRange></bibl> (où la fonction de <hi
-                        rend="italic">bardarios</hi> n'est pas été lue).</p>
-                <p xml:lang="fr" xml:id="footnote-4"><bibl><ptr target="Schlumberger1884"/>, p.
-                            <citedRange unit="page">103, no. 1</citedRange></bibl> = <bibl>
-                        <ptr target="Klimanov1999"/>, p. <citedRange unit="page">236-237, no.
-                            35</citedRange>
-                    </bibl>.</p>
-            </div>
+            <div type="commentary" subtype="footnotes"/>
             <div type="bibliography" subtype="edition"/>
-            <div type="bibliography" subtype="parallels"/>
             <div type="bibliography" subtype="discussion">
-                <p>Le sceau de l'IFEB est mentionné dans <bibl><ptr target="BBÖ2"/>, p. <citedRange
-                    unit="page">223, et n. 463</citedRange> et dans <bibl>
+                <p>Un sceau très proche, mais pas parallèle, appartient à la collection Dumbarton
+                    Oaks (BZS.1955.1.697), provenant de l'ancienne collection Zacos: <bibl><ptr
+                            target="Zacos1"/>, <citedRange unit="part">1739</citedRange></bibl> = <bibl>
+                        <ptr target="DOseals1"/>, <citedRange unit="part">18.61</citedRange>
+                    </bibl> = <bibl>
+                        <ptr target="DOsealsOnline"/>, <citedRange unit="entry"><ref
+                                target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.697/view"
+                                >BZS.1955.1.697</ref></citedRange>
+                    </bibl>; voir aussi <bibl>
                         <ptr target="PmbZOnline"/>, <citedRange unit="entry"><ref
-                            target="https://www.degruyter.com/database/PMBZ/entry/PMBZ26261/html"
-                            >24107</ref></citedRange>
-                    </bibl></bibl>
-                </p>
+                                target="https://www.degruyter.com/database/PMBZ/entry/PMBZ11690/html"
+                                >604</ref></citedRange>
+                    </bibl>.</p>
             </div>
         </body>
     </text>
