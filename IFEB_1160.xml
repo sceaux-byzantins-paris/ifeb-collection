@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="fr"/>
+                <title xml:lang="en"/>
+                <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+                <editor role="seal-editor" xml:id="VP">Vivien Prigent</editor>
+                <editor role="seal-editor" xml:id="AS">Alessio Sopracasa</editor>
+                <funder>
+                    <orgName corresp="https://anr.fr/">Agence Nationale de la Recherche
+                        (ANR)</orgName>, France / <orgName corresp="https://www.dfg.de/">Deutsche
+                        Forschungsgemeinschaft (DFG)</orgName>, Deutschland </funder>
+                <principal>Alessio Sopracasa</principal>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <seg xml:lang="fr">Amélioration digitale</seg>
+                    <seg xml:lang="en">Digital enhancement</seg>
+                </edition>
+                <editor role="digital-editor" resp="#AS" when="2024-12-06">Alessio
+                    Sopracasa</editor>
+            </editionStmt>
+            <publicationStmt>
+                <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
+                    Methodologies for Historical Research in Byzantine Studies</authority>
+                <idno type="filename"/>
+                <idno type="SigiDocID">s-syrfCw</idno>
+                <idno type="sequence"/>
+                <date/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                        >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                        4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson type="issuer">
+                    <person gender="M" role="civil">
+                        <persName xml:lang="grc">
+                            <forename>Ἰωσήφ</forename>
+                        </persName>
+                        <persName xml:lang="fr">
+                            <forename>Joseph</forename>
+                        </persName>
+                        <persName xml:lang="en">
+                            <forename>Joseph</forename>
+                        </persName>
+                        <idno type="PmbZ"
+                            ana="https://www.degruyter.com/database/PMBZ/entry/PMBZ14605/html"
+                            >3461</idno>
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <country>
+                            <seg xml:lang="fr">France</seg>
+                            <seg xml:lang="en">France</seg>
+                        </country>
+                        <settlement>
+                            <seg xml:lang="fr">
+                                <placeName ref="https://www.geonames.org/2988507/paris.html"
+                                    >Paris</placeName>
+                            </seg>
+                            <seg xml:lang="en">
+                                <placeName ref="https://www.geonames.org/2988507/paris.html"
+                                    >Paris</placeName>
+                            </seg>
+                        </settlement>
+                        <institution>Institut Catholique de Paris</institution>
+                        <repository>Institut Français d’Études Byzantines</repository>
+                        <collection type="public">
+                            <!-- ??? -->
+                            <rs type="collection-name" xml:lang="en">IFEB</rs>
+                            <rs type="collection-name" xml:lang="fr">IFEB</rs>
+                        </collection>
+                        <idno type="inv-nr-current">1050</idno>
+                        <altIdentifier>
+                            <repository/>
+                            <idno type="inv-nr-former">1160</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary n="whole">
+                            <seg xml:lang="fr">Administration provinciale</seg>
+                            <seg xml:lang="en">Provincial administration</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>
+                                        <term>
+                                            <seg xml:lang="fr">Sceau</seg>
+                                            <seg xml:lang="en">Seal</seg>
+                                        </term>
+                                        <interp type="workType" xml:lang="fr">Empreinte
+                                            originale</interp>
+                                        <interp type="workType" xml:lang="en">Original
+                                            impression</interp>
+                                    </objectType>
+                                    <material>
+                                        <seg xml:lang="fr">Plomb</seg>
+                                        <seg xml:lang="en">Lead</seg>
+                                    </material>
+                                    <dimensions type="support" unit="mm">
+                                        <dim type="diameter">23</dim>
+                                    </dimensions>
+                                    <measure type="weight" unit="g"/>
+                                    <measure type="axis" unit="clock"/>
+                                    <measure type="overstrikeOrient" unit="clock"/>
+                                    <measure type="channelOrient" unit="clock">12-6</measure>
+                                    <measure type="countermark" unit="clock"/>
+                                </support>
+                                <condition rend="worn-edge">
+                                    <p xml:lang="fr">Frappe légèrement décentrée; rogné au pourtour;
+                                        échancré aux orifices du canal: cet état de conservation a
+                                        entraîné des pertes sur la légende circulaire à l'avers et à
+                                        la toute fin des lignes de la légende au revers.</p>
+                                    <p xml:lang="en">Strike slightly off-centre; trimmed around the
+                                        edge; indented at the channel openings: this state of
+                                        preservation has led to losses on the circular legend on the
+                                        obverse and at the very end of the lines of the legend on
+                                        the reverse.</p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout n="whole">
+                                    <rs type="execution">
+                                        <seg xml:lang="fr">Frappé</seg>
+                                        <seg xml:lang="en">Struck</seg>
+                                    </rs>
+                                    <rs type="shape">
+                                        <seg xml:lang="fr">Ronde</seg>
+                                        <seg xml:lang="en">Round</seg>
+                                    </rs>
+                                    <rs type="matrix" subtype="not-surviving">
+                                        <idno type="SigiDoc">m-mGkFbO</idno>
+                                    </rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <seg xml:lang="fr">
+                                    <placeName ref="https://pleiades.stoa.org/places/491741"
+                                        >Thessalonique</placeName>
+                                </seg>
+                                <seg xml:lang="en">
+                                    <placeName ref="https://pleiades.stoa.org/places/491741"
+                                        >Thessalonica</placeName>
+                                </seg>
+                            </origPlace>
+                            <origDate type="analysis" notBefore="0901" notAfter="1000"
+                                evidence="titulature iconography decoration" cert="high"
+                                resp="#JCC #VP #AS">
+                                <seg xml:lang="fr">Xe siècle.</seg>
+                                <seg xml:lang="en">10th C.</seg>
+                            </origDate>
+                        </origin>
+                        <provenance type="found" subtype="discovered">
+                            <placeName type="ancientFindspot" xml:lang="fr"/>
+                            <rs type="circumstances" xml:lang=""/>
+                        </provenance>
+                        <provenance type="observed" subtype="seen">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <provenance type="not-observed" subtype="lost">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <provenance type="transferred" subtype="moved">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <acquisition>
+                            <p xml:lang=""/>
+                        </acquisition>
+                    </history>
+                    <msPart n="r">
+                        <msIdentifier/>
+                        <msContents>
+                            <summary n="r">
+                                <seg xml:lang="en">Obverse</seg>
+                            </summary>
+                            <textLang n="r" mainLang="grc">
+                                <seg xml:lang="fr">Grec byzantin</seg>
+                                <seg xml:lang="en">Byzantine Greek</seg>
+                            </textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout n="r">
+                                        <dimensions type="written" unit="mm">
+                                            <dim type="diameter"/>
+                                        </dimensions>
+                                        <p xml:lang="fr">Iconographie avec légende invocative
+                                            circulaire commençant à 7.</p>
+                                        <p xml:lang="en">Iconography with a circular invocative
+                                            legend starting at 7.</p>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="r">
+                                    <seg xml:lang="en"/>
+                                </handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <decoNote>
+                                    <figure>
+                                        <figDesc n="r"
+                                            ana="cross patriarchal on-steps on-globe fleurons"
+                                            xml:lang="fr">Croix patriarcale sur trois degrés posés
+                                            sur un globe et fleurons issant depuis la base jusqu'à
+                                            mi-champ, à la première traverse; les deux traverses sont recroisetées.</figDesc>
+                                        <figDesc n="r"
+                                            ana="cross patriarchal on-steps on-globe fleurons"
+                                            xml:lang="en">Patriarchal cross on three steps on a
+                                            globe and fleurons rising from the base to mid-field, at
+                                            the first crossbar; X at crossbars.</figDesc>
+                                        <figDesc n="decoR" xml:lang="fr">Bordure de
+                                            grènetis.</figDesc>
+                                        <figDesc n="decoR" xml:lang="en">Border of dots.</figDesc>
+                                    </figure>
+                                </decoNote>
+                            </decoDesc>
+                        </physDesc>
+                    </msPart>
+                    <msPart n="v">
+                        <msIdentifier/>
+                        <msContents>
+                            <summary n="v">
+                                <seg xml:lang="en">Reverse</seg>
+                            </summary>
+                            <textLang n="v" mainLang="grc">
+                                <seg xml:lang="fr">Grec byzantin</seg>
+                                <seg xml:lang="en">Byzantine Greek</seg>
+                            </textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout n="v">
+                                        <dimensions type="written" unit="mm">
+                                            <dim type="diameter"/>
+                                        </dimensions>
+                                        <p xml:lang="fr">Légende linéaire sur 5 lignes.</p>
+                                        <p xml:lang="en">Linear legend of 5 lines.</p>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="v">
+                                    <seg xml:lang=""/>
+                                </handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <decoNote>
+                                    <figure>
+                                        <!--<figDesc n="v" ana="" xml:lang=""/>-->
+                                        <figDesc n="decoV" xml:lang="fr">Bordure de grènetis; une
+                                            croisette précède la début de la légende sur une même
+                                            ligne; une perle entre deux tirets suit la légende sur
+                                            une ligne séparée.</figDesc>
+                                        <figDesc n="decoV" xml:lang="en">Border of dots; a crosslet
+                                            precedes the beginning of the legend on the same line; a
+                                            pearl flanked by dashes follows the legend on a separate
+                                            line.</figDesc>
+                                    </figure>
+                                </decoNote>
+                            </decoDesc>
+                        </physDesc>
+                    </msPart>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="Grek">Greek script</language>
+                <language ident="Latn">Latin script</language>
+                <language ident="grc">Ancient Greek language (to 1453; assumed to be in its standard
+                    script: Grek)</language>
+                <language ident="la">Latin language (assumed to be in its standard script:
+                    Latn)</language>
+                <language ident="grc-Latn">Ancient Greek Language (to 1453), rendered in Latin
+                    script</language>
+                <language ident="la-Grek">Latin written in Greek script</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="AS" when="2024-11-01">Creation of the XML record.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surfaceGrp>
+            <surface n="r">
+                <desc>Obverse</desc>
+                <graphic url="https://www.abcde.com" type="digital">
+                    <desc>Digital image of the obverse (2019).</desc>
+                </graphic>
+            </surface>
+            <surface n="v">
+                <desc>Reverse</desc>
+                <graphic url="https://www.abcde.com" type="digital">
+                    <desc>Digital image of the reverse (2019).</desc>
+                </graphic>
+            </surface>
+        </surfaceGrp>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="editorial" xml:space="preserve">
+                <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"> 
+                      <ab>
+                          
+                      </ab>
+                  </div>
+                  <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc"> 
+                      <ab>
+                          
+                      </ab>
+                  </div>
+                  <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
+                      <ab>
+                          
+                      </ab>
+                  </div>
+              </div>
+            <div type="edition" subtype="diplomatic" xml:space="preserve">
+                <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"> 
+                      <ab>
+                          
+                      </ab>
+                  </div>
+                  <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc">
+                      <ab>
+                          
+                      </ab>
+                  </div>
+                  <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
+                      <ab>
+                          
+                      </ab>
+                  </div>
+              </div>
+            <div type="apparatus">
+                <listApp>
+                    <app/>
+                </listApp>
+            </div>
+            <div type="translation">
+                <p/>
+                <p xml:lang="en"/>
+                <p xml:lang="fr"/>
+            </div>
+            <div type="commentary" subtype="text">
+                <p xml:lang="fr"/>
+            </div>
+            <div type="commentary" subtype="footnotes"/>
+            <div type="bibliography" subtype="edition"/>
+            <div type="bibliography" subtype="parallels">
+                <p>Un sceau de la collection Sorlin-Dorigny pourrait être un parallèle, mais
+                    l'absence d'image ou de dessin empêche d'en avoir la certitude: <bibl>
+                        <ptr target="Sorlin-Dorigny1877"/>, p. <citedRange unit="page"
+                            >86</citedRange>
+                    </bibl> = <bibl>
+                        <ptr target="Schlumberger1884"/>, p. <citedRange unit="page"
+                            >105</citedRange></bibl>: la transcription donnée par Sorlin-Dorigny
+                    (Α,ΣΠΑΘ,ΚΑΝǀΔΔ) pousse Schlumberger à mal interpréter la dignité et faire de
+                    Joseph un protospathaire et candidat.</p>
+            </div>
+            <div type="bibliography" subtype="discussion">
+                <p> Le sceau Sorlin-Dorigny est mentionné dans <bibl><ptr target="Bibicou1963"/>, p.
+                            <citedRange unit="page">238</citedRange>, <citedRange unit="entry">no.
+                            150</citedRange></bibl>, qui propose de corriger la dignité en
+                    spatharokandidat; voir aussi <bibl>
+                        <ptr target="PmbZOnline"/>, <citedRange unit="entry"><ref
+                                target="https://www.degruyter.com/database/PMBZ/entry/PMBZ14605/html"
+                                >3461</ref></citedRange>
+                    </bibl>.
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>
