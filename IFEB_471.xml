@@ -6,10 +6,9 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="fr">Sceau d'Ignace, spatharocandidat, <hi rend="italic"
-                        >asèkrètès</hi> et juge de la Mer Égée</title>
-                <title xml:lang="en">Seal of Ignatios, spatharokandidatos, asekretis and judge of
-                    the Aegean Sea</title>
+                <title xml:lang="fr">Sceau de Léon, vestarque, juge du Velum et du Strymon</title>
+                <title xml:lang="en">Seal of Leo, veastarches, judge of the Velum and of the
+                    Strymon</title>
                 <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
                 <editor role="seal-editor" xml:id="VP">Vivien Prigent</editor>
                 <editor role="seal-editor" xml:id="AS">Alessio Sopracasa</editor>
@@ -24,14 +23,14 @@
                     <seg xml:lang="fr">Amélioration digitale</seg>
                     <seg xml:lang="en">Digital enhancement</seg>
                 </edition>
-                <editor role="digital-editor" resp="#AS" when="2024-12-11">Alessio
+                <editor role="digital-editor" resp="#AS" when="2024-12-12">Alessio
                     Sopracasa</editor>
             </editionStmt>
             <publicationStmt>
                 <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
                     Methodologies for Historical Research in Byzantine Studies</authority>
                 <idno type="filename"/>
-                <idno type="SigiDocID">s-0zD6nQ</idno>
+                <idno type="SigiDocID">s-Z5tEEd</idno>
                 <idno type="sequence"/>
                 <date/>
                 <availability>
@@ -44,13 +43,13 @@
                 <listPerson type="issuer">
                     <person gender="M" role="civil">
                         <persName xml:lang="grc">
-                            <forename>Ἰγνάτιος</forename>
+                            <forename>Λέων</forename>
                         </persName>
                         <persName xml:lang="fr">
-                            <forename>Ignace</forename>
+                            <forename>Léon</forename>
                         </persName>
                         <persName xml:lang="en">
-                            <forename>Ignatios</forename>
+                            <forename>Leo</forename>
                         </persName>
                     </person>
                 </listPerson>
@@ -77,11 +76,10 @@
                             <rs type="collection-name" xml:lang="en">IFEB</rs>
                             <rs type="collection-name" xml:lang="fr">IFEB</rs>
                         </collection>
-                        <idno type="inv-nr-current">119</idno>
+                        <idno type="inv-nr-current">410</idno>
                         <altIdentifier>
                             <repository/>
-                            <idno type="inv-nr-former">140</idno>
-                            <!-- 140 = photo JCC 141; photo JCC 140 = sceau 118 -->
+                            <idno type="inv-nr-former">471</idno>
                         </altIdentifier>
                     </msIdentifier>
                     <msContents>
@@ -109,23 +107,24 @@
                                         <seg xml:lang="en">Lead</seg>
                                     </material>
                                     <dimensions type="support" unit="mm">
-                                        <dim type="diameter">22</dim>
+                                        <dim type="diameter">19</dim>
                                     </dimensions>
                                     <measure type="weight" unit="g"/>
                                     <measure type="axis" unit="clock"/>
                                     <measure type="overstrikeOrient" unit="clock"/>
-                                    <measure type="channelOrient" unit="clock">2-6</measure>
-                                    <!-- ? -->
+                                    <measure type="channelOrient" unit="clock"/>
                                     <measure type="countermark" unit="clock"/>
                                 </support>
-                                <condition rend="corroded crushed">
-                                    <p xml:lang="fr">Oxydé; écrasé sur la droite de l’avers et la
-                                        gauche du revers avec perte de lettres de la légende en fin
-                                        de ligne sur l’avers et en début de ligne sur le revers.</p>
-                                    <p xml:lang="en">Corroded; crushed on the right of the obverse
-                                        and on the left of the reverse with loss of letters of the
-                                        legend at the end of the lines on the obverse and at the
-                                        beginning of the lines on the reverse.</p>
+                                <condition rend="corroded worn-edge">
+                                    <p xml:lang="fr">État de conservation moyen; oxydation en cours;
+                                        rogné sur le pourtour; la légende circulaire et le sigle à
+                                        l'avers restent visible seulement à droite et les lignes de
+                                        la légende au revers sont fortement détériorées.</p>
+                                    <p xml:lang="en">Average condition; oxidation in progress;
+                                        trimmed around the edges; The circular legend and the sigla
+                                        on the obverse remain visible only on the right, and the
+                                        lines of the legend on the reverse are heavily
+                                        deteriorated.</p>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
@@ -139,7 +138,7 @@
                                         <seg xml:lang="en">Round</seg>
                                     </rs>
                                     <rs type="matrix" subtype="not-surviving">
-                                        <idno type="SigiDoc">m-BoQqvu</idno>
+                                        <idno type="SigiDoc">m-AWbVAC</idno>
                                     </rs>
                                 </layout>
                             </layoutDesc>
@@ -149,12 +148,12 @@
                         <origin>
                             <origPlace>
                                 <seg xml:lang="fr">
-                                    <placeName ref="https://pleiades.stoa.org/places/560221">Mer
-                                        Égée</placeName>
+                                    <placeName ref="https://pleiades.stoa.org/places/501629"
+                                        >Strymon</placeName>
                                 </seg>
                                 <seg xml:lang="en">
-                                    <placeName ref="https://pleiades.stoa.org/places/560221">Aegean
-                                        Sea</placeName>
+                                    <placeName ref="https://pleiades.stoa.org/places/501629"
+                                        >Strymon</placeName>
                                 </seg>
                             </origPlace>
                             <origDate type="analysis" notBefore="1001" notAfter="1100"
@@ -198,8 +197,12 @@
                                         <dimensions type="written" unit="mm">
                                             <dim type="diameter"/>
                                         </dimensions>
-                                        <p xml:lang="fr">Légende linéaire sur 5 lignes.</p>
-                                        <p xml:lang="en">Linear legend of 5 lines.</p>
+                                        <p xml:lang="fr">Iconographie avec légende invocative
+                                            circulaire très partiellement conservée; sigle conservée
+                                            seulement à droite de l'effigie.</p>
+                                        <p xml:lang="en">Iconography with a circular invocative
+                                            legend very partially preserved; the sigla is only
+                                            visible on the right side of the image.</p>
                                     </layout>
                                 </layoutDesc>
                             </objectDesc>
@@ -211,15 +214,16 @@
                             <decoDesc>
                                 <decoNote>
                                     <figure>
-                                        <figDesc n="decoR" xml:lang="fr">Bordure de grènetis; une
-                                            croisette précède le début de la légende sur une même
-                                            ligne; des éléments décoratifs étaient peut-être
-                                            présents au-dessus de la légende, sur une ligne
-                                            séparée.</figDesc>
-                                        <figDesc n="decoR" xml:lang="en">Border of dots; a crosslet
-                                            precedes the beginning of the legend on the same line;
-                                            decorative elements may have been present above the
-                                            legend, on a separate line .</figDesc>
+                                        <figDesc n="r" ana="person female Virgin bust medaillon"
+                                            xml:lang="fr">Buste de la Vierge, orante, avec le
+                                            médaillon crucifère de l'Enfant.</figDesc>
+                                        <figDesc n="r" ana="person female Virgin bust medaillon"
+                                            xml:lang="en">Bust of the Virgin, praying, with the
+                                            cruciger medallion of the Child.</figDesc>
+                                        <figDesc n="decoR" xml:lang="fr">Traces de bordure de
+                                            grènetis.</figDesc>
+                                        <figDesc n="decoR" xml:lang="en">Traces of a border of
+                                            dots.</figDesc>
                                     </figure>
                                 </decoNote>
                             </decoDesc>
@@ -243,8 +247,8 @@
                                         <dimensions type="written" unit="mm">
                                             <dim type="diameter"/>
                                         </dimensions>
-                                        <p xml:lang="fr">Légende linéaire sur 4 lignes.</p>
-                                        <p xml:lang="en">Linear legend of 4 lines.</p>
+                                        <p xml:lang="fr">Légende linéaire sur 5 lignes.</p>
+                                        <p xml:lang="en">Linear legend of 5 lines.</p>
                                     </layout>
                                 </layoutDesc>
                             </objectDesc>
@@ -256,17 +260,16 @@
                             <decoDesc>
                                 <decoNote>
                                     <figure>
-                                        <!--<figDesc n="v" ana="" xml:lang=""/>-->
-                                        <figDesc n="decoV" xml:lang="fr">Bordure de grènetis; des éléments décoratifs -
-                                            peut-être trois perles - sont présents au-dessus de la
-                                            légende, sur une ligne séparée; au-dessous de la
-                                            légende, également sur une ligne séparée, peut-être une
-                                            perle accostée de tirets.</figDesc>
-                                        <figDesc n="decoV" xml:lang="en">Circle of dots very
-                                            partially preserved; decorative elements - perhaps three
-                                            pearls - above the legend, on a separate line; below
-                                            the legend, also on a separate line, perhaps a pearl
-                                            flanked by dashes .</figDesc>
+                                        <figDesc n="decoV" xml:lang="fr">Traces de bordure de
+                                            grènetis; avant la légende, sur une ligne séparée,
+                                            éléments décoratifs dont on distingue peut-être deux
+                                            tirets et un élément central fort mal conservé,
+                                            peut-être une croix.</figDesc>
+                                        <figDesc n="decoV" xml:lang="en">Traces of a border of dots;
+                                            before the legend, on a separate line, decorative
+                                            elements can be discerned, possibly two dashes and a
+                                            poorly preserved central element, perhaps a
+                                            cross.</figDesc>
                                     </figure>
                                 </decoNote>
                             </decoDesc>
@@ -294,7 +297,7 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="AS" when="2024-12-11">Creation of the XML record.</change>
+            <change who="AS" when="2024-12-12">Creation of the XML record.</change>
         </revisionDesc>
     </teiHeader>
     <facsimile>
@@ -316,7 +319,12 @@
     <text>
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
-                  <div type="textpart" n="obv" subtype="face" rend="linear" xml:lang="grc"> 
+                <div type="textpart" n="obv" subtype="sigla" rend="columns" xml:lang="grc"> 
+                      <ab>
+                          
+                      </ab>
+                  </div>
+                  <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc"> 
                       <ab>
                           
                       </ab>
@@ -328,7 +336,12 @@
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
-                  <div type="textpart" n="obv" subtype="face" rend="linear" xml:lang="grc">
+                <div type="textpart" n="obv" subtype="sigla" rend="columns" xml:lang="grc"> 
+                      <ab>
+                          
+                      </ab>
+                  </div>
+                  <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc">
                       <ab>
                           
                       </ab>
@@ -355,7 +368,7 @@
             <div type="commentary" subtype="footnotes"/>
             <div type="bibliography" subtype="edition">
                 <p>
-                    <bibl><ptr target="Prigent1994"/>, <citedRange unit="part">64</citedRange>.</bibl>
+                    <bibl><ptr target="Prigent1994"/>, <citedRange unit="part">129</citedRange></bibl>
                 </p>
             </div>
         </body>

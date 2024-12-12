@@ -6,10 +6,10 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="fr">Sceau d'Ignace, spatharocandidat, <hi rend="italic"
-                        >asèkrètès</hi> et juge de la Mer Égée</title>
-                <title xml:lang="en">Seal of Ignatios, spatharokandidatos, asekretis and judge of
-                    the Aegean Sea</title>
+                <title xml:lang="fr">Sceau de Théodore Chrysos, protospathaire, <hi rend="italic"
+                        >épi tou Chrysotriklinou</hi> et juge ou curateur de Mésopotamie</title>
+                <title xml:lang="en">Seal of Theodoros Chrysos, protospatharios, epi tou
+                    Chrysotriklinou and judge or kourator of Mesopotamia</title>
                 <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
                 <editor role="seal-editor" xml:id="VP">Vivien Prigent</editor>
                 <editor role="seal-editor" xml:id="AS">Alessio Sopracasa</editor>
@@ -24,14 +24,14 @@
                     <seg xml:lang="fr">Amélioration digitale</seg>
                     <seg xml:lang="en">Digital enhancement</seg>
                 </edition>
-                <editor role="digital-editor" resp="#AS" when="2024-12-11">Alessio
+                <editor role="digital-editor" resp="#AS" when="2024-12-12">Alessio
                     Sopracasa</editor>
             </editionStmt>
             <publicationStmt>
                 <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
                     Methodologies for Historical Research in Byzantine Studies</authority>
                 <idno type="filename"/>
-                <idno type="SigiDocID">s-0zD6nQ</idno>
+                <idno type="SigiDocID">s-C5dapm</idno>
                 <idno type="sequence"/>
                 <date/>
                 <availability>
@@ -44,14 +44,19 @@
                 <listPerson type="issuer">
                     <person gender="M" role="civil">
                         <persName xml:lang="grc">
-                            <forename>Ἰγνάτιος</forename>
+                            <forename>Θεόδωρος</forename>
+                            <surname>Χρυσός</surname>
                         </persName>
                         <persName xml:lang="fr">
-                            <forename>Ignace</forename>
+                            <forename>Théodore</forename>
+                            <surname>Chrysos</surname>
                         </persName>
                         <persName xml:lang="en">
-                            <forename>Ignatios</forename>
+                            <forename>Theodoros</forename>
+                            <surname>Chrysos</surname>
                         </persName>
+                        <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Theodoros/20123/"
+                            >Theodoros 20123 </idno>
                     </person>
                 </listPerson>
                 <msDesc>
@@ -77,11 +82,10 @@
                             <rs type="collection-name" xml:lang="en">IFEB</rs>
                             <rs type="collection-name" xml:lang="fr">IFEB</rs>
                         </collection>
-                        <idno type="inv-nr-current">119</idno>
+                        <idno type="inv-nr-current">450</idno>
                         <altIdentifier>
                             <repository/>
-                            <idno type="inv-nr-former">140</idno>
-                            <!-- 140 = photo JCC 141; photo JCC 140 = sceau 118 -->
+                            <idno type="inv-nr-former">519</idno>
                         </altIdentifier>
                     </msIdentifier>
                     <msContents>
@@ -114,18 +118,16 @@
                                     <measure type="weight" unit="g"/>
                                     <measure type="axis" unit="clock"/>
                                     <measure type="overstrikeOrient" unit="clock"/>
-                                    <measure type="channelOrient" unit="clock">2-6</measure>
-                                    <!-- ? -->
+                                    <measure type="channelOrient" unit="clock"/>
                                     <measure type="countermark" unit="clock"/>
                                 </support>
-                                <condition rend="corroded crushed">
-                                    <p xml:lang="fr">Oxydé; écrasé sur la droite de l’avers et la
-                                        gauche du revers avec perte de lettres de la légende en fin
-                                        de ligne sur l’avers et en début de ligne sur le revers.</p>
-                                    <p xml:lang="en">Corroded; crushed on the right of the obverse
-                                        and on the left of the reverse with loss of letters of the
-                                        legend at the end of the lines on the obverse and at the
-                                        beginning of the lines on the reverse.</p>
+                                <condition rend="corroded worn-edge broken">
+                                    <p xml:lang="fr">Très mauvais état de conservation; oxydé; très
+                                        endommagé, avec pertes plus ou moins importantes et
+                                        profondes le long des trois-quarts du bord.</p>
+                                    <p xml:lang="en">Very poor state of conservation; corroded; very
+                                        damaged, with more or less significant and deep losses along
+                                        three quarters of the edge.</p>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
@@ -139,7 +141,7 @@
                                         <seg xml:lang="en">Round</seg>
                                     </rs>
                                     <rs type="matrix" subtype="not-surviving">
-                                        <idno type="SigiDoc">m-BoQqvu</idno>
+                                        <idno type="SigiDoc">m-zVpWry</idno>
                                     </rs>
                                 </layout>
                             </layoutDesc>
@@ -149,17 +151,17 @@
                         <origin>
                             <origPlace>
                                 <seg xml:lang="fr">
-                                    <placeName ref="https://pleiades.stoa.org/places/560221">Mer
-                                        Égée</placeName>
+                                    <placeName ref="https://pleiades.stoa.org/places/981534"
+                                        >Mésopotamie</placeName>
                                 </seg>
                                 <seg xml:lang="en">
-                                    <placeName ref="https://pleiades.stoa.org/places/560221">Aegean
-                                        Sea</placeName>
+                                    <placeName ref="https://pleiades.stoa.org/places/981534"
+                                        >Mesopotamia</placeName>
                                 </seg>
                             </origPlace>
                             <origDate type="analysis" notBefore="1001" notAfter="1100"
-                                evidence="titulature epigraphy" cert="high" resp="#JCC #VP #AS">
-                                <seg xml:lang="fr">XIe siècle.</seg>
+                                evidence="titulature parallel" cert="high" resp="#JCC #VP #AS">
+                                <seg xml:lang="fr">XIe siècle</seg>
                                 <seg xml:lang="en">11th C.</seg>
                             </origDate>
                         </origin>
@@ -198,8 +200,14 @@
                                         <dimensions type="written" unit="mm">
                                             <dim type="diameter"/>
                                         </dimensions>
-                                        <p xml:lang="fr">Légende linéaire sur 5 lignes.</p>
-                                        <p xml:lang="en">Linear legend of 5 lines.</p>
+                                        <p xml:lang="fr">Iconographie avec, d'après la pièce
+                                            parallèle, de part et d'autre de l'effigie, sigle perdue
+                                            à gauche et dont des traces sont peut-être visibles à
+                                            droite.</p>
+                                        <p xml:lang="en">Iconography with, according to the parallel
+                                            seal, on either side of the image, a lost sigla on the
+                                            left, traces of which are perhaps visible on the
+                                            right.</p>
                                     </layout>
                                 </layoutDesc>
                             </objectDesc>
@@ -211,15 +219,17 @@
                             <decoDesc>
                                 <decoNote>
                                     <figure>
-                                        <figDesc n="decoR" xml:lang="fr">Bordure de grènetis; une
-                                            croisette précède le début de la légende sur une même
-                                            ligne; des éléments décoratifs étaient peut-être
-                                            présents au-dessus de la légende, sur une ligne
-                                            séparée.</figDesc>
-                                        <figDesc n="decoR" xml:lang="en">Border of dots; a crosslet
-                                            precedes the beginning of the legend on the same line;
-                                            decorative elements may have been present above the
-                                            legend, on a separate line .</figDesc>
+                                        <figDesc n="r" ana="person male archangel Michael bust globe scepter"
+                                            xml:lang="fr">Buste de l'archange Michel, portant un <hi
+                                                rend="italic">lôros</hi> décoré et tenant un sceptre
+                                            de la main droite et le globe de la main
+                                            gauche.</figDesc>
+                                        <figDesc n="r" ana="person male archangel Michael bust globe scepter"
+                                            xml:lang="en">Bust of the archangel Michael, wearing a
+                                            decorated lôros and holding a sceptre in his right hand
+                                            and the globe in his left..</figDesc>
+                                        <figDesc n="decoR" xml:lang="fr">Bordure indistincte.</figDesc>
+                                        <figDesc n="decoR" xml:lang="en">Indistinct border.</figDesc>
                                     </figure>
                                 </decoNote>
                             </decoDesc>
@@ -243,8 +253,10 @@
                                         <dimensions type="written" unit="mm">
                                             <dim type="diameter"/>
                                         </dimensions>
-                                        <p xml:lang="fr">Légende linéaire sur 4 lignes.</p>
-                                        <p xml:lang="en">Linear legend of 4 lines.</p>
+                                        <p xml:lang="fr">Légende linéaire sur 7 lignes, dont la
+                                            première a disparu.</p>
+                                        <p xml:lang="en">Linear legend of 7 lines, of which the
+                                            first one is lost.</p>
                                     </layout>
                                 </layoutDesc>
                             </objectDesc>
@@ -256,17 +268,8 @@
                             <decoDesc>
                                 <decoNote>
                                     <figure>
-                                        <!--<figDesc n="v" ana="" xml:lang=""/>-->
-                                        <figDesc n="decoV" xml:lang="fr">Bordure de grènetis; des éléments décoratifs -
-                                            peut-être trois perles - sont présents au-dessus de la
-                                            légende, sur une ligne séparée; au-dessous de la
-                                            légende, également sur une ligne séparée, peut-être une
-                                            perle accostée de tirets.</figDesc>
-                                        <figDesc n="decoV" xml:lang="en">Circle of dots very
-                                            partially preserved; decorative elements - perhaps three
-                                            pearls - above the legend, on a separate line; below
-                                            the legend, also on a separate line, perhaps a pearl
-                                            flanked by dashes .</figDesc>
+                                        <figDesc n="decoV" xml:lang="fr">Bordure indistincte.</figDesc>
+                                        <figDesc n="decoV" xml:lang="en">Indistinct border.</figDesc>
                                     </figure>
                                 </decoNote>
                             </decoDesc>
@@ -294,7 +297,7 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="AS" when="2024-12-11">Creation of the XML record.</change>
+            <change who="AS" when="2024-12-12">Creation of the XML record.</change>
         </revisionDesc>
     </teiHeader>
     <facsimile>
@@ -316,7 +319,7 @@
     <text>
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
-                  <div type="textpart" n="obv" subtype="face" rend="linear" xml:lang="grc"> 
+                <div type="textpart" n="obv" subtype="sigla" rend="columns" xml:lang="grc"> 
                       <ab>
                           
                       </ab>
@@ -328,7 +331,7 @@
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
-                  <div type="textpart" n="obv" subtype="face" rend="linear" xml:lang="grc">
+                <div type="textpart" n="obv" subtype="sigla" rend="columns" xml:lang="grc"> 
                       <ab>
                           
                       </ab>
@@ -355,7 +358,13 @@
             <div type="commentary" subtype="footnotes"/>
             <div type="bibliography" subtype="edition">
                 <p>
-                    <bibl><ptr target="Prigent1994"/>, <citedRange unit="part">64</citedRange>.</bibl>
+                    <bibl><ptr target="Prigent1994"/>, <citedRange unit="part">91</citedRange>.</bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="parallels">
+                <p>Collection Seyrig, 406: 
+                    <bibl>
+                        <ptr target="Seyrig"/>, <citedRange unit="part">186</citedRange> (sans lecture du nom de famille).</bibl><!-- (lien à ajouter) -->
                 </p>
             </div>
         </body>

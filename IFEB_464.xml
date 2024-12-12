@@ -209,24 +209,12 @@
                             <decoDesc>
                                 <decoNote>
                                     <figure>
-                                        <figDesc n="r" ana="person male saint St-Prokopios bust"
-                                            xml:lang="fr">L'état de conservation du sceau ne permet
-                                            de voir que la tête d'un saint imberbe et aux cheveux
-                                            bouclées, représenté en buste: la pièce parallèle
-                                            d'Athènes permet de l'identifier en tant que saint
-                                            Procope.</figDesc>
-                                        <figDesc n="r" ana="person male saint St-Prokopios bust"
-                                            xml:lang="en">The state of preservation of the seal only
-                                            makes it possible to see the head of a beardless saint
-                                            with curly hair, depicted in bust form: the parallel
-                                            piece from Athens makes it possible to identify him as
-                                            saint Procopius.</figDesc>
-                                        <figDesc n="decoR" xml:lang="fr">D'après la pièce parallèle
-                                            et le revers de notre exemplaire, cercle de
-                                            grènetis.</figDesc>
-                                        <figDesc n="decoR" xml:lang="en">According to the parallel
-                                            seal and the obverse of our piece, circle of
-                                            dots.</figDesc>
+                                        <figDesc n="r" ana="cross patriarchal on-steps fleurons"
+                                            xml:lang="fr">Croix patriarcale sur trois marches, avec fleurons commençant à la base et issant jusqu'à mi-champ.</figDesc>
+                                        <figDesc n="r" ana="cross patriarchal on-steps fleurons"
+                                            xml:lang="en">Patriarchal cross on three steps, with fleurons starting at the base and rising to mid-field.</figDesc>
+                                        <figDesc n="decoR" xml:lang="fr">Traces de bordure de grènetis; une croisette précède la légende circulaire.</figDesc>
+                                        <figDesc n="decoR" xml:lang="en">Traces of a border of dots; a crosslet precedes the circular legend.</figDesc>
                                     </figure>
                                 </decoNote>
                             </decoDesc>
@@ -250,10 +238,8 @@
                                         <dimensions type="written" unit="mm">
                                             <dim type="diameter"/>
                                         </dimensions>
-                                        <p xml:lang="fr">Légende linéaire sur 5 lignes, dont la
-                                            première a disparu.</p>
-                                        <p xml:lang="en">Linear legend of 5 lines, of which the
-                                            first one is lost.</p>
+                                        <p xml:lang="fr">Légende linéaire sur 5 lignes, dont 4 seulement subsistent.</p>
+                                        <p xml:lang="en">Linear legend of 5 lines, of which only 4 are preserved.</p>
                                     </layout>
                                 </layoutDesc>
                             </objectDesc>
@@ -265,11 +251,8 @@
                             <decoDesc>
                                 <decoNote>
                                     <figure>
-                                        <!--<figDesc n="v" ana="" xml:lang=""/>-->
-                                        <figDesc n="decoV" xml:lang="fr">Cercle de grènetis très
-                                            partiellement conservé.</figDesc>
-                                        <figDesc n="decoV" xml:lang="en">Circle of dots very
-                                            partially preserved.</figDesc>
+                                        <figDesc n="decoV" xml:lang="fr">Traces de bordure de grènetis.</figDesc>
+                                        <figDesc n="decoV" xml:lang="en">Traces of a border of dots.</figDesc>
                                     </figure>
                                 </decoNote>
                             </decoDesc>
@@ -297,7 +280,7 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="AS" when="2024-11-01">Creation of the XML record.</change>
+            <change who="AS" when="2024-12-12">Creation of the XML record.</change>
         </revisionDesc>
     </teiHeader>
     <facsimile>
@@ -319,11 +302,6 @@
     <text>
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
-                <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"> 
-                      <ab>
-                          
-                      </ab>
-                  </div>
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc"> 
                       <ab>
                           
@@ -336,11 +314,6 @@
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
-                <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"> 
-                      <ab>
-                          
-                      </ab>
-                  </div>
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc">
                       <ab>
                           
@@ -366,10 +339,16 @@
                 <p xml:lang="fr"/>
             </div>
             <div type="commentary" subtype="footnotes"/>
-            <div type="bibliography" subtype="edition"/>
-            <div type="bibliography" subtype="parallels">
-                <bibl>
-                    <ptr target="Athens1996"/>, <citedRange unit="part">52</citedRange>.</bibl>
+            <div type="bibliography" subtype="edition">
+                <p>
+                    <bibl><ptr target="Prigent1994"/>, <citedRange unit="part">56</citedRange></bibl> = 
+                    <bibl><ptr target="Karagiorgou2016"/>, <citedRange unit="part">18</citedRange>.</bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="discussion">
+                <p>Le sceau IFEB est mentionné dans 
+                    <bibl><ptr target="Karagiorgou2021"/></bibl> avec l'identifiant KIB_77 (IFEB 464).
+                </p><!-- à préciser -->
             </div>
         </body>
     </text>
