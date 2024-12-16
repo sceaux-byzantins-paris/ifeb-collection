@@ -28,7 +28,7 @@
             <publicationStmt>
                 <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
                     Methodologies for Historical Research in Byzantine Studies</authority>
-                <idno type="filename"/>
+                <idno type="filename">IFEB_814</idno>
                 <idno type="SigiDocID">s-2lJ5Zg</idno>
                 <idno type="sequence"/>
                 <date/>
@@ -114,7 +114,7 @@
                                     <measure type="channelOrient" unit="clock"/>
                                     <measure type="countermark" unit="clock"/>
                                 </support>
-                                <condition rend="obliterated">
+                                <condition rend="obliterated broken">
                                     <p xml:lang="fr">Une moitié de la circonférence de l'avers est
                                         perdue, avec perte du début des lignes de la légende; revers
                                         partiellement oblitéré sur la gauche.</p>

@@ -28,7 +28,7 @@
             <publicationStmt>
                 <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
                     Methodologies for Historical Research in Byzantine Studies</authority>
-                <idno type="filename"/>
+                <idno type="filename">IFEB_506</idno>
                 <idno type="SigiDocID">s-hn7scT</idno>
                 <idno type="sequence"/>
                 <date/>
@@ -114,14 +114,19 @@
                                     <measure type="channelOrient" unit="clock"/>
                                     <measure type="countermark" unit="clock"/>
                                 </support>
-                                <condition rend="obliterated">
+                                <condition rend="obliterated chipped">
                                     <p xml:lang="fr">Echancré en particulier à l'orifice supérieur
-                                        du canal; oblitéré sur approxumativement le tiers droit de
+                                        du canal; oblitéré sur approximativement le tiers droit de
                                         l'avers et gauche du revers, entraînant la perte d'une
                                         moitié de la légende circulaire et de la colonne droite de
                                         l'épigraphe sur l'avers et du début de toutes les lignes au
                                         revers.</p>
-                                    <p xml:lang="en">XXXXXXXXXXXXXXX</p><!-- à faire -->
+                                    <p xml:lang="en">Chipped, particularly at the upper opening of
+                                        the channel; obliterated on approximately the right third of
+                                        the obverse and the left of the reverse, resulting in the
+                                        loss of half of the circular legend and the right column of
+                                        the epigraph on the obverse, as well as the beginning of all
+                                        the lines on the reverse.</p>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
@@ -216,14 +221,23 @@
                             <decoDesc>
                                 <decoNote>
                                     <figure>
-                                        <figDesc n="r" ana="person male saint St-Theodore standing military spear shield" xml:lang="fr">Saint Théodore, debout,
-                                            en vêtements militaires, tenant la lance de la main droite et le
+                                        <figDesc n="r"
+                                            ana="person male saint St-Theodore standing military spear shield"
+                                            xml:lang="fr">Saint Théodore, debout, en vêtements
+                                            militaires, tenant la lance de la main droite et le
                                             bouclier, posé à terre, de la main gauche.</figDesc>
-                                        <figDesc n="r" ana="person male saint St-Theodore standing military spear shield" xml:lang="en">Saint Theodore,
-                                            standing, in military costume, holding the spear in the
-                                            right hand and supporting the shield on the ground with the left.</figDesc>
-                                        <figDesc n="decoR" xml:lang="fr">Cercle de grènetis très partiellement conservé; une croisette précède la légende circulaire.</figDesc>
-                                        <figDesc n="decoR" xml:lang="en">Circle of dots only very partially preserved; a crosslet precedes the circular legend.</figDesc>
+                                        <figDesc n="r"
+                                            ana="person male saint St-Theodore standing military spear shield"
+                                            xml:lang="en">Saint Theodore, standing, in military
+                                            costume, holding the spear in the right hand and
+                                            supporting the shield on the ground with the
+                                            left.</figDesc>
+                                        <figDesc n="decoR" xml:lang="fr">Cercle de grènetis très
+                                            partiellement conservé; une croisette précède la légende
+                                            circulaire.</figDesc>
+                                        <figDesc n="decoR" xml:lang="en">Circle of dots only very
+                                            partially preserved; a crosslet precedes the circular
+                                            legend.</figDesc>
                                     </figure>
                                 </decoNote>
                             </decoDesc>
@@ -263,8 +277,10 @@
                                 <decoNote>
                                     <figure>
                                         <!--<figDesc n="v" ana="" xml:lang=""/>-->
-                                        <figDesc n="decoV" xml:lang="fr">Cercle de grènetis partiellement conservé.</figDesc>
-                                        <figDesc n="decoV" xml:lang="en">Circle of dots partially preserved.</figDesc>
+                                        <figDesc n="decoV" xml:lang="fr">Cercle de grènetis
+                                            partiellement conservé.</figDesc>
+                                        <figDesc n="decoV" xml:lang="en">Circle of dots partially
+                                            preserved.</figDesc>
                                     </figure>
                                 </decoNote>
                             </decoDesc>
@@ -361,12 +377,8 @@
                 <p xml:lang="fr"/>
             </div>
             <div type="commentary" subtype="footnotes"/>
-            <div type="bibliography" subtype="edition">
-                
-            </div>
-            <div type="bibliography" subtype="discussion">
-                
-            </div>
+            <div type="bibliography" subtype="edition"> </div>
+            <div type="bibliography" subtype="discussion"> </div>
         </body>
     </text>
 </TEI>

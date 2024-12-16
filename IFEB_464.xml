@@ -30,7 +30,7 @@
             <publicationStmt>
                 <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
                     Methodologies for Historical Research in Byzantine Studies</authority>
-                <idno type="filename"/>
+                <idno type="filename">IFEB_404</idno>
                 <idno type="SigiDocID">s-03jSPN</idno>
                 <idno type="sequence"/>
                 <date/>
@@ -116,7 +116,7 @@
                                     <measure type="channelOrient" unit="clock"/>
                                     <measure type="countermark" unit="clock"/>
                                 </support>
-                                <condition rend="worn-edge">
+                                <condition rend="worn-edge broken">
                                     <p xml:lang="fr">Environ un quart du sceau est perdu, le long du
                                         bord supérieur, entre 11 et 2, ce qui a entraîné la perte de
                                         la première ligne de la légende au revers; rogné sur le

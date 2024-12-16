@@ -28,7 +28,7 @@
             <publicationStmt>
                 <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
                     Methodologies for Historical Research in Byzantine Studies</authority>
-                <idno type="filename"/>
+                <idno type="filename">IFEB_917</idno>
                 <idno type="SigiDocID">s-aMiCWi</idno>
                 <idno type="sequence"/>
                 <date/>
@@ -119,7 +119,7 @@
                                     <measure type="channelOrient" unit="clock">1-7</measure>
                                     <measure type="countermark" unit="clock"/>
                                 </support>
-                                <condition rend="corroded worn-edge not-centered">
+                                <condition rend="corroded worn-edge not-centered chipped">
                                     <p xml:lang="fr">État de conservation moyen en raison de la
                                         corrosion: l'iconographie sur l'avers est peu visible, ainsi
                                         qu'une partie des lettres de la légende au revers; frappe

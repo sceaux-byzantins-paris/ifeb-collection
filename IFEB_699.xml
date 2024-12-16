@@ -28,7 +28,7 @@
             <publicationStmt>
                 <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
                     Methodologies for Historical Research in Byzantine Studies</authority>
-                <idno type="filename"/>
+                <idno type="filename">IFEB_607</idno>
                 <idno type="SigiDocID">s-XKpvmV</idno>
                 <idno type="sequence"/>
                 <date/>
@@ -114,7 +114,7 @@
                                     <measure type="channelOrient" unit="clock">1-7</measure>
                                     <measure type="countermark" unit="clock"/>
                                 </support>
-                                <condition rend="corroded">
+                                <condition rend="corroded chipped">
                                     <p xml:lang="fr">Légèrement échancré à l'orifice supérier du
                                         canal et plus profondément à l'orifice inférieur, avec perte
                                         d'une petite portion du support, sans que la lisibilité de

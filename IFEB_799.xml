@@ -28,7 +28,7 @@
             <publicationStmt>
                 <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
                     Methodologies for Historical Research in Byzantine Studies</authority>
-                <idno type="filename"/>
+                <idno type="filename">IFEB_706</idno>
                 <idno type="SigiDocID">s-ZdR3IH</idno>
                 <idno type="sequence"/>
                 <date/>
@@ -117,9 +117,9 @@
                                     <measure type="channelOrient" unit="clock">1-7</measure>
                                     <measure type="countermark" unit="clock"/>
                                 </support>
-                                <condition rend="worn-edge">
+                                <condition rend="worn-edge chipped">
                                     <p xml:lang="fr">Fortement rogné en particulier sur la partie
-                                        gauche (par rapport à l'avers), profondes échancrues aux
+                                        gauche (par rapport à l'avers); profondes échancrues aux
                                         orifices du canal, en particulier le supérieur: cet état de
                                         conservation a entraîné la perte d'une bonne moitié du
                                         monogramme à l'avers et de la fin des lignes de la légende

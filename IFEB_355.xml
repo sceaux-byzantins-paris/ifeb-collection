@@ -28,7 +28,7 @@
             <publicationStmt>
                 <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
                     Methodologies for Historical Research in Byzantine Studies</authority>
-                <idno type="filename"/>
+                <idno type="filename">IFEB_304</idno>
                 <idno type="SigiDocID">s-kYmrkD</idno>
                 <idno type="sequence"/>
                 <date/>
@@ -115,10 +115,11 @@
                                     <measure type="channelOrient" unit="clock"/>
                                     <measure type="countermark" unit="clock"/>
                                 </support>
-                                <condition rend="not-centered corroded">
-                                    <p xml:lang="fr">Flan rogné sur le pourtour; partiellement
-                                        oxydé; frappe légèrement décentrée.</p>
-                                    <p xml:lang="en">XXXXXXXXXXXXXXX</p><!-- à faire -->
+                                <condition rend="not-centered worn-edge">
+                                    <p xml:lang="fr">Rogné sur le pourtour; partiellement oxydé;
+                                        frappe légèrement décentrée.</p>
+                                    <p xml:lang="en">Trimmed around the edges; partially oxidized;
+                                        slightly off-center strike.</p>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
