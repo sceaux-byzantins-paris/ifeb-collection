@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="fr">Sceau de Balantios, <hi rend="italic">anthypatos</hi>, patrice,
+                    protospathaire impérial et stratège du Lykandos</title>
+                <title xml:lang="en">Seal of Balantios, anthypatos, patrikios, imperial
+                    protospatharios et strategos of the Lykandos</title>
+                <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+                <editor role="seal-editor" xml:id="VP">Vivien Prigent</editor>
+                <editor role="seal-editor" xml:id="AS">Alessio Sopracasa</editor>
+                <funder>
+                    <orgName corresp="https://anr.fr/">Agence Nationale de la Recherche
+                        (ANR)</orgName>, France / <orgName corresp="https://www.dfg.de/">Deutsche
+                        Forschungsgemeinschaft (DFG)</orgName>, Deutschland </funder>
+                <principal>Alessio Sopracasa</principal>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <seg xml:lang="fr">Digitale originelle</seg>
+                    <seg xml:lang="en">Born digital</seg>
+                </edition>
+                <editor role="digital-editor" resp="#AS" when="2025-01-21">Alessio
+                    Sopracasa</editor>
+            </editionStmt>
+            <publicationStmt>
+                <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
+                    Methodologies for Historical Research in Byzantine Studies</authority>
+                <idno type="filename">IFEB_924</idno>
+                <idno type="SigiDocID">s-HmhRV4</idno>
+                <idno type="sequence"/>
+                <date/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                        >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                        4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson type="issuer">
+                    <person gender="M" role="military">
+                        <persName xml:lang="grc">
+                            <forename>Βαλάντιος</forename>
+                        </persName>
+                        <persName xml:lang="fr">
+                            <forename>Balantios</forename>
+                        </persName>
+                        <persName xml:lang="en">
+                            <forename>Balantios</forename>
+                        </persName>
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <country>
+                            <seg xml:lang="fr">France</seg>
+                            <seg xml:lang="en">France</seg>
+                        </country>
+                        <settlement>
+                            <seg xml:lang="fr">
+                                <placeName ref="https://www.geonames.org/2988507/paris.html"
+                                    >Paris</placeName>
+                            </seg>
+                            <seg xml:lang="en">
+                                <placeName ref="https://www.geonames.org/2988507/paris.html"
+                                    >Paris</placeName>
+                            </seg>
+                        </settlement>
+                        <institution>Institut Catholique de Paris</institution>
+                        <repository>Institut Français d’Études Byzantines</repository>
+                        <collection type="public">
+                            <!-- ??? -->
+                            <rs type="collection-name" xml:lang="en">IFEB</rs>
+                            <rs type="collection-name" xml:lang="fr">IFEB</rs>
+                        </collection>
+                        <idno type="inv-nr-current">824</idno>
+                        <altIdentifier>
+                            <repository/>
+                            <idno type="inv-nr-former">924</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary n="whole">
+                            <seg xml:lang="fr">Administration provinciale</seg>
+                            <seg xml:lang="en">Provincial administration</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>
+                                        <term>
+                                            <seg xml:lang="fr">Sceau</seg>
+                                            <seg xml:lang="en">Seal</seg>
+                                        </term>
+                                        <interp type="workType" xml:lang="fr">Empreinte
+                                            originale</interp>
+                                        <interp type="workType" xml:lang="en">Original
+                                            impression</interp>
+                                    </objectType>
+                                    <material>
+                                        <seg xml:lang="fr">Plomb</seg>
+                                        <seg xml:lang="en">Lead</seg>
+                                    </material>
+                                    <dimensions type="support" unit="mm">
+                                        <dim type="diameter">20</dim>
+                                    </dimensions>
+                                    <measure type="weight" unit="g"/>
+                                    <measure type="axis" unit="clock"/>
+                                    <measure type="overstrikeOrient" unit="clock"/>
+                                    <measure type="channelOrient" unit="clock"/>
+                                    <measure type="countermark" unit="clock"/>
+                                </support>
+                                <condition rend="worn-edge chipped"><!-- écrbcrures et orifices??? -->
+                                    <p xml:lang="fr">Frappe légèrement décentrée; profonde
+                                        échancrure à l’orifice supérieur du canal ayant endommagé
+                                        l’iconographie de l’avers et les deux premières lignes du
+                                        revers; rogné sur le pourtour.</p>
+                                    <p xml:lang="en">Slightly off-centre strike; deep indentation at
+                                        the upper opening of the channel, damaging the iconography
+                                        on the obverse and the first two lines on the reverse;
+                                        trimmed around the edge.</p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout n="whole">
+                                    <rs type="execution">
+                                        <seg xml:lang="fr">Frappé</seg>
+                                        <seg xml:lang="en">Struck</seg>
+                                    </rs>
+                                    <rs type="shape">
+                                        <seg xml:lang="fr">Ronde</seg>
+                                        <seg xml:lang="en">Round</seg>
+                                    </rs>
+                                    <rs type="matrix" subtype="not-surviving">
+                                        <idno type="SigiDoc">m-KchuSd</idno>
+                                    </rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <seg xml:lang="fr">
+                                    <placeName ref="https://pleiades.stoa.org/places/629028"
+                                        >Lykandos</placeName>
+                                </seg>
+                                <seg xml:lang="en">
+                                    <placeName ref="https://pleiades.stoa.org/places/629028"
+                                        >Lykandos</placeName>
+                                </seg>
+                            </origPlace>
+                            <origDate type="analysis" notBefore="0941" notAfter="0960"
+                                evidence="historical-context titulature parallel" cert="high"
+                                resp="#JCC #VP #AS">
+                                <seg xml:lang="fr">Xe siècle (milieu)</seg>
+                                <seg xml:lang="en">10th C., middle</seg>
+                            </origDate>
+                        </origin>
+                        <provenance type="found" subtype="discovered">
+                            <placeName type="ancientFindspot" xml:lang="fr"/>
+                            <rs type="circumstances" xml:lang=""/>
+                        </provenance>
+                        <provenance type="observed" subtype="seen">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <provenance type="not-observed" subtype="lost">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <provenance type="transferred" subtype="moved">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <acquisition>
+                            <p xml:lang=""/>
+                        </acquisition>
+                    </history>
+                    <msPart n="r">
+                        <msIdentifier/>
+                        <msContents>
+                            <summary n="r">
+                                <seg xml:lang="en">Obverse</seg>
+                            </summary>
+                            <textLang n="r" mainLang="grc">
+                                <seg xml:lang="fr">Grec byzantin</seg>
+                                <seg xml:lang="en">Byzantine Greek</seg>
+                            </textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout n="r">
+                                        <dimensions type="written" unit="mm">
+                                            <dim type="diameter"/>
+                                        </dimensions>
+                                        <p xml:lang="fr">Iconographie avec légende invocative
+                                            circulaire.</p>
+                                        <p xml:lang="en">Iconography with a circular invocative
+                                            legend.</p>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="r">
+                                    <seg xml:lang="en"/>
+                                </handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <decoNote>
+                                    <figure>
+                                        <figDesc n="r"
+                                            ana="person male saint St-Nicholas bust blessing gospel"
+                                            xml:lang="fr">Buste de saint Nicolas, de face, vêtements
+                                            liturgiques avec deux losanges de perles sur le
+                                            phélonion, dans son attitude habituelle bénissant de la
+                                            main droite et tenant les Evangiles de la gauche;
+                                            épigraphe en colonne de part et d'autre de
+                                            l'effigie.</figDesc>
+                                        <figDesc n="r"
+                                            ana="person male saint St-Nicholas bust blessing gospel"
+                                            xml:lang="en">Bust of Saint Nicholas, facing, wearing
+                                            liturgical garments with two lozenges of pearls on the
+                                            phelonion, in his usual attitude, blessing with his
+                                            right hand and holding the Gospels with his left; label
+                                            in columns on either side of the image.</figDesc>
+                                        <figDesc n="decoR" xml:lang="fr">Bordure de grènetis; une
+                                            croisette précède la légende circulaire.</figDesc>
+                                        <figDesc n="decoR" xml:lang="en">Border of dots; a crosslet
+                                            precedes the circular legend.</figDesc>
+                                    </figure>
+                                </decoNote>
+                            </decoDesc>
+                        </physDesc>
+                    </msPart>
+                    <msPart n="v">
+                        <msIdentifier/>
+                        <msContents>
+                            <summary n="v">
+                                <seg xml:lang="en">Reverse</seg>
+                            </summary>
+                            <textLang n="v" mainLang="grc">
+                                <seg xml:lang="fr">Grec byzantin</seg>
+                                <seg xml:lang="en">Byzantine Greek</seg>
+                            </textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout n="v">
+                                        <dimensions type="written" unit="mm">
+                                            <dim type="diameter"/>
+                                        </dimensions>
+                                        <p xml:lang="fr">Légende linéaire sur 5 lignes.</p>
+                                        <p xml:lang="en">Linear legend of 5 lines.</p>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="v">
+                                    <seg xml:lang=""/>
+                                </handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <decoNote>
+                                    <figure>
+                                        <!--<figDesc n="v" ana="" xml:lang=""/>-->
+                                        <figDesc n="decoV" xml:lang="fr">Bordure de grènetis; une
+                                            croisette précède le début de la légende, sur une même
+                                            ligne; après la légende, sur une ligne séparée, un
+                                            losange de perles accosté de deux tirets.</figDesc>
+                                        <figDesc n="decoV" xml:lang="en">Border of dots; a crosslet
+                                            precedes the beginning of the legend, on the same line;
+                                            after the legend, on a separate line, a lozenge of
+                                            pearls flanked by two dashes.</figDesc>
+                                    </figure>
+                                </decoNote>
+                            </decoDesc>
+                        </physDesc>
+                    </msPart>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="Grek">Greek script</language>
+                <language ident="Latn">Latin script</language>
+                <language ident="grc">Ancient Greek language (to 1453; assumed to be in its standard
+                    script: Grek)</language>
+                <language ident="la">Latin language (assumed to be in its standard script:
+                    Latn)</language>
+                <language ident="grc-Latn">Ancient Greek Language (to 1453), rendered in Latin
+                    script</language>
+                <language ident="la-Grek">Latin written in Greek script</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="AS" when="2025-01-21">Creation of the XML record.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surfaceGrp>
+            <surface n="r">
+                <desc>Obverse</desc>
+                <graphic url="https://www.abcde.com" type="digital">
+                    <desc>Digital image of the obverse (2019).</desc>
+                </graphic>
+            </surface>
+            <surface n="v">
+                <desc>Reverse</desc>
+                <graphic url="https://www.abcde.com" type="digital">
+                    <desc>Digital image of the reverse (2019).</desc>
+                </graphic>
+            </surface>
+        </surfaceGrp>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="editorial" xml:space="preserve">
+                <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"> 
+                      <ab>
+                          
+                      </ab>
+                  </div>
+                  <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc"> 
+                      <ab>
+                          
+                      </ab>
+                  </div>
+                  <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
+                      <ab>
+                          
+                      </ab>
+                  </div>
+              </div>
+            <div type="edition" subtype="diplomatic" xml:space="preserve">
+                <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"> 
+                      <ab>
+                          
+                      </ab>
+                  </div>
+                  <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc">
+                      <ab>
+                          
+                      </ab>
+                  </div>
+                  <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
+                      <ab>
+                          
+                      </ab>
+                  </div>
+              </div>
+            <div type="apparatus">
+                <listApp>
+                    <app/>
+                </listApp>
+            </div>
+            <div type="translation">
+                <p/>
+                <p xml:lang="en"/>
+                <p xml:lang="fr"/>
+            </div>
+            <div type="commentary" subtype="text">
+                <p xml:lang="fr">Un sceau très vraisemblablement du même personnage a été vendu aux
+                    enchères: <bibl>
+                        <ptr target="KMK"/>, <citedRange unit="part"><ref
+                                target="http://koelner-muenzkabinett.de/wp-content/uploads/2018/01/KMK-A111.pdf"
+                                >auction 111 (4 mai 2019)</ref>, <ref
+                                target="https://www.biddr.com/auctions/koelner-muenzkabinett/browse?a=535&amp;l=544709"
+                                >lot 383</ref></citedRange>
+                    </bibl>.</p>
+            </div>
+            <div type="commentary" subtype="footnotes"/>
+            <div type="bibliography" subtype="edition">
+                <p>
+                    <bibl><ptr target="Prigent1994"/>, <citedRange unit="part"
+                        >80</citedRange>.</bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="discussion">
+                <p>Le sceau IFEB 924, aujourd'hui IFEB 824, est mentionné dans <bibl><ptr
+                            target="LaurentCorpus5.2"/>, p. <citedRange unit="page">265</citedRange>
+                        (sans identification précise, mais simplement comme sceau inédit)</bibl> et
+                    dans <bibl>
+                        <ptr target="BBÖ1"/>, p. <citedRange unit="page">298 et note 5</citedRange>.
+                    </bibl>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>
