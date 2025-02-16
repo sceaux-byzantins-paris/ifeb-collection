@@ -296,13 +296,13 @@
         <surfaceGrp>
             <surface n="r">
                 <desc>Obverse</desc>
-                <graphic url="../../images/IFEB_0025A.jpeg" type="digital">
+                <graphic url="../images/IFEB_0025A.jpeg" type="digital">
                     <desc>Digital image of the obverse.</desc>
                 </graphic>
             </surface>
             <surface n="v">
                 <desc>Reverse</desc>
-                <graphic url="../../images/IFEB_0025B.jpeg" type="digital">
+                <graphic url="../images/IFEB_0025B.jpeg" type="digital">
                     <desc>Digital image of the reverse.</desc>
                 </graphic>
             </surface>
