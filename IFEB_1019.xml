@@ -6,7 +6,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang>Ifeb webhook test2</title>
+                <title xml:lang="en">Ifeb webhook test2</title>
                 <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
                 <editor role="seal-editor" xml:id="VP">Vivien Prigent</editor>
                 <editor role="seal-editor" xml:id="AS">Alessio Sopracasa</editor>
