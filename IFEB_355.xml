@@ -6,8 +6,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="fr"/>
-                <title xml:lang="en"/>
+                <title xml:lang="fr">Sceau de Jean, cubiculaire impérial et archonte des Bichétoi de l'Hellade</title>
+                <title xml:lang="en">Seal of John, imperial koubikoularios and archon of the Bichetoi of the Hellas</title>
                 <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
                 <editor role="seal-editor" xml:id="VP">Vivien Prigent</editor>
                 <editor role="seal-editor" xml:id="AS">Alessio Sopracasa</editor>
@@ -317,36 +317,47 @@
             <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc"> 
                       <ab>
-                          
+                          <lb n="1"/>Κ(ύρι)ε βοήθ(ει) τῷ σῷ δ(ού)λ(ῳ)
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="2"/>+Ἰωάνν(ῃ)
+                          <lb n="3"/>β(ασιλικῷ) κουβικ(ουλαρίῳ) (καὶ)
+                          <lb n="4"/>ἄρχ(οντι) Βικη-
+                          <lb n="5"/>τ(ῶν) Ἐλλά(δος)
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="1"/>ΚΕΟΗΘˊΤΣ/Λ/
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="2"/>Ι̣
+                          <lb n="3"/>/̣Ι
+                          <lb n="4"/>ΡΧ,ΙΧΗ
+                          <lb n="5"/>Τ,ΕΛ̣Λ̣̣/
+                          <lb n="0"/>̣̣
                       </ab>
                   </div>
               </div>
             <div type="apparatus">
                 <listApp>
-                    <app/>
+                    <app loc="2">
+                        <lem>Ἰωάνν(ῃ)</lem>
+                        <rdg><note>Ἰωάν(ν)ῃ selon <bibl><ptr target="Seibt1999"/>, p. <citedRange
+                                        unit="page">34</citedRange></bibl>.</note></rdg>
+                    </app>
                 </listApp>
             </div>
             <div type="translation">
-                <p/>
-                <p xml:lang="en"/>
-                <p xml:lang="fr"/>
+                <p>Κύριε βοήθει τῷ σῷ δούλῳ / + Ἰωάννῃ βασιλικῷ κουβικουλαρίῳ καὶ ἄρχοντι Βικητῶν Ἐλλάδος.</p>
+                <p xml:lang="en">Lord aid your servant John, imperial koubikoularios and archon of the Bichetoi of the Hellas.</p>
+                <p xml:lang="fr">Seigneur aide ton serviteur Jean, cubiculaire impérial et archonte des Bichétoi de l'Hellade.</p>
             </div>
             <div type="commentary" subtype="text">
                 <p xml:lang="fr"/>

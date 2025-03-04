@@ -20,8 +20,8 @@
             </titleStmt>
             <editionStmt>
                 <edition>
-                    <seg xml:lang="fr">Amélioration digitale</seg>
-                    <seg xml:lang="en">Digital enhancement</seg>
+                    <seg xml:lang="fr">Digitale originelle</seg>
+                    <seg xml:lang="en">Born digital</seg>
                 </edition>
                 <editor role="digital-editor" resp="#AS" when="2024-12-11">Alessio
                     Sopracasa</editor>
@@ -313,12 +313,16 @@
             <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="monogram-cross" xml:lang="grc"> 
                       <ab>
-                          <lb n="1"/><expan><ex>Θεοτόκε βοήθει</ex></expan> <supplied reason="lost">τ</supplied>ῷ σῷ δούλ<supplied reason="lost">ῳ</supplied>
+                          <lb n="1"/>(Θεοτόκε βοήθει) [τ]ῷ σῷ δούλ[ῳ]
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="2"/>+Ζοή[λ-]
+                          <lb n="3"/>ῳ ὑπάτῳ [(καὶ)]
+                          <lb n="4"/>κυρῷ Χε[ρ-]
+                          <lb n="5"/>σόνος
+
                       </ab>
                   </div>
               </div>
@@ -330,23 +334,36 @@
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          <lb n="2"/>
-                          <lb n="3"/>
-                          <lb n="4"/>
-                          <lb n="5"/>
+                          <lb n="2"/>̣ΖΟΗ.
+                          <lb n="3"/>̣ΥΠΑΤ̣.
+                          <lb n="4"/>̣ΥΡ̣ΧΕ.
+                          <lb n="5"/>ΣΟΝΟΣ
 
                       </ab>
                   </div>
               </div>
             <div type="apparatus">
                 <listApp>
-                    <app/>
+                    <app loc="3">
+                        <note>Dans son édition de ce sceau, ainsi que de la pièce parallèle, N.
+                            Alekseyenko introduit, de manière dubitative toutefois, un Β̣/ pour
+                            β(ασιλικῷ) juste avant la dignité, qui ne s’accompagne pas de cet
+                            adjectif; il s’agit en réalité du oméga par lequel le prénom du
+                            propriétaire du sceau se termine en début de ligne.</note>
+                    </app>
+                    <app loc="3-5">
+                        <note>La répartition des lignes présentée ici diffère quelque peu de celle
+                            proposée par N. Alekseyenko, mais il s’agit bien de pièces
+                            parallèles.</note>
+                    </app>
                 </listApp>
             </div>
             <div type="translation">
-                <p/>
-                <p xml:lang="en"/>
-                <p xml:lang="fr"/>
+                <p>Θεοτόκε βοήθει τῷ σῷ δούλῳ / + Ζοήλῳ ὑπάτῳ καὶ κυρῷ Χερσόνος.</p>
+                <p xml:lang="en">Mother of God aid your servant Zoilos, hypatos and kyr of
+                    Cherson.</p>
+                <p xml:lang="fr">Mère de Dieu protège ton serviteur Zoïlos, <hi rend="italic"
+                        >hypatos</hi> et <hi rend="italic">kyr</hi> de Cherson.</p>
             </div>
             <div type="commentary" subtype="text">
                 <p xml:lang="fr"/>

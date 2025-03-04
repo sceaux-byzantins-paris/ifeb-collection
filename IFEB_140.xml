@@ -21,8 +21,8 @@
             </titleStmt>
             <editionStmt>
                 <edition>
-                    <seg xml:lang="fr">Amélioration digitale</seg>
-                    <seg xml:lang="en">Digital enhancement</seg>
+                    <seg xml:lang="fr">Digitale originelle</seg>
+                    <seg xml:lang="en">Born digital</seg>
                 </edition>
                 <editor role="digital-editor" resp="#AS" when="2024-12-11">Alessio
                     Sopracasa</editor>
@@ -318,36 +318,52 @@
             <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="linear" xml:lang="grc"> 
                       <ab>
-                          
+                          <lb n="1"/>+Ἰγνά-
+                          <lb n="2"/>τ(ιος) σπαθα[ρ(ο)-]
+                          <lb n="3"/>κανδιδ(ᾶ)[τ(ος)]
+                          <lb n="4"/>[ἀ]σηκρ[ῆ-]
+                          <lb n="5"/>τι[ς]
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="6"/>[κ]αὶ
+                          <lb n="7"/>[κρ]ιτὴς
+                          <lb n="8"/>[τ]οῦ Ἐγέου
+                          <lb n="9"/>[Πε]λάγ(ου)
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="1"/>̣ΙΓΝΑ
+                          <lb n="2"/>Τ,Σ̣ΠΑΘ̣Α̣.
+                          <lb n="3"/>̣Α̣Ν̣ΔΙΔ.
+                          <lb n="4"/>.Σ̣ΗΡ̣.
+                          <lb n="5"/>ΤΙ.
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="0"/>̣̣̣
+                          <lb n="6"/>.ΑΙ
+                          <lb n="7"/>..Ι̣ΤΗΣ̣
+                          <lb n="8"/>.̣Ε̣Γ̣Ε̣
+                          <lb n="9"/>..ΛΑΓ
+                          <lb n="0"/>̣̣̣
                       </ab>
                   </div>
               </div>
             <div type="apparatus">
                 <listApp>
-                    <app/>
+                    <app loc="9"><note>Le alpha semble bien avoir une forme –  – inhabituelle à l’époque.</note></app>
                 </listApp>
             </div>
             <div type="translation">
-                <p/>
-                <p xml:lang="en"/>
-                <p xml:lang="fr"/>
+                <p>+ Ἰγνάτιος σπαθαροκανδιδᾶτος, ἀσηκρῆτις / καὶ κριτὴς τοῦ Ἐγέου Πελάγου.</p>
+                <p xml:lang="en">Ignatios, spatharokandidatos, asekretis and judge of the Aegean Sea.</p>
+                <p xml:lang="fr">Ignace, spatharocandidat, <hi rend="italic">asèkrètès</hi> et juge de la Mer Égée.</p>
             </div>
             <div type="commentary" subtype="text">
                 <p xml:lang="fr"/>

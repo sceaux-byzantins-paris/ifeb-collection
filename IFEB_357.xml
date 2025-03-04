@@ -312,24 +312,30 @@
             <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="monogram-cross" xml:lang="grc"> 
                       <ab>
-                          
+                          <lb n="1"/>(Θεοτόκε βοήθει) τῷ σῷ δούλῳ
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="2"/>+Ἐπιφα-
+                          <lb n="3"/>[ν]ίῳ β(ασιλικῷ) κουβικ(ουλαρίῳ)
+                          <lb n="4"/>[(καὶ)] ξενοδ(όχῳ) τοῦ
+                          <lb n="5"/>[Λ]ουπαδ(ίου)
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="monogram-cross" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="1"/>Κ-ΤΟ-Η-Β̣-Θ Τ̣-Σ-Δ-Λ̣
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="2"/>̣ΕΠΙΦ
+                          <lb n="3"/>.ΙΒ/ΚΒΙΚ̣
+                          <lb n="4"/>.̣Ε̣ΝΟΔ/Τ
+                          <lb n="5"/>.ΠΔ/
                       </ab>
                   </div>
               </div>
@@ -339,9 +345,9 @@
                 </listApp>
             </div>
             <div type="translation">
-                <p/>
-                <p xml:lang="en"/>
-                <p xml:lang="fr"/>
+                <p>Θεοτόκε βοήθει τῷ σῷ δούλῳ / + Ἐπιφανίῳ βασιλικῷ κουβικουλαρίῳ καὶ ξενοδόχῳ τοῦ Λουπαδίου.</p>
+                <p xml:lang="en">Mother of God aid your servant Epiphanios, imperial koubikoularios and xenodochos of Lopadion.</p>
+                <p xml:lang="fr">Mère de Dieu protège ton serviteur Épiphane, cubiculaire impérial et xénodoque de Lopadion.</p>
             </div>
             <div type="commentary" subtype="text">
                 <p xml:lang="fr">On peut se demander si le sceau de l'ancienne collection

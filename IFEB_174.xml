@@ -21,8 +21,8 @@
             </titleStmt>
             <editionStmt>
                 <edition>
-                    <seg xml:lang="fr">Amélioration digitale</seg>
-                    <seg xml:lang="en">Digital enhancement</seg>
+                    <seg xml:lang="fr">Digitale originelle</seg>
+                    <seg xml:lang="en">Born digital</seg>
                 </edition>
                 <editor role="digital-editor" resp="#AS" when="2024-12-11">Alessio
                     Sopracasa</editor>
@@ -307,24 +307,36 @@
             <div type="edition" subtype="editorial" xml:space="preserve">
                 <div type="textpart" n="obv" subtype="sigla" rend="columns" xml:lang="grc"> 
                       <ab>
-                          
+                          <cb n="a"/>[Μ(ήτη)ρ]
+                          <cb n="B"/>Θ(εο)[ῦ]
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="1"/>+Θ(εοτό)κε [β(οή)θ(ει)]
+                          <lb n="2"/>Θεοδώρ(ῳ)
+                          <lb n="3"/>χαρτουλ(αρίῳ)
+                          <lb n="4"/>(πρωτο)νοταρ(ίῳ)
+                          <lb n="5"/>Μεσοπ-
+                          <lb n="6"/>[ο]ταμ(ίας)
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="sigla" rend="columns" xml:lang="grc">
                       <ab>
-                          
+                          <cb n="a"/>..
+                          <cb n="b"/>Θ̣.
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="1"/>Θ̣Κ̣Ε̣..
+                          <lb n="2"/>Θ̣Ε̣Ο̣Δ̣̣Ρ̣
+                          <lb n="3"/>ΧΑ̣ΡΤ̣̣Λ,
+                          <lb n="4"/>ΑΝΟΤ̣Α̣Ρ̣,
+                          <lb n="5"/>̣Ε̣Σ̣Ο
+                          <lb n="6"/>.ΤΑ̣
                       </ab>
                   </div>
               </div>
@@ -334,9 +346,9 @@
                 </listApp>
             </div>
             <div type="translation">
-                <p/>
-                <p xml:lang="en"/>
-                <p xml:lang="fr"/>
+                <p>Μήτηρ Θεοῦ. / + Θεοτόκε βοήθει Θεοδώρῳ χαρτουλαρίῳ πρωτονοταρίῳ Μεσοποταμίας.</p>
+                <p xml:lang="en">Mother of God. Mother of God aid Theodore, chartoularios and protonotarios of Mesopotamia.</p>
+                <p xml:lang="fr">Mère de Dieu. Mère de Dieu protège Théodore, chartulaire et protonotaire de Mésopotamie.</p>
             </div>
             <div type="commentary" subtype="text">
                 <p xml:lang="fr"/>

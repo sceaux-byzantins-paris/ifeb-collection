@@ -6,8 +6,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="fr"/>
-                <title xml:lang="en"/>
+                <title xml:lang="fr">Sceau de Léon, commerciaire impérial et abydètikos de Thessalonique</title>
+                <title xml:lang="en">Seal of Leo, imperial kommerkiarios and abydetikos of Thessalonica</title>
                 <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
                 <editor role="seal-editor" xml:id="VP">Vivien Prigent</editor>
                 <editor role="seal-editor" xml:id="AS">Alessio Sopracasa</editor>
@@ -19,8 +19,8 @@
             </titleStmt>
             <editionStmt>
                 <edition>
-                    <seg xml:lang="fr">Amélioration digitale</seg>
-                    <seg xml:lang="en">Digital enhancement</seg>
+                    <seg xml:lang="fr">Digitale originelle</seg>
+                    <seg xml:lang="en">Born digital</seg>
                 </edition>
                 <editor role="digital-editor" resp="#AS" when="2024-11-02">Alessio
                     Sopracasa</editor>
@@ -318,48 +318,48 @@
     <text>
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
-                <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"> 
+                  <div type="textpart" n="obv" subtype="face" rend="monogram-cross" xml:lang="grc"> 
                       <ab>
-                          
-                      </ab>
-                  </div>
-                  <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc"> 
-                      <ab>
-                          
+                          <lb n="1"/>(Θεοτόκε βοήθει) τῷ σῷ δούλῳ
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="2"/>+Λεών-
+                          <lb n="3"/>τος β(ασιλικοῦ) κουμ-
+                          <lb n="4"/>ερκηαρίου (καὶ) [ἀ-]
+                          <lb n="5"/>βυδητηκ[οῦ]
+                          <lb n="6"/>[Θ]εσσαλ[ο-]
+                          <lb n="7"/>[νί]κ[ης]
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
-                <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"> 
+                  <div type="textpart" n="obv" subtype="face" rend="monogram-cross" xml:lang="grc">
                       <ab>
-                          
-                      </ab>
-                  </div>
-                  <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc">
-                      <ab>
-                          
+                          <lb n="1"/>Κ̣-Τ̣Ο̣-Η-Β̣-Θ Τ-Σ-Δ-Λ̣̣
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="2"/>̣Λ̣ΕΝ
+                          <lb n="3"/>ΤΟΣΒ̣/ΚΜ
+                          <lb n="4"/>ΕΡΚ̣Η̣Α̣ΡΙ̣.
+                          <lb n="5"/>Β̣ΥΔΗ̣ΤΗΚ̣.
+                          <lb n="6"/>.ΕΣΣ̣Λ̣.
+                          <lb n="7"/>..Κ̣..
                       </ab>
                   </div>
               </div>
             <div type="apparatus">
                 <listApp>
-                    <app/>
+                    <app loc="2-7"><note>On remarquera l’emploi du génitif au revers après une invocation au datif à l’avers.</note></app>
                 </listApp>
             </div>
             <div type="translation">
-                <p/>
-                <p xml:lang="en"/>
-                <p xml:lang="fr"/>
+                <p>Θεοτόκε βοήθει τῷ σῷ δούλῳ / + Λεώντος βασιλικοῦ κουμερκηαρίου καὶ ἀβυδητηκοῦ Θεσσαλονίκης.</p>
+                <p xml:lang="en">Mother of God aid you servant Leo, imperial kommerkiarios and abydetikos of Thessalonica.</p>
+                <p xml:lang="fr">Mère de Dieu protège ton serviteur Léon, commerciaire impérial et abydètikos de Thessalonique.</p>
             </div>
             <div type="commentary" subtype="text">
                 <p xml:lang="fr">On signalera l'existence des sceaux d'un Léon commerciaire impérial

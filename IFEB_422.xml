@@ -318,24 +318,40 @@
             <div type="edition" subtype="editorial" xml:space="preserve">
                 <div type="textpart" n="obv" subtype="sigla" rend="columns" xml:lang="grc"> 
                       <ab>
-                          
+                          <cb n="a"/>Μή(τη)ρ
+                          <cb n="b"/>[Θ(εο)ῦ]
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="0"/>[-+-]
+                          <lb n="1"/>[Θ(εοτό)κε β(οή)θ(ει)]
+                          <lb n="2"/>[Γεω]ργ[(ίῳ)] [(πρωτο-)]
+                          <lb n="3"/>[σπα]θ(αρίῳ) κριτ(ῇ)
+                          <lb n="4"/>[ἐπὶ] [τ]οῦ [Ἱ]ππ(ο-)
+                          <lb n="5"/>[δρ(όμου)] [(καὶ)] [τ(ῶν)] [Ἀρ]με-
+                          <lb n="6"/>[ν(ικῶν)] [θ(ε)μ(άτων)] [ὁ] Ἑξα-
+                          <lb n="7"/>[μ]ηλ(ή)τ(ης)
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
                 <div type="textpart" n="obv" subtype="sigla" rend="columns" xml:lang="grc"> 
                       <ab>
-                          
+                          <cb n="a"/>
+                          <cb n="b"/>..
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="0"/>...
+                          <lb n="1"/>.....
+                          <lb n="2"/>...Ρ̣Γ̣.
+                          <lb n="3"/>...Θ̣Κ̣Ρ̣ΙΤ
+                          <lb n="4"/>.....̣
+                          <lb n="5"/>......Ε
+                          <lb n="6"/>....ΕΞ̣Α
+                          <lb n="7"/>.ΗΛ,Τ,
                       </ab>
                   </div>
               </div>
@@ -345,9 +361,12 @@
                 </listApp>
             </div>
             <div type="translation">
-                <p/>
-                <p xml:lang="en"/>
-                <p xml:lang="fr"/>
+                <p>Μήτηρ Θεοῦ. / Θεοτόκε βοήθει Γεωργίῳ πρωτοσπαθαρίῳ, κριτῇ ἐπὶ τοῦ Ἱπποδρόμου καὶ
+                    τῶν Ἀρμενικῶν θεμάτων ὁ Ἑξαμηλήτης.</p>
+                <p xml:lang="en">Mother of God. Mother of God aid George Hexamilites,
+                    protospatharios, judge of the Hippodrome and of the Armeniakon.</p>
+                <p xml:lang="fr">Mère de Dieu. Mère de Dieu protège Georges Hexamilitès,
+                    protospathaire, juge de l’Hippodrome et des Arméniaques.</p>
             </div>
             <div type="commentary" subtype="text">
                 <p xml:lang="fr"/>
@@ -358,8 +377,7 @@
                 <p>Collection K.P. Stamoulès: <bibl>
                         <ptr target="Stamoules1930"/>, <citedRange unit="part"
                         >78</citedRange></bibl> = <bibl>
-                        <ptr target="Wassiliou2002"/>, <citedRange unit="part">7b</citedRange>.
-                    </bibl>
+                        <ptr target="Wassiliou2002"/>, <citedRange unit="part">7b</citedRange>. </bibl>
                     <!-- Honorem, S.133, Nr.4 : autre // ?????? à vérifier, pas vu -->
                 </p>
             </div>
@@ -369,9 +387,9 @@
                         <ptr target="Wassiliou2002"/>, <citedRange unit="page">247</citedRange>
                         (mention du sceau IFEB);<bibl>
                             <ptr target="Laurent1931"/>, p. <citedRange unit="page">782, no.
-                                5</citedRange> et <citedRange unit="page">793-794, no. 2</citedRange>
-                            (mention et bref commentaire de l'édition Konstantopoulos, coll.
-                            Stamoules du parallèle)</bibl>; <bibl>
+                                5</citedRange> et <citedRange unit="page">793-794, no.
+                                2</citedRange> (mention et bref commentaire de l'édition
+                            Konstantopoulos, coll. Stamoules du parallèle)</bibl>; <bibl>
                             <ptr target="SBS_Articles2002-2006"/>, p. <citedRange unit="page"
                                 >148</citedRange> (mention de l'édition Wassiliou, 2002 du
                             parallèle)</bibl>; <bibl>
