@@ -7,9 +7,9 @@
         <fileDesc>
             <titleStmt>
                 <title xml:lang="fr">Sceau de Théodore Chrysos, protospathaire, <hi rend="italic"
-                        >épi tou Chrysotriklinou</hi> et juge ou curateur de Mésopotamie</title>
+                        >épi tou Chrysotriklinou</hi> et curateur de Mésopotamie</title>
                 <title xml:lang="en">Seal of Theodoros Chrysos, protospatharios, epi tou
-                    Chrysotriklinou and judge or kourator of Mesopotamia</title>
+                    Chrysotriklinou and kourator of Mesopotamia</title>
                 <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
                 <editor role="seal-editor" xml:id="VP">Vivien Prigent</editor>
                 <editor role="seal-editor" xml:id="AS">Alessio Sopracasa</editor>
@@ -21,8 +21,8 @@
             </titleStmt>
             <editionStmt>
                 <edition>
-                    <seg xml:lang="fr">Amélioration digitale</seg>
-                    <seg xml:lang="en">Digital enhancement</seg>
+                    <seg xml:lang="fr">Digitale originelle</seg>
+                    <seg xml:lang="en">Born digital</seg>
                 </edition>
                 <editor role="digital-editor" resp="#AS" when="2024-12-12">Alessio
                     Sopracasa</editor>
@@ -142,6 +142,9 @@
                                     </rs>
                                     <rs type="matrix" subtype="not-surviving">
                                         <idno type="SigiDoc">m-zVpWry</idno>
+                                        <idno type="PBW"
+                                            corresp="http://pbw2016.kdl.kcl.ac.uk/boulloterion/533/"
+                                            >533</idno>
                                     </rs>
                                 </layout>
                             </layoutDesc>
@@ -219,17 +222,21 @@
                             <decoDesc>
                                 <decoNote>
                                     <figure>
-                                        <figDesc n="r" ana="person male archangel Michael bust globe scepter"
+                                        <figDesc n="r"
+                                            ana="person male archangel Michael bust globe scepter"
                                             xml:lang="fr">Buste de l'archange Michel, portant un <hi
                                                 rend="italic">lôros</hi> décoré et tenant un sceptre
                                             de la main droite et le globe de la main
                                             gauche.</figDesc>
-                                        <figDesc n="r" ana="person male archangel Michael bust globe scepter"
+                                        <figDesc n="r"
+                                            ana="person male archangel Michael bust globe scepter"
                                             xml:lang="en">Bust of the archangel Michael, wearing a
                                             decorated lôros and holding a sceptre in his right hand
                                             and the globe in his left..</figDesc>
-                                        <figDesc n="decoR" xml:lang="fr">Bordure indistincte.</figDesc>
-                                        <figDesc n="decoR" xml:lang="en">Indistinct border.</figDesc>
+                                        <figDesc n="decoR" xml:lang="fr">Bordure
+                                            indistincte.</figDesc>
+                                        <figDesc n="decoR" xml:lang="en">Indistinct
+                                            border.</figDesc>
                                     </figure>
                                 </decoNote>
                             </decoDesc>
@@ -268,8 +275,10 @@
                             <decoDesc>
                                 <decoNote>
                                     <figure>
-                                        <figDesc n="decoV" xml:lang="fr">Bordure indistincte.</figDesc>
-                                        <figDesc n="decoV" xml:lang="en">Indistinct border.</figDesc>
+                                        <figDesc n="decoV" xml:lang="fr">Bordure
+                                            indistincte.</figDesc>
+                                        <figDesc n="decoV" xml:lang="en">Indistinct
+                                            border.</figDesc>
                                     </figure>
                                 </decoNote>
                             </decoDesc>
@@ -320,37 +329,61 @@
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
                 <div type="textpart" n="obv" subtype="sigla" rend="columns" xml:lang="grc"> 
-                      <ab>
-                          
+                      <ab><!-- souligné: d'après // -->
+                          <cb n="a"/>[Μιχ]
+                          <cb n="b"/>[αή(λ)]
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="1"/>[+Κ(ύρι)ε β(οή)θ(ει)]<!-- souligné: d'après // -->
+                          <lb n="2"/>[Θε]οδώ[ρ(ῳ)]
+                          <lb n="3"/>[(πρωτο)σ]πα[θ(αρίῳ)] ἐπ[ὶ]
+                          <lb n="4"/>[τ(οῦ)] χρ(υσο)(τρι)[κ]λ(ίνου) (καὶ) κ[(ου-)]
+                          <lb n="5"/>[ρ(ά)]τ(ωρι) Μεσοπ[ο-]
+                          <lb n="6"/>[τ]αμ(ίας) τ(ῷ) Χρ[ύ-]
+                          <lb n="7"/>[σ]ῳ
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
                 <div type="textpart" n="obv" subtype="sigla" rend="columns" xml:lang="grc"> 
                       <ab>
-                          
+                          <cb n="a"/>...
+                          <cb n="b"/>..
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="1"/>.....
+                          <lb n="2"/>..ΟΔ.
+                          <lb n="3"/>..Π̣Α̣.Ε̣Π.
+                          <lb n="4"/>.Γ.Λ̣.
+                          <lb n="5"/>.Τ̣,Ε̣Σ̣ΟΠ̣.
+                          <lb n="6"/>.Α̣Τ.
+                          <lb n="7"/>.̣
                       </ab>
                   </div>
               </div>
             <div type="apparatus">
                 <listApp>
-                    <app/>
+                    <app loc="a-b">
+                        <note>La lecture du sigle est basée sur la pièce parallèle de la collection
+                            Seyrig.</note>
+                    </app>
+                    <app loc="1">
+                        <note>La lecture de l’invocation est basée sur la pièce parallèle de la
+                            collection Seyrig.</note>
+                    </app>
                 </listApp>
             </div>
             <div type="translation">
-                <p/>
-                <p xml:lang="en"/>
-                <p xml:lang="fr"/>
+                <p>Μιχαήλ / + Κύριε βοήθει Θεοδώρῳ πρωτοσπαθαρίῳ, ἐπὶ τοῦ χρυσοτρικλίνου καὶ
+                    κουράτωρι Μεσοποταμίας τῷ Χρύσῳ.</p>
+                <p xml:lang="en">Michael. Lord help Theodoros Chrysos, protospatharios, epi tou
+                    Chrysotriklinou and kourator of Mesopotamia.</p>
+                <p xml:lang="fr">Michel. Seigneur protège Théodore Chrysos, protospathaire, <hi
+                        rend="italic">épi tou Chrysotriklinou</hi> et curateur de Mésopotamie.</p>
             </div>
             <div type="commentary" subtype="text">
                 <p xml:lang="fr"/>
@@ -358,13 +391,20 @@
             <div type="commentary" subtype="footnotes"/>
             <div type="bibliography" subtype="edition">
                 <p>
-                    <bibl><ptr target="Prigent1994"/>, <citedRange unit="part">91</citedRange>.</bibl>
+                    <bibl><ptr target="Prigent1994"/>, <citedRange unit="part"
+                        >91</citedRange>.</bibl>
                 </p>
             </div>
             <div type="bibliography" subtype="parallels">
-                <p>Collection Seyrig, 406: 
-                    <bibl>
-                        <ptr target="Seyrig"/>, <citedRange unit="part">186</citedRange> (sans lecture du nom de famille).</bibl><!-- (lien à ajouter) -->
+                <p>Collection Seyrig, no. 406: <bibl>
+                        <ptr target="Seyrig"/>, <citedRange unit="part">186</citedRange> (sans
+                        lecture du nom de famille).</bibl><!-- (lien à ajouter) -->
+                </p>
+            </div>
+            <div type="bibliography" subtype="discussion">
+                <p> La pièce parallèle de la collection Seyrig est mentionnée dans <bibl><ptr
+                    target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/boulloterion/533/">boulloterion
+                        533</ref></citedRange></bibl>.
                 </p>
             </div>
         </body>

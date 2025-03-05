@@ -19,8 +19,8 @@
             </titleStmt>
             <editionStmt>
                 <edition>
-                    <seg xml:lang="fr">Amélioration digitale</seg>
-                    <seg xml:lang="en">Digital enhancement</seg>
+                    <seg xml:lang="fr">Digitale originelle</seg>
+                    <seg xml:lang="en">Born digital</seg>
                 </edition>
                 <editor role="digital-editor" resp="#AS" when="2024-11-01">Alessio
                     Sopracasa</editor>
@@ -332,46 +332,69 @@
             <div type="edition" subtype="editorial" xml:space="preserve">
                 <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"> 
                       <ab>
-                          
+                          <cb n="a"/>Ὁ ἅ(γιος) Θεό
+                          <cb n="b"/>[δωρ(ος)]
                       </ab>
                   </div>
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc"> 
                       <ab>
-                          
+                          <lb n="1"/>+Κ(ύρι)ε βοή[θει τῷ σῷ δούλῳ]
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="2"/>[+]Λέω-
+                          <lb n="3"/>[ν(τι)] [β(ασιλικῷ)] (πρωτο)σπαθ(αρίῳ)
+                          <lb n="4"/>[στ]ρατηγ(ῷ)
+                          <lb n="5"/>[Λι]μνίον
+                          <lb n="6"/>[τ(ῷ) Ἀ]γιοζα-
+                          <lb n="7"/>[χ]αρίτ(ῃ)
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
                 <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"> 
                       <ab>
-                          
+                          <cb n="a"/>|ΘΕ|Ο
+                          <cb n="b"/>...
                       </ab>
                   </div>
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="1"/>̣ΕΟΗ(c. 6)
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="2"/>.Λ̣Ε
+                          <lb n="3"/>..ΑΣΠΑΘ,
+                          <lb n="4"/>..Ρ̣ΑΤΗΓ,
+                          <lb n="5"/>..Μ̣Ν̣ΙΟΝ
+                          <lb n="6"/>..Γ̣ΙΟΖΑ
+                          <lb n="7"/>.Α̣ΡΙΤ/
                       </ab>
                   </div>
               </div>
             <div type="apparatus">
                 <listApp>
-                    <app/>
+                    <app loc="1">
+                        <note>Il est fort probable que la légende ait présenté des abréviations
+                            compte-tenu de l’espace disponible et de la distance séparant les
+                            lettres restantes.</note>
+                    </app>
+                    <app loc="2-3">
+                        <note>La fin du prénom à la ligne 3 est hypothétique, mais il semble bien y
+                            avoir de la place pour deux lettres perdues.</note>
+                    </app>
                 </listApp>
             </div>
             <div type="translation">
-                <p/>
-                <p xml:lang="en"/>
-                <p xml:lang="fr"/>
+                <p>Ὁ ἅγιος Θεόδωρος. + Κύριε βοήθει τῷ σῷ δούλῳ /+ Λέωντι βασιλικῷ πρωτοσπαθαρίῳ,
+                    στρατηγῷ Λιμνίον τῷ Ἀγιοζαχαρίτῃ.</p>
+                <p xml:lang="en">Saint Theodore. Lord aid your servant Leo Hagiozacharites, imperial
+                    protospatharios and strategos of Limnia.</p>
+                <p xml:lang="fr">Saint Théodore. Seigneur aide ton serviteur Léon Hagiozacharitès,
+                    protospathaire impérial et stratège de Limnia.</p>
             </div>
             <div type="commentary" subtype="text">
                 <p xml:lang="fr"/>

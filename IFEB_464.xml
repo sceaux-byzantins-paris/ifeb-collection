@@ -21,8 +21,8 @@
             </titleStmt>
             <editionStmt>
                 <edition>
-                    <seg xml:lang="fr">Amélioration digitale</seg>
-                    <seg xml:lang="en">Digital enhancement</seg>
+                    <seg xml:lang="fr">Digitale originelle</seg>
+                    <seg xml:lang="en">Born digital</seg>
                 </edition>
                 <editor role="digital-editor" resp="#AS" when="2024-12-11">Alessio
                     Sopracasa</editor>
@@ -196,8 +196,10 @@
                                         <dimensions type="written" unit="mm">
                                             <dim type="diameter"/>
                                         </dimensions>
-                                        <p xml:lang="fr">Iconographie, avec légende invocative circulaire commencçant à 7.</p>
-                                        <p xml:lang="en">Iconography with a circular invocative legend starting at 7.</p>
+                                        <p xml:lang="fr">Iconographie, avec légende invocative
+                                            circulaire commencçant à 7.</p>
+                                        <p xml:lang="en">Iconography with a circular invocative
+                                            legend starting at 7.</p>
                                     </layout>
                                 </layoutDesc>
                             </objectDesc>
@@ -210,11 +212,18 @@
                                 <decoNote>
                                     <figure>
                                         <figDesc n="r" ana="cross patriarchal on-steps fleurons"
-                                            xml:lang="fr">Croix patriarcale sur trois marches, avec fleurons commençant à la base et issant jusqu'à mi-champ.</figDesc>
+                                            xml:lang="fr">Croix patriarcale sur trois marches, avec
+                                            fleurons commençant à la base et issant jusqu'à
+                                            mi-champ.</figDesc>
                                         <figDesc n="r" ana="cross patriarchal on-steps fleurons"
-                                            xml:lang="en">Patriarchal cross on three steps, with fleurons starting at the base and rising to mid-field.</figDesc>
-                                        <figDesc n="decoR" xml:lang="fr">Traces de bordure de grènetis; une croisette précède la légende circulaire.</figDesc>
-                                        <figDesc n="decoR" xml:lang="en">Traces of a border of dots; a crosslet precedes the circular legend.</figDesc>
+                                            xml:lang="en">Patriarchal cross on three steps, with
+                                            fleurons starting at the base and rising to
+                                            mid-field.</figDesc>
+                                        <figDesc n="decoR" xml:lang="fr">Traces de bordure de
+                                            grènetis; une croisette précède la légende
+                                            circulaire.</figDesc>
+                                        <figDesc n="decoR" xml:lang="en">Traces of a border of dots;
+                                            a crosslet precedes the circular legend.</figDesc>
                                     </figure>
                                 </decoNote>
                             </decoDesc>
@@ -238,8 +247,10 @@
                                         <dimensions type="written" unit="mm">
                                             <dim type="diameter"/>
                                         </dimensions>
-                                        <p xml:lang="fr">Légende linéaire sur 5 lignes, dont 4 seulement subsistent.</p>
-                                        <p xml:lang="en">Linear legend of 5 lines, of which only 4 are preserved.</p>
+                                        <p xml:lang="fr">Légende linéaire sur 5 lignes, dont 4
+                                            seulement subsistent.</p>
+                                        <p xml:lang="en">Linear legend of 5 lines, of which only 4
+                                            are preserved.</p>
                                     </layout>
                                 </layoutDesc>
                             </objectDesc>
@@ -251,8 +262,10 @@
                             <decoDesc>
                                 <decoNote>
                                     <figure>
-                                        <figDesc n="decoV" xml:lang="fr">Traces de bordure de grènetis.</figDesc>
-                                        <figDesc n="decoV" xml:lang="en">Traces of a border of dots.</figDesc>
+                                        <figDesc n="decoV" xml:lang="fr">Traces de bordure de
+                                            grènetis.</figDesc>
+                                        <figDesc n="decoV" xml:lang="en">Traces of a border of
+                                            dots.</figDesc>
                                     </figure>
                                 </decoNote>
                             </decoDesc>
@@ -304,36 +317,47 @@
             <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc"> 
                       <ab>
-                          
+                          <lb n="1"/>+Κ(ύρι)ε βοή[θει] [τῷ] [σῷ] δούλ(ῳ)
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="2"/>[...?...]
+                          <lb n="3"/>. β(ασιλικῷ) (πρωτο)σπαθ-
+                          <lb n="4"/>αρήῳ (καὶ) στ-
+                          <lb n="5"/>ρατιγ(ῷ) τ(ῶν) Κυ-
+                          <lb n="6"/>βεριοτ(ῶν)
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="1"/>Ε̣ΟΗ̣.......ΔΟΥΛˊ
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="2"/>[...?...]
+                          <lb n="3"/>.//Σ̣ΠΘ̣
+                          <lb n="4"/>ΡΗΣΤ
+                          <lb n="5"/>Ρ̣Τ̣ΙΓ̣.Τ,ΚΥ
+                          <lb n="6"/>ΕΡΙΟΤ
                       </ab>
                   </div>
               </div>
             <div type="apparatus">
                 <listApp>
-                    <app/>
+                    <app loc="5">
+                        <note>Le point après Ρ̣Τ̣ΙΓ̣ indique le signe d’abréviation et explique
+                            l’espacement des lettres.</note>
+                    </app>
                 </listApp>
             </div>
             <div type="translation">
-                <p/>
-                <p xml:lang="en"/>
-                <p xml:lang="fr"/>
+                <p>+ Κύριε βοήθει τῷ σῷ δούλῳ / … βασιλικῷ πρωτοσπαθαρήῳ καὶ στρατιγῷ τῶν Κυβεριοτῶν.</p>
+                <p xml:lang="en">Lord help your servant N., imperial protospatharios and strategos of the Kibyrraioton.</p>
+                <p xml:lang="fr">Seigneur protège ton serviteur N., protospathaire impérial et stratège des Cibyrrhéotes.</p>
             </div>
             <div type="commentary" subtype="text">
                 <p xml:lang="fr"/>
@@ -341,14 +365,15 @@
             <div type="commentary" subtype="footnotes"/>
             <div type="bibliography" subtype="edition">
                 <p>
-                    <bibl><ptr target="Prigent1994"/>, <citedRange unit="part">56</citedRange></bibl> = 
-                    <bibl><ptr target="Karagiorgou2016"/>, <citedRange unit="part">18</citedRange>.</bibl>
+                    <bibl><ptr target="Prigent1994"/>, <citedRange unit="part"
+                        >56</citedRange></bibl> = <bibl><ptr target="Karagiorgou2016"/>, <citedRange
+                            unit="part">18</citedRange>.</bibl>
                 </p>
             </div>
             <div type="bibliography" subtype="discussion">
-                <p>Le sceau IFEB est mentionné dans 
-                    <bibl><ptr target="Karagiorgou2021"/></bibl> avec l'identifiant KIB_77 (IFEB 464).
-                </p><!-- à préciser -->
+                <p>Le sceau IFEB est mentionné dans <bibl><ptr target="Karagiorgou2021"/></bibl>
+                    avec l'identifiant KIB_77 (IFEB 464). </p>
+                <!-- à préciser -->
             </div>
         </body>
     </text>

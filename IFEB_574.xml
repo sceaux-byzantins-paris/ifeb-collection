@@ -217,8 +217,8 @@
                                         <!-- 6 raisons??? -->
                                         <figDesc n="decoR" xml:lang="fr">Bordure de grènetis; après
                                             la légende, sur une ligne séparée, une étoile à 6 rayons
-                                            entre tirets qui était vraisemblablement présente avant
-                                            la légende aussi.</figDesc>
+                                            entre tirets qui était peut-être présente également avant
+                                            la légende.</figDesc>
                                         <figDesc n="decoR" xml:lang="en">Border of dots; after the
                                             legend, on a separate line, a 6-rayed star between
                                             dashes, which was probably present before the legend
@@ -262,8 +262,8 @@
                                         <!--<figDesc n="v" ana="" xml:lang=""/>-->
                                         <figDesc n="decoV" xml:lang="fr">Bordure de grènetis; après
                                             la légende, sur une ligne séparée, une étoile à 6 rayons
-                                            entre tirets qui était vraisemblablement présente avant
-                                            la légende aussi.</figDesc>
+                                            entre tirets qui était peut-être présente également avant
+                                            la légende.</figDesc>
                                         <figDesc n="decoV" xml:lang="en">Border of dots; after the
                                             legend, on a separate line, a 6-rayed star between
                                             dashes, which was probably present before the legend
@@ -318,37 +318,51 @@
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="linear" xml:lang="grc"> 
-                      <ab>
-                          
+                      <ab><!-- corriger omicron -->
+                          <lb n="1"/>[+Κ(ύρι)]ε β[ο-]
+                          <lb n="2"/>[ή]θη το [σ(ο)]
+                          <lb n="3"/>δούλο
+                          <lb n="4"/>Μιχαὴ(λ)
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="5"/>[π]ροξ[ίμ(ῳ)]
+                          <lb n="6"/>[τ]ου κατ[ε-]
+                          <lb n="7"/>πάνου Ἀ[ν-]
+                          <lb n="8"/>τηοχί(ας)
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="1"/>..Ε.
+                          <lb n="2"/>.Θ̣ΗΤΟ̣.
+                          <lb n="3"/>ΔΟΥΛΟ̣
+                          <lb n="4"/>̣ΙΧ̣Η̣
+                          <lb n="0"/>
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="5"/>.ΡΟ..
+                          <lb n="6"/>.ΟΥΚΤ.
+                          <lb n="7"/>Π̣̣ΟΥ̣.
+                          <lb n="8"/>ΤΗΟΧΙ..
+                          <lb n="0"/>.̣.
                       </ab>
                   </div>
               </div>
             <div type="apparatus">
                 <listApp>
-                    <app/>
+                    <app loc="1-4"><note>La légende de l’avers a été reconstruite en s’appuyant en partie sur le parallèle de Vienne MK 308.</note></app>
                 </listApp>
             </div>
-            <div type="translation">
-                <p/>
-                <p xml:lang="en"/>
-                <p xml:lang="fr"/>
+            <div type="translation"><!-- corriger omicron -->
+                <p>+ Κύριε βοήθη το σο δούλο Μιχαὴλ / προξίμῳ του κατεπάνου Ἀντηοχίας.</p>
+                <p xml:lang="en">Lord aid your servant Michael, proximos of the katepano of Antioch.</p>
+                <p xml:lang="fr">Seigneur protège ton serviteur Michel, <hi rend="italic">proximos</hi> du catépan d'Antioche.</p>
             </div>
             <div type="commentary" subtype="text">
                 <p xml:lang="fr"/>

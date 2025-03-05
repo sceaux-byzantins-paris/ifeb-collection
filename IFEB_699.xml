@@ -19,8 +19,8 @@
             </titleStmt>
             <editionStmt>
                 <edition>
-                    <seg xml:lang="fr">Amélioration digitale</seg>
-                    <seg xml:lang="en">Digital enhancement</seg>
+                    <seg xml:lang="fr">Digitale originelle</seg>
+                    <seg xml:lang="en">Born digital</seg>
                 </edition>
                 <editor role="digital-editor" resp="#AS" when="2024-11-02">Alessio
                     Sopracasa</editor>
@@ -313,24 +313,32 @@
             <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc"> 
                       <ab>
-                          
+                          <lb n="1"/>[+]Κ(ύρι)ε βοήθη τῷ σῷ δούλ(ῳ)
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="2"/>+Ἀετί(ῳ)
+                          <lb n="3"/>πατρικ(ίῳ) β(ασιλικῷ)
+                          <lb n="4"/>(πρωτο)σπαθαρ(ίῳ)
+                          <lb n="5"/>(καὶ) στρατιγ(ῷ)
+                          <lb n="6"/>Μακεδ(ονίας)
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="1"/>.̣ΕΟΗΘΗΤΣΔΟΥΛ/
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="2"/>̣ΕΤΙ
+                          <lb n="3"/>ΠΤΡΙ//
+                          <lb n="4"/>/ΣΠΘΡ
+                          <lb n="5"/>̣ΣΤΡΤΙΓ/
+                          <lb n="6"/>ΕΔ/
                       </ab>
                   </div>
               </div>
@@ -340,9 +348,9 @@
                 </listApp>
             </div>
             <div type="translation">
-                <p/>
-                <p xml:lang="en"/>
-                <p xml:lang="fr"/>
+                <p>+ Κύριε βοήθη τῷ σῷ δούλῳ / + Ἀετίῳ πατρικίῳ, βασιλικῷ πρωτοσπαθαρίῳ καὶ στρατιγῷ Μακεδονίας.</p>
+                <p xml:lang="en">Lord aid your servant Aetios, patrikios, imperial protospatharios and strategos of Macedonia.</p>
+                <p xml:lang="fr">Seigneur protège ton serviteur Aétios, patrice, protospathaire impérial et stratège de Macédoine.</p>
             </div>
             <div type="commentary" subtype="text"><!-- deuxième paragraphe à vérifier et terminer avec les références bibliographiques -->
                 <p xml:lang="fr">Le fait qu'on ait à comparer une photo avec un dessin ne permet pas

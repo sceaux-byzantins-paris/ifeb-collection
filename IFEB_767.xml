@@ -8,7 +8,7 @@
             <titleStmt>
                 <title xml:lang="fr">Sceau de Théodore, spathaire impérial et chartulaire de
                     l'étable des Anatoliques</title>
-                <title xml:lang="en">Seal of Theodoros, imperial spatharios and chartoularios of the
+                <title xml:lang="en">Seal of Theodore, imperial spatharios and chartoularios of the
                     stables of the Anatolikon</title>
                 <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
                 <editor role="seal-editor" xml:id="VP">Vivien Prigent</editor>
@@ -21,8 +21,8 @@
             </titleStmt>
             <editionStmt>
                 <edition>
-                    <seg xml:lang="fr">Amélioration digitale</seg>
-                    <seg xml:lang="en">Digital enhancement</seg>
+                    <seg xml:lang="fr">Digitale originelle</seg>
+                    <seg xml:lang="en">Born digital</seg>
                 </edition>
                 <editor role="digital-editor" resp="#AS" when="2024-12-23">Alessio
                     Sopracasa</editor>
@@ -50,7 +50,7 @@
                             <forename>Théodore</forename>
                         </persName>
                         <persName xml:lang="en">
-                            <forename>Theodoros</forename>
+                            <forename>Theodore</forename>
                         </persName>
                         <idno type="PmbZ"
                             ana="https://www.degruyter.com/database/PMBZ/entry/PMBZ29964/html"
@@ -319,24 +319,32 @@
             <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc"> 
                       <ab>
-                          
+                          <lb n="1"/>[+][Κ(ύρι)ε] [βο]ήθη τῷ σῷ [δ]ούλῳ
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="2"/>+Θεο-
+                          <lb n="3"/>δ(ώρῳ) β(ασιλικῷ) σπαθ(αρίῳ) (καὶ)
+                          <lb n="4"/>χαρτουλ(αρίῳ) τοῦ
+                          <lb n="5"/>σταύλ(ου) τον<!-- corriger omicron -->
+                          <lb n="6"/>Ἀνατολ(ικῶν)
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="1"/>.....ΗΘΗΤ̣Σ.Ο̣Υ̣Λ̣̣
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="2"/>ΘΕ̣Ο
+                          <lb n="3"/>Δ//ΣΠ̣ΑΘ̣/
+                          <lb n="4"/>ΧΡΤΛΤ
+                          <lb n="5"/>ΣΤΥΛ/ΤΟΝ
+                          <lb n="6"/>̣ΝΤΟΛ/
                       </ab>
                   </div>
               </div>
@@ -346,9 +354,10 @@
                 </listApp>
             </div>
             <div type="translation">
-                <p/>
-                <p xml:lang="en"/>
-                <p xml:lang="fr"/>
+                <p>+ Κύριε βοήθη τῷ σῷ δούλῳ Θεοδώρῳ βασιλικῷ σπαθαρίῳ καὶ χαρτουλαρίῳ τοῦ σταύλου τῶν Ἀνατολικῶν.</p>
+                <p xml:lang="en">Lord aid your servant Theodore, imperial spatharios and chartoularios of the
+                    stables of the Anatolikon.</p>
+                <p xml:lang="fr">Seigneur protège ton serviteur Théodore, spathaire impérial et chartulaire de l'étable des Anatoliques.</p>
             </div>
             <div type="commentary" subtype="text">
                 <p xml:lang="fr">L'identification du sceau édité par Schlumbrger et Laurent en tant

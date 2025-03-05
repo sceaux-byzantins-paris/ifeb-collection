@@ -6,8 +6,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="fr"/>
-                <title xml:lang="en"/>
+                <title xml:lang="fr">Sceau de Grégoire (?), spathaire impérial et stratège de Thessalonique</title>
+                <title xml:lang="en">Seal of Gregory (?), imperial spatharios and strategos of Thessalonica</title>
                 <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
                 <editor role="seal-editor" xml:id="VP">Vivien Prigent</editor>
                 <editor role="seal-editor" xml:id="AS">Alessio Sopracasa</editor>
@@ -19,8 +19,8 @@
             </titleStmt>
             <editionStmt>
                 <edition>
-                    <seg xml:lang="fr">Amélioration digitale</seg>
-                    <seg xml:lang="en">Digital enhancement</seg>
+                    <seg xml:lang="fr">Digitale originelle</seg>
+                    <seg xml:lang="en">Born digital</seg>
                 </edition>
                 <editor role="digital-editor" resp="#AS" when="2024-12-05">Alessio
                     Sopracasa</editor>
@@ -42,13 +42,13 @@
                 <listPerson type="issuer">
                     <person gender="M" role="military">
                         <persName xml:lang="grc">
-                            <forename>Γρηγόριος</forename>
+                            <forename cert="low">Γρηγόριος</forename>
                         </persName>
                         <persName xml:lang="fr">
-                            <forename>Grégoire</forename>
+                            <forename cert="low">Grégoire</forename>
                         </persName>
                         <persName xml:lang="en">
-                            <forename>Gregory</forename>
+                            <forename cert="low">Gregory</forename>
                         </persName>
                     </person>
                 </listPerson>
@@ -324,48 +324,44 @@
     <text>
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
-                <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"> 
+                  <div type="textpart" n="obv" subtype="face" rend="monogram-cross" xml:lang="grc"> 
                       <ab>
-                          
-                      </ab>
-                  </div>
-                  <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc"> 
-                      <ab>
-                          
+                          <lb n="1"/>(Θεοτόκε βοήθει) [τ]ῷ σῷ [δού]λῳ
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="2"/>[+]Γρη[γ]ο-
+                          <lb n="3"/>[ρί]ῳ β(ασιλικῷ) σπ(αθαρίῳ)
+                          <lb n="4"/>[(καὶ)] [σ]τρα[τ]ι(γῷ) Θ-
+                          <lb n="5"/>[ε]σαλον(ίκης)
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
-                <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"> 
+                  <div type="textpart" n="obv" subtype="face" rend="monogram-cross" xml:lang="grc">
                       <ab>
-                          
-                      </ab>
-                  </div>
-                  <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc">
-                      <ab>
-                          
+                          <lb n="1"/>.-..-Η-Β-Θ .-Σ̣̣-..-Λ̣
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="2"/>.Γ̣Ρ̣Η̣.Ο̣
+                          <lb n="3"/>..Β/Σ̣Π̣/
+                          <lb n="4"/>..Τ̣Ρ̣.Ι̣/Θ
+                          <lb n="5"/>.ΣΛΟΝ
                       </ab>
                   </div>
               </div>
             <div type="apparatus">
                 <listApp>
-                    <app/>
+                    <app loc="2-3"><note>La lecture du prénom est très incertaine.</note></app>
                 </listApp>
             </div>
             <div type="translation">
-                <p/>
-                <p xml:lang="en"/>
-                <p xml:lang="fr"/>
+                <p>Θεοτόκε βοήθει τῷ σῷ δούλῳ / + Γρηγορίῳ (?) βασιλικῷ σπαθαρίῳ καὶ στρατιγῷ Θεσαλονίκης.</p>
+                <p xml:lang="en">Mother of God aid your servant Gregory (?), imperial spatharios and strategos of Thessalonica.</p>
+                <p xml:lang="fr">Mère de Dieu protège ton serviteur Grégoire (?), spathaire impérial et stratège de Thessalonique.</p>
             </div>
             <div type="commentary" subtype="text">
                 <p xml:lang="fr"/>

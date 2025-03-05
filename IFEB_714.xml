@@ -6,8 +6,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="fr"/>
-                <title xml:lang="en"/>
+                <title xml:lang="fr">Sceau de Kosmas, protospathaire impérial et <hi rend="italic">ek prosopou</hi> de Thessalonique</title>
+                <title xml:lang="en">Seal of Kosmas, imperial protospatharios and ek prosopou of Thessalonica</title>
                 <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
                 <editor role="seal-editor" xml:id="VP">Vivien Prigent</editor>
                 <editor role="seal-editor" xml:id="AS">Alessio Sopracasa</editor>
@@ -19,8 +19,8 @@
             </titleStmt>
             <editionStmt>
                 <edition>
-                    <seg xml:lang="fr">Amélioration digitale</seg>
-                    <seg xml:lang="en">Digital enhancement</seg>
+                    <seg xml:lang="fr">Digitale originelle</seg>
+                    <seg xml:lang="en">Born digital</seg>
                 </edition>
                 <editor role="digital-editor" resp="#AS" when="2024-12-04">Alessio
                     Sopracasa</editor>
@@ -121,7 +121,7 @@
                                     <p xml:lang="fr">Très oxydé; fortement rogné sur le pourtour
                                         notamment sur la gauche (de l'avers), avec perte de la
                                         moitié de la légende circulaire.</p>
-                                    <p xml:lang="en">Very xorroded; heavily trimmed around the
+                                    <p xml:lang="en">Very xorroded; heavily worn around the
                                         edges, especially on the left (on the obverse), with loss of
                                         half the circular legend.</p>
                                 </condition>
@@ -196,10 +196,10 @@
                                         <dimensions type="written" unit="mm">
                                             <dim type="diameter"/>
                                         </dimensions>
-                                        <p xml:lang="fr">Iconographie avec légende circulaire et
+                                        <p xml:lang="fr">Iconographie avec légende circulaire et peut-être
                                             épigraphe en colonne.</p>
-                                        <p xml:lang="en">Iconography with a circular legend and
-                                            epigraph in columns.</p>
+                                        <p xml:lang="en">Iconography with a circular legend and maybe
+                                            inscription in columns.</p>
                                     </layout>
                                 </layoutDesc>
                             </objectDesc>
@@ -215,23 +215,21 @@
                                             ana="2-persons male saint St-Demetrios St-Nestor standing blessing military"
                                             xml:lang="fr">L'état de conservation du sceau ne permet
                                             pas d'identifier l'iconographie: on voit deux
-                                            personnages représentés debout: la pièce parallèle de
-                                            Vienne permet de les identifier en tant que saint
-                                            Dèmètrios à droite bénissant saint Nestor à gauche, les
-                                            deux représentés en tenue militaire. Pour une
-                                            description plus détaillée et un commentaire sur cette
-                                            représentation, voir l'édition de la pièce parallèle
-                                            [1].</figDesc>
+                                            personnages représentés debout: un sceau conservé à
+                                            Vienne et ayant appartenu au même propriétaire permet de
+                                            les identifier en tant que saint Dèmètrios à droite
+                                            bénissant saint Nestor à gauche, les deux représentés en
+                                            tenue militaire (voir plus bas le
+                                            commentaire).</figDesc>
                                         <figDesc n="r"
                                             ana="2-persons male saint St-Demetrios St-Nestor standing blessing military"
                                             xml:lang="en">The state of preservation of the seal does
                                             not allow the iconography to be identified: two figures
-                                            are shown standing; the Vienna parallel piece allows
-                                            them to be identified as Saint Demetrios on the right
-                                            blessing Saint Nestor on the left, both depicted in
-                                            military garb. For a more detailed description and
-                                            commentary on this depiction, see the edition of the
-                                            parallel piece [1].</figDesc>
+                                            are shown standing; a seal held in Vienna and belonging
+                                            to the same issuer allows them to be identified as Saint
+                                            Demetrios on the right blessing Saint Nestor on the
+                                            left, both depicted in military garb (see below the
+                                            commentary).</figDesc>
                                         <figDesc n="decoR" xml:lang="fr">Double cercle de grènetis
                                             enfermant la légende circulaire.</figDesc>
                                         <figDesc n="decoR" xml:lang="en">Double circle of dots
@@ -326,36 +324,44 @@
     <text>
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
-                <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"> 
+                <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"><!-- lost columns???? -->
                       <ab>
-                          
+                          <gap reason="lost" extent="unknown" unit="line"/>
                       </ab>
                   </div>
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc"> 
                       <ab>
-                          
+                          <lb n="1"/>οσπρεσεισο
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="2"/>+Κοσμ-
+                          <lb n="3"/>ᾷ β(ασιλικῷ) (πρωτο)σπαθ(αρίῳ)
+                          <lb n="4"/>(καὶ) ἐκ προ[σ-]
+                          <lb n="5"/>όπ(ου) Θεσα-
+                          <lb n="6"/>λονίκ(ης)
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
                 <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"> 
                       <ab>
-                          
+                          <gap reason="lost" extent="unknown" unit="line"/>
                       </ab>
                   </div>
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="1"/>ΟΣΠΡ̣ΕΣ̣Ε̣Ι̣Σ̣Ο̣
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="2"/>̣ΟΣ
+                          <lb n="3"/>ΑΑΣΠΑΘ
+                          <lb n="4"/>̣Ε̣ΠΡ̣Ο̣.
+                          <lb n="5"/>Ο̣Π̣ΘΕΣ
+                          <lb n="6"/>Λ̣ΟΝΙΚ
                       </ab>
                   </div>
               </div>
@@ -365,11 +371,15 @@
                 </listApp>
             </div>
             <div type="translation">
-                <p/>
-                <p xml:lang="en"/>
-                <p xml:lang="fr"/>
+                <p>… / + Κοσμᾷ βασιλικῷ πρωτοσπαθαρίῳ καὶ ἐκ προσόπου Θεσαλονίκης.</p>
+                <p xml:lang="en">… Kosmas, imperial protospatharios and ek prosopou of Thessalonica.</p>
+                <p xml:lang="fr">… Kosmas, protospathaire impérial et <hi rend="italic">ek prosopou</hi> de Thessalonique.</p>
             </div>
+            <!-- https://www.academia.edu/127287269/Zu_den_Szenen_aus_der_Vita_des_heiligen_Demetrios_auf_dem_Einbanddeckel_des_Neuen_Testaments_in_der_British_Library_Add_Ms_28815 -->
             <div type="commentary" subtype="text">
+                <p xml:lang="fr">Pour une description plus détaillée et un commentaire de
+                    l'iconographie, voir l'édition du sceau MK 44 de Vienne, ainsi que l'édition du
+                    sceau Dumbarton Oaks BZS.1951.31.5.1775 [1].</p>
                 <p xml:lang="fr">Selon W. Seibt et Al.-K. Wassiliou-Seibt ce sceau représente l'une
                     des étapes de la carrière de Kosmas, dont ils reconstituent le <hi rend="italic"
                         >cursus honorum</hi> sur la base des sceaux qu'ils estiment pouvoir lui
@@ -377,20 +387,24 @@
                 <p xml:lang="fr">L'absence de reproductions de qualité pour l'ensemble des sceaux se
                     rapportant à la carrière de Kosmas rend ardu le rapprochement des choix
                     iconographiques fait par le sigillant, d'autant plus que ces derniers ont été
-                    interprétés de manière très variée par les éditeurs des différentes pièces. Presque toutes les bulles qui lui ont été
-                    attribuées portent deux personnages saints à l'avers, mais l'identité de ces
-                    personnages reste parfois difficile à établir: ceci est le cas pour l'étape
-                    précédente de sa carrière en tant que <hi rend="italic">bardarios</hi>,
-                    commerciaire et protonotaire de Thessalonique [3] et aussi pour la suivante, en
-                    tant que stratège de Thessalonique [4]. Ici nous avons retenu l'identification
-                    proposée par W. Seibt et Al.K. Wassiliou-Seibt. L'établissement précis de
-                    l'iconographie va permettre de constater si certains de ces sceaux sont des
-                    parallèles par l'avers et donc de poser la question du remploi partiel du <hi rend="italic"
-                        >boullotèrion</hi> lors d'un avancement dans la carrière de Kosmas.</p>
+                    interprétés de manière très variée par les éditeurs des différentes pièces.
+                    Presque toutes les bulles qui lui ont été attribuées portent deux personnages
+                    saints à l'avers, mais l'identité de ces personnages reste parfois difficile à
+                    établir: ceci est le cas pour l'étape précédente de sa carrière en tant que <hi
+                        rend="italic">bardarios</hi>, commerciaire et protonotaire de Thessalonique
+                    [3] et aussi pour la suivante, en tant que stratège de Thessalonique [4]. Ici
+                    nous avons retenu l'identification proposée par W. Seibt et Al.K.
+                    Wassiliou-Seibt. L'établissement précis de l'iconographie va permettre de
+                    constater si certains de ces sceaux sont des parallèles par l'avers et donc de
+                    poser la question du remploi partiel du <hi rend="italic">boullotèrion</hi> lors
+                    d'un avancement dans la carrière de Kosmas.</p>
             </div>
             <div type="commentary" subtype="footnotes">
                 <p xml:lang="fr" xml:id="footnote-1"><bibl><ptr target="BBÖ2"/>, <citedRange
-                            unit="part">224</citedRange></bibl>.</p>
+                            unit="part">224</citedRange></bibl>; <bibl><ptr target="DOsealsOnline"
+                        />, <citedRange unit="entry"><ref
+                                target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1951.31.5.1775/view"
+                                >BZS.1951.31.5.1775</ref></citedRange></bibl>.</p>
                 <p xml:lang="fr" xml:id="footnote-2"><bibl><ptr target="BBÖ2"/>, p. <citedRange
                             unit="page">223</citedRange></bibl>.</p>
                 <p xml:lang="fr" xml:id="footnote-3"><bibl><ptr target="BBÖ2"/>, <citedRange
@@ -407,11 +421,11 @@
             <div type="bibliography" subtype="parallels"/>
             <div type="bibliography" subtype="discussion">
                 <p>Le sceau de l'IFEB est mentionné dans <bibl><ptr target="BBÖ2"/>, p. <citedRange
-                    unit="page">223, et n. 463</citedRange> et dans <bibl>
-                        <ptr target="PmbZOnline"/>, <citedRange unit="entry"><ref
-                            target="https://www.degruyter.com/database/PMBZ/entry/PMBZ26261/html"
-                            >24107</ref></citedRange>
-                    </bibl></bibl>
+                            unit="page">223, et n. 463</citedRange> et dans <bibl>
+                            <ptr target="PmbZOnline"/>, <citedRange unit="entry"><ref
+                                    target="https://www.degruyter.com/database/PMBZ/entry/PMBZ26261/html"
+                                    >24107</ref></citedRange>
+                        </bibl></bibl>
                 </p>
             </div>
         </body>

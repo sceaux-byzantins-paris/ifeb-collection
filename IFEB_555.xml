@@ -6,8 +6,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="fr">Sceau de Léon, proèdre, juge et <hi rend="italic">anagrapheus</hi> de
-                    Chypre</title>
+                <title xml:lang="fr">Sceau de Léon, proèdre, juge et <hi rend="italic"
+                        >anagrapheus</hi> de Chypre</title>
                 <title xml:lang="en">Seal of Leo, proedros, judge and anagrapheus of Cyprus</title>
                 <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
                 <editor role="seal-editor" xml:id="VP">Vivien Prigent</editor>
@@ -259,11 +259,11 @@
                                             ligne; la dernière ligne est peut-être flanquée de deux
                                             perles, dont celle de gauche semble mieux visible que
                                             celle de droite.</figDesc>
-                                        <figDesc n="decoV" xml:lang="en">Border of dots; a
-                                            crosslet precedes the beginning of the legend on the same
-                                            line; the last line is possibly flanked by two pearls,
-                                            with the one on the left appearing more visible than the
-                                            one on the right</figDesc>
+                                        <figDesc n="decoV" xml:lang="en">Border of dots; a crosslet
+                                            precedes the beginning of the legend on the same line;
+                                            the last line is possibly flanked by two pearls, with
+                                            the one on the left appearing more visible than the one
+                                            on the right</figDesc>
                                     </figure>
                                 </decoNote>
                             </decoDesc>
@@ -315,36 +315,52 @@
             <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="linear" xml:lang="grc"> 
                       <ab>
-                          
+                          <lb n="1"/>[+]Κ(ύρι)ε
+                          <lb n="2"/>β(οήθει) Λέο[ν(τι)]
+                          <lb n="3"/>προέ-
+                          <lb n="4"/>[δ]ρῳ
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="5"/>+κρι[τ(ῇ)]
+                          <lb n="6"/>κὲ ἀναγ-
+                          <lb n="7"/>ραφ(εῖ) Κύ-
+                          <lb n="8"/>πρου
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="1"/>.Ε̣
+                          <lb n="2"/>Β/Λ̣Ε̣Ο̣.
+                          <lb n="3"/>̣Ο̣Ε
+                          <lb n="4"/>.Ρ̣̣
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="5"/>ΡΙ.
+                          <lb n="6"/>Ε̣Α̣Ν̣Α̣Γ
+                          <lb n="7"/>Ρ̣ΑΦ̣̣Υ
+                          <lb n="8"/>ΠΡ
                       </ab>
                   </div>
               </div>
             <div type="apparatus">
                 <listApp>
-                    <app/>
+                    <app loc="3">
+                        <note>Dans son édition du sceau IFEB, D.M. Metcalf, de manière erronée,
+                            interprète la dignité comme celle de <hi rend="italic">vestès</hi>.</note>
+                    </app>
+                    <app loc="4"><note>Sur celle qui semble bien être la pièce parallèle, El. Stepanova transcrit Δ/.</note></app>
                 </listApp>
             </div>
             <div type="translation">
-                <p/>
-                <p xml:lang="en"/>
-                <p xml:lang="fr"/>
+                <p>+ Κύριε βοήθει Λέοντι προέδρῳ / + κριτῇ κὲ ἀναγραφεῖ Κύπρου.</p>
+                <p xml:lang="en">Lord help Leo, proedros, judge and anagrapheus of Cyprus.</p>
+                <p xml:lang="fr">Seigneur protège Léon, proèdre, juge et <hi rend="italic">anagrapheus</hi> de Chypre.</p>
             </div>
             <div type="commentary" subtype="text">
                 <p xml:lang="fr"/>
@@ -352,13 +368,14 @@
             <div type="commentary" subtype="footnotes"/>
             <div type="bibliography" subtype="edition">
                 <p>
-                    <bibl><ptr target="Metcalf2004"/>, <citedRange unit="part">106</citedRange> (sans photo).</bibl>
+                    <bibl><ptr target="Metcalf2004"/>, <citedRange unit="part">106</citedRange>
+                        (sans photo).</bibl>
                 </p>
             </div>
             <div type="bibliography" subtype="parallels">
-                <p>Musée de l’Ermitage (Saint-Pétersbourg), M-1988:
-                    <bibl>
-                        <ptr target="Stepanova2016"/>, <citedRange unit="part">5</citedRange>.</bibl>
+                <p>Musée de l’Ermitage (Saint-Pétersbourg), M-1988: <bibl>
+                        <ptr target="Stepanova2016"/>, <citedRange unit="part"
+                        >5</citedRange>.</bibl>
                 </p>
             </div>
         </body>
