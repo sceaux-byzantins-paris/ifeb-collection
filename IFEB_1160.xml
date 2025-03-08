@@ -6,8 +6,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="fr"/>
-                <title xml:lang="en"/>
+                <title xml:lang="fr">Sceau de Joseph, spatharocandidat impérial et commerciaire de Thessalonique</title>
+                <title xml:lang="en">Seal of Joseph, imperial spatharokandidatos and kommerkiarios of Thessalonica</title>
                 <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
                 <editor role="seal-editor" xml:id="VP">Vivien Prigent</editor>
                 <editor role="seal-editor" xml:id="AS">Alessio Sopracasa</editor>
@@ -19,8 +19,8 @@
             </titleStmt>
             <editionStmt>
                 <edition>
-                    <seg xml:lang="fr">Amélioration digitale</seg>
-                    <seg xml:lang="en">Digital enhancement</seg>
+                    <seg xml:lang="fr">Digitale originelle</seg>
+                    <seg xml:lang="en">Born digital</seg>
                 </edition>
                 <editor role="digital-editor" resp="#AS" when="2024-12-06">Alessio
                     Sopracasa</editor>
@@ -219,7 +219,8 @@
                                             ana="cross patriarchal on-steps on-globe fleurons"
                                             xml:lang="fr">Croix patriarcale sur trois degrés posés
                                             sur un globe et fleurons issant depuis la base jusqu'à
-                                            mi-champ, à la première traverse; les deux traverses sont recroisetées.</figDesc>
+                                            mi-champ, à la première traverse; les deux traverses
+                                            sont recroisetées.</figDesc>
                                         <figDesc n="r"
                                             ana="cross patriarchal on-steps on-globe fleurons"
                                             xml:lang="en">Patriarchal cross on three steps on a
@@ -322,48 +323,55 @@
     <text>
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
-                <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"> 
-                      <ab>
-                          
-                      </ab>
-                  </div>
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc"> 
                       <ab>
-                          
+                          <lb n="1"/>Κ(ύρι)ε βοήθ[ει] [τ]ῷ σῷ δούλ(ῳ)
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="2"/>+Ἰωσί[φ]
+                          <lb n="3"/>β(ασιλικῷ) σπαθ(αρο)κα[ν-]
+                          <lb n="4"/>δ(ι)δ(άτῳ) (καὶ) κουμε[ρ-]
+                          <lb n="5"/>κιαρ(ίῳ) Θεσ[σ-]
+                          <lb n="6"/>α(λο)νικις
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
-                <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"> 
-                      <ab>
-                          
-                      </ab>
-                  </div>
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="1"/>Κ̣Ε̣̣Ο̣ΗΘ̣...Σ̣̣ΔΟΥΛˊ
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="2"/>ΙΣ̣Ι.
+                          <lb n="3"/>̣,ΣΠΑΘ,ΚΑ.
+                          <lb n="4"/>,̣ΟΥΜΕ̣.
+                          <lb n="5"/>̣ΙΑΡ̣Θ̣Ε̣Σ.
+                          <lb n="6"/>Α,ΝΙ̣ΙΣ̣
                       </ab>
                   </div>
               </div>
             <div type="apparatus">
                 <listApp>
-                    <app/>
+                    <app loc="5">
+                        <note>À la place du Ρ il semble y avoir une croisette (!).</note>
+                    </app>
+                    <app loc="5-6">
+                        <lem>Θ̣Ε̣Σ.|Α,ΝΙ̣ΙΣ̣</lem>
+                        <note>cette abréviation semble faire penser à une sorte de jeu de mots sur
+                            le nom de la ville, Θεσσαλῶν νίκης, sur lequel voir <bibl><ptr
+                                    target="DOseals1"/>, p. <citedRange unit="page"
+                                >72</citedRange></bibl>.</note>
+                    </app>
                 </listApp>
             </div>
             <div type="translation">
-                <p/>
-                <p xml:lang="en"/>
-                <p xml:lang="fr"/>
+                <p>Κύριε βοήθει τῷ σῷ δούλῳ / + Ἰωσίφ βασιλικῷ σπαθαροκανδιδάτῳ καὶ κουμερκιαρίῳ Θεσσαλονικις.</p>
+                <p xml:lang="en">Lord help your servant Joseph, imperial spatharokandidatos and kommerkiarios of Thessalonica.</p>
+                <p xml:lang="fr">Seigneur protège ton serviteur Joseph, spatharocandidat impérial et commerciaire de Thessalonique.</p>
             </div>
             <div type="commentary" subtype="text">
                 <p xml:lang="fr"/>
@@ -389,8 +397,7 @@
                         <ptr target="PmbZOnline"/>, <citedRange unit="entry"><ref
                                 target="https://www.degruyter.com/database/PMBZ/entry/PMBZ14605/html"
                                 >3461</ref></citedRange>
-                    </bibl>.
-                </p>
+                    </bibl>. </p>
             </div>
         </body>
     </text>

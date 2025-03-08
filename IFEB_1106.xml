@@ -21,8 +21,8 @@
             </titleStmt>
             <editionStmt>
                 <edition>
-                    <seg xml:lang="fr">Amélioration digitale</seg>
-                    <seg xml:lang="en">Digital enhancement</seg>
+                    <seg xml:lang="fr">Digitale originelle</seg>
+                    <seg xml:lang="en">Born digital</seg>
                 </edition>
                 <editor role="digital-editor" resp="#AS" when="2025-01-09">Alessio
                     Sopracasa</editor>
@@ -308,24 +308,32 @@
             <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="monogram-cross" xml:lang="grc"> 
                       <ab>
-                          
+                          <lb n="1"/>(Θεοτόκε βοήθει) τῷ σῷ δούλῳ
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="2"/>+Γρη-
+                          <lb n="3"/>γωρίῳ β(ασιλικῷ)
+                          <lb n="4"/>[σ]π(αθαρίῳ) (καὶ) δρουγ(γαρίῳ)
+                          <lb n="5"/>[τ]οῦ Ἐγέου
+                          <lb n="6"/>Πελά(γους)
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="monogram-cross" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="1"/>Κ-ΤΟ-Η-Β-Θ Τ̣-Σ-Δ-Λ
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="2"/>ΓΡΗ
+                          <lb n="3"/>Γ̣ΡΙΒ/
+                          <lb n="4"/>.Π/ΔΡΓ/
+                          <lb n="5"/>.̣ΕΓΕ
+                          <lb n="6"/>ΠΕ̣Λ̣Α
                       </ab>
                   </div>
               </div>
@@ -335,9 +343,12 @@
                 </listApp>
             </div>
             <div type="translation">
-                <p/>
-                <p xml:lang="en"/>
-                <p xml:lang="fr"/>
+                <p>Θεοτόκε βοήθει τῷ σῷ δούλῳ / + Γρηγωρίῳ βασιλικῷ σπαθαρίῳ καὶ δρουγγαρίῳ τοῦ
+                    Ἐγέου Πελάγους.</p>
+                <p xml:lang="en">Mother of God aid your servant Gregory, imperial spatharios and droungarios
+                    of the Aegean Sea</p>
+                <p xml:lang="fr">Mère de Dieu potège ton serviteur Grégoire, spathaire impérial et
+                    drongaire de la Mer Égée.</p>
             </div>
             <div type="commentary" subtype="text">
                 <p xml:lang="fr"/>

@@ -6,9 +6,9 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="fr">Sceau de Na, <hi rend="italic">stratègissa</hi> de la mer
+                <title xml:lang="fr">Sceau de la <hi rend="italic">stratègissa</hi> de la mer
                     Égée</title>
-                <title xml:lang="en">Seal of Na., strategissa of the Aegean Sea</title>
+                <title xml:lang="en">Seal of the strategissa of the Aegean Sea</title>
                 <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
                 <editor role="seal-editor" xml:id="VP">Vivien Prigent</editor>
                 <editor role="seal-editor" xml:id="AS">Alessio Sopracasa</editor>
@@ -20,8 +20,8 @@
             </titleStmt>
             <editionStmt>
                 <edition>
-                    <seg xml:lang="fr">Amélioration digitale</seg>
-                    <seg xml:lang="en">Digital enhancement</seg>
+                    <seg xml:lang="fr">Digitale originelle</seg>
+                    <seg xml:lang="en">Born digital</seg>
                 </edition>
                 <editor role="digital-editor" resp="#AS" when="2025-01-09">Alessio
                     Sopracasa</editor>
@@ -44,13 +44,13 @@
                     <person gender="F" role="military">
                         <!-- military? -->
                         <persName xml:lang="grc">
-                            <forename>Na.</forename>
+                            <forename>Anonymous</forename><!-- ??? -->
                         </persName>
                         <persName xml:lang="fr">
-                            <forename>Na.</forename>
+                            <forename>Anonyme</forename>
                         </persName>
                         <persName xml:lang="en">
-                            <forename>Na.</forename>
+                            <forename>Anonymous</forename>
                         </persName>
                     </person>
                 </listPerson>
@@ -159,8 +159,7 @@
                                 </seg>
                             </origPlace>
                             <origDate type="analysis" notBefore="0851" notAfter="0900"
-                                evidence="titulature epigraphy" cert="high"
-                                resp="#JCC #VP #AS">
+                                evidence="titulature epigraphy" cert="high" resp="#JCC #VP #AS">
                                 <seg xml:lang="fr">IXe siècle (deuxième moitié)</seg>
                                 <seg xml:lang="en">9th C., second half</seg>
                             </origDate>
@@ -263,13 +262,11 @@
                                     <figure>
                                         <!--<figDesc n="v" ana="" xml:lang=""/>-->
                                         <figDesc n="decoV" xml:lang="fr">Bordure indistincte; la
-                                            légende est peut-être précédée d’une ligne décorative;
-                                            croisette au début de la légende, sur une même
-                                            ligne.</figDesc>
+                                            légende est précédée d’une ligne décorative; croisette
+                                            au début de la légende, sur une même ligne.</figDesc>
                                         <figDesc n="decoV" xml:lang="en">Indistinct border; the
-                                            legend may be preceded by a decorative line; crosslet at
-                                            the beginning of the legend, on the same
-                                            line.</figDesc>
+                                            legend is preceded by a decorative line; crosslet at the
+                                            beginning of the legend, on the same line.</figDesc>
                                     </figure>
                                 </decoNote>
                             </decoDesc>
@@ -321,24 +318,33 @@
             <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc"> 
                       <ab>
-                          
+                          <lb n="1"/>[Θ(εοτό)κε β(οή)θ(ει) τ]ῆ σῇ δούλῃ
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="2"/>+Θ(εοτό)κε [βο-]
+                          <lb n="3"/>ήθη τῖ σῖ [δού(λῃ)]
+                          <lb n="4"/>στρατιγ[ίσ-]
+                          <lb n="5"/>α τοῦ Ἀγέ[ου]
+                          <lb n="6"/>Πε[λάγου(ς)]
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="1"/>......Η̣ΣΗΔΟΥΛΗ
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="0"/>[...?...]
+                          <lb n="2"/>̣ΘΕ..
+                          <lb n="3"/>ΗΘΗΤΙΣΙ̣..
+                          <lb n="4"/>Σ̣ΤΡΑΤΙΓ..
+                          <lb n="5"/>Α̣ΤΟΥΑΓΕ̣..
+                          <lb n="6"/>ΠΕ....
                       </ab>
                   </div>
               </div>
@@ -348,9 +354,12 @@
                 </listApp>
             </div>
             <div type="translation">
-                <p/>
-                <p xml:lang="en"/>
-                <p xml:lang="fr"/>
+                <p>Θεοτόκε βοήθει τῇ σῇ δούλῃ. / + Θεοτόκε βοήθη τῖ σῖ δούλῃ στρατιγίσα τοῦ Ἀγέου
+                    Πελάγους.</p>
+                <p xml:lang="en">Mother of God aid your servant. Mother of God aid your servant
+                    the strategissa of the Aegean Sea.</p>
+                <p xml:lang="fr">Mère de Dieu protège ta servante. Mère de Dieu protège ta servante
+                    la <hi rend="italic">stratègissa</hi> de la mer Égée.</p>
             </div>
             <div type="commentary" subtype="text">
                 <p xml:lang="fr"/>
@@ -358,7 +367,8 @@
             <div type="commentary" subtype="footnotes"/>
             <div type="bibliography" subtype="edition">
                 <p>
-                    <bibl><ptr target="Cheynet2008d"/>, p. <citedRange unit="page">191</citedRange>.</bibl>
+                    <bibl><ptr target="Cheynet2008d"/>, p. <citedRange unit="page"
+                        >191</citedRange>.</bibl>
                 </p>
             </div>
         </body>

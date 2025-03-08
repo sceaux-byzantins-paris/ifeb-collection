@@ -6,8 +6,10 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="fr">Sceau de N., protospathaire et stratège de Jéricho</title>
-                <title xml:lang="en">Seal of N., protospatharios and strategos of Iericho</title>
+                <title xml:lang="fr">Sceau de Paul (?), protospathaire impérial et stratège de
+                    Jéricho</title>
+                <title xml:lang="en">Seal of Paul (?), imperial protospatharios and strategos of
+                    Iericho</title>
                 <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
                 <editor role="seal-editor" xml:id="VP">Vivien Prigent</editor>
                 <editor role="seal-editor" xml:id="AS">Alessio Sopracasa</editor>
@@ -42,13 +44,13 @@
                 <listPerson type="issuer">
                     <person gender="M" role="military">
                         <persName xml:lang="grc">
-                            <forename>N.</forename>
+                            <forename cert="low">Παύλος</forename>
                         </persName>
                         <persName xml:lang="fr">
-                            <forename>N.</forename>
+                            <forename cert="low">Paul</forename>
                         </persName>
                         <persName xml:lang="en">
-                            <forename>N.</forename>
+                            <forename cert="low">Paul</forename>
                         </persName>
                     </person>
                 </listPerson>
@@ -106,7 +108,7 @@
                                         <seg xml:lang="en">Lead</seg>
                                     </material>
                                     <dimensions type="support" unit="mm">
-                                        <dim type="diameter">19</dim>
+                                        <dim type="diameter">18</dim>
                                     </dimensions>
                                     <measure type="weight" unit="g"/>
                                     <measure type="axis" unit="clock"/>
@@ -114,8 +116,8 @@
                                     <measure type="channelOrient" unit="clock">12-6</measure>
                                     <measure type="countermark" unit="clock"/>
                                 </support>
-                                <condition rend="worn-edge chipped">
-                                    <p xml:lang="fr">Flan légèrement trop petit; rogné sur le
+                                <condition rend="worn-edge chipped blank-too-small">
+                                    <p xml:lang="fr">Flanc légèrement trop petit; rogné sur le
                                         pourtour; sur le revers échancré à l’orifice supérieur du
                                         canal.</p>
                                     <p xml:lang="en">Blank slightly too small; trimmed around the
@@ -152,11 +154,10 @@
                                         >Iericho</placeName>
                                 </seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="0951" notAfter="1000"
-                                evidence="titulature epigraphy" cert="high"
-                                resp="#JCC #VP #AS">
-                                <seg xml:lang="fr">Xe-XIe siècle</seg>
-                                <seg xml:lang="en">10th-11th C.</seg>
+                            <origDate type="analysis" notBefore="0981" notAfter="1020"
+                                evidence="titulature epigraphy" cert="high" resp="#JCC #VP #AS">
+                                <seg xml:lang="fr">Fin Xe - début XIe siècle</seg>
+                                <seg xml:lang="en">End of the 10th - beginning of the 11th C.</seg>
                             </origDate>
                         </origin>
                         <provenance type="found" subtype="discovered">
@@ -210,18 +211,23 @@
                             <decoDesc>
                                 <decoNote>
                                     <figure>
-                                        <figDesc n="r" ana="person male saint St-Demetrios bust cross-in-hand"
-                                            xml:lang="fr">Buste de Saint Dèmètrios, tenant une croix
-                                            de la main droite devant sa poitrine, chlamyde fermée
-                                            sur l’épaule droite, cheveux bouclés; de part et d’autre
-                                            de l’effigie, épigraphe en colonne.</figDesc>
-                                        <figDesc n="r" ana="person male saint St-Demetrios bust cross-in-hand"
-                                            xml:lang="en">Bust of Saint Dèmètrios, holding a cross
-                                            in his right hand in front of his chest, chlamys
-                                            closed over his right shoulder, curly hair; on either
-                                            side of the effigy, label in columns.</figDesc>
-                                        <figDesc n="decoR" xml:lang="fr">Traces de bordure de grènetis.</figDesc><!-- ??? -->
-                                        <figDesc n="decoR" xml:lang="en">Vestiges of a border of dots.</figDesc>
+                                        <figDesc n="r"
+                                            ana="person male saint St-Demetrios bust cross-in-hand"
+                                            xml:lang="fr">Buste de saint Dèmètrios, tenant la croix
+                                            des martyrs devant sa poitrine, chlamyde fermée sur
+                                            l’épaule droite, cheveux bouclés; de part et d’autre de
+                                            l’effigie, épigraphe en colonne.</figDesc>
+                                        <figDesc n="r"
+                                            ana="person male saint St-Demetrios bust cross-in-hand"
+                                            xml:lang="en">Bust of saint Dèmètrios, holding a martyr
+                                            cross in front of his chest, chlamys closed over his
+                                            right shoulder, curly hair; on either side of the
+                                            effigy, label in columns.</figDesc>
+                                        <figDesc n="decoR" xml:lang="fr">Traces de bordure de
+                                            grènetis.</figDesc>
+                                        <!-- ??? -->
+                                        <figDesc n="decoR" xml:lang="en">Vestiges of a border of
+                                            dots.</figDesc>
                                     </figure>
                                 </decoNote>
                             </decoDesc>
@@ -259,8 +265,10 @@
                                 <decoNote>
                                     <figure>
                                         <!--<figDesc n="v" ana="" xml:lang=""/>-->
-                                        <figDesc n="decoV" xml:lang="fr">Bordure indistincte.</figDesc>
-                                        <figDesc n="decoV" xml:lang="en">Indistinct border.</figDesc>
+                                        <figDesc n="decoV" xml:lang="fr">Bordure
+                                            indistincte.</figDesc>
+                                        <figDesc n="decoV" xml:lang="en">Indistinct
+                                            border.</figDesc>
                                     </figure>
                                 </decoNote>
                             </decoDesc>
@@ -312,46 +320,68 @@
             <div type="edition" subtype="editorial" xml:space="preserve">
                 <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"> 
                       <ab>
-                          
+                          <cb n="a"/>(Ὁ ἅγιος) Διμ
+                          <cb n="b"/>ήτρ(ιος)
                       </ab>
                   </div>
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc"> 
                       <ab>
-                          
+                          <lb n="1"/>+Ἅγ[ιε Διμήτριε βοήθει τῷ σ]ῷ δ(ούλῳ)
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="2"/>Πα[ύλῳ(?)]
+                          <lb n="3"/>[β(ασιλικῷ)] (πρωτο)σπαθ(αρίῳ)
+                          <lb n="4"/>(καὶ) στρα-
+                          <lb n="5"/>τιγ(ῷ) Ἡε-
+                          <lb n="6"/>ρηχοῦ
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
                 <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"> 
                       <ab>
-                          
+                          <cb n="a"/>|Ι|
+                          <cb n="b"/>Η|Τ|Ρ|,
                       </ab>
                   </div>
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="1"/>Α̣Γ̣...................̣ˊ
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="2"/>Π̣Α...
+                          <lb n="3"/>.ΑˊΣΠΑΘ̣
+                          <lb n="4"/>ΣΤΡΑ
+                          <lb n="5"/>ΤΙΓ,ΗΕ
+                          <lb n="6"/>Ρ̣ΗΧ
                       </ab>
                   </div>
               </div>
             <div type="apparatus">
                 <listApp>
-                    <app/>
+                    <app loc="2">
+                        <note>La reconstitution du prénom est hypothétique et reprend celle proposée
+                            par le premier éditeur du sceau.</note>
+                    </app>
+                    <app loc="5-6">
+                        <note>Alors que la forme correcte serait Ἡερηχοῦς, le génitif du nom du lieu
+                            a été laissé en tant que tel dans l'édition, sans postuler la présence
+                            d'une abréviation (voir <bibl><ptr target="Prigent2019"/>, p. <citedRange
+                                unit="page">141</citedRange></bibl>).</note>
+                    </app>
                 </listApp>
             </div>
             <div type="translation">
-                <p/>
-                <p xml:lang="en"/>
-                <p xml:lang="fr"/>
+                <p>Ὁ ἅγιος Διμήτριος. Ἅγιε Διμήτριε βοήθει τῷ σῷ δούλῳ / Παύλῳ (?) βασιλικῷ
+                    πρωτοσπαθαρίῳ καὶ στρατιγῷ Ἡερηχοῦ.</p>
+                <p xml:lang="en">Saint Demetrios. Saint Demetrios aid your servant Paul, imperial
+                    protospatharios and strategos of Iericho.</p>
+                <p xml:lang="fr">Saint Dèmètrios. Saint Dèmètrios protège ton serviteur Paul (?),
+                    protospathaire impérial et stratège de Jéricho.</p>
             </div>
             <div type="commentary" subtype="text">
                 <p xml:lang="fr"/>
@@ -359,7 +389,9 @@
             <div type="commentary" subtype="footnotes"/>
             <div type="bibliography" subtype="edition">
                 <p>
-                    <bibl><ptr target="Prigent1994"/>, <citedRange unit="part">72</citedRange>.</bibl>
+                    <bibl><ptr target="Prigent1994"/>, <citedRange unit="part"
+                        >72</citedRange></bibl> = <bibl><ptr target="Prigent2019"/>, p. <citedRange
+                            unit="page">141</citedRange></bibl>.
                 </p>
             </div>
         </body>

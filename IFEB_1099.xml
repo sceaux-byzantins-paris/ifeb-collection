@@ -21,8 +21,8 @@
             </titleStmt>
             <editionStmt>
                 <edition>
-                    <seg xml:lang="fr">Amélioration digitale</seg>
-                    <seg xml:lang="en">Digital enhancement</seg>
+                    <seg xml:lang="fr">Digitale originelle</seg>
+                    <seg xml:lang="en">Born digital</seg>
                 </edition>
                 <editor role="digital-editor" resp="#AS" when="2025-01-09">Alessio
                     Sopracasa</editor>
@@ -216,17 +216,22 @@
                             <decoDesc>
                                 <decoNote>
                                     <figure>
-                                        <figDesc n="r" ana="cross patriarchal ornated on-globe on-steps fleurons" xml:lang="fr">Croix patriarcale sur un
-                                            globule et des marches disparues (sauf la première),
-                                            dont les traverses sont recroisetées et terminées par
-                                            des perles, avec fleurons issant jusqu'à
-                                            mi-champ.</figDesc>
-                                        <figDesc n="r" ana="cross patriarchal ornated on-globe on-steps fleurons" xml:lang="en">Patriarchal cross on a
-                                            globe and on steps that have disappeared (except for the
-                                            first one); X at crossbars, which terminate with pearls; fleurons rising up to the
-                                            middle of the field.</figDesc>
-                                        <figDesc n="decoR" xml:lang="fr">Bordure indistincte.</figDesc>
-                                        <figDesc n="decoR" xml:lang="en">Indistinct border.</figDesc>
+                                        <figDesc n="r"
+                                            ana="cross patriarchal ornated on-globe on-steps fleurons"
+                                            xml:lang="fr">Croix patriarcale sur un globule et des
+                                            marches disparues (sauf la première), dont les traverses
+                                            sont recroisetées et terminées par des perles, avec
+                                            fleurons issant jusqu'à mi-champ.</figDesc>
+                                        <figDesc n="r"
+                                            ana="cross patriarchal ornated on-globe on-steps fleurons"
+                                            xml:lang="en">Patriarchal cross on a globe and on steps
+                                            that have disappeared (except for the first one); X at
+                                            crossbars, which terminate with pearls; fleurons rising
+                                            up to the middle of the field.</figDesc>
+                                        <figDesc n="decoR" xml:lang="fr">Bordure
+                                            indistincte.</figDesc>
+                                        <figDesc n="decoR" xml:lang="en">Indistinct
+                                            border.</figDesc>
                                     </figure>
                                 </decoNote>
                             </decoDesc>
@@ -250,8 +255,10 @@
                                         <dimensions type="written" unit="mm">
                                             <dim type="diameter"/>
                                         </dimensions>
-                                        <p xml:lang="fr">Légende linéaire sur 6 lignes, dont 4 sont encore visibles.</p>
-                                        <p xml:lang="en">Linear legend on 6 lines, 4 of which are still visible.</p>
+                                        <p xml:lang="fr">Légende linéaire sur 6 lignes, dont 4 sont
+                                            encore visibles.</p>
+                                        <p xml:lang="en">Linear legend on 6 lines, 4 of which are
+                                            still visible.</p>
                                     </layout>
                                 </layoutDesc>
                             </objectDesc>
@@ -264,8 +271,10 @@
                                 <decoNote>
                                     <figure>
                                         <!--<figDesc n="v" ana="" xml:lang=""/>-->
-                                        <figDesc n="decoV" xml:lang="fr">Bordure indistincte.</figDesc>
-                                        <figDesc n="decoV" xml:lang="en">Indistinct border.</figDesc>
+                                        <figDesc n="decoV" xml:lang="fr">Bordure
+                                            indistincte.</figDesc>
+                                        <figDesc n="decoV" xml:lang="en">Indistinct
+                                            border.</figDesc>
                                     </figure>
                                 </decoNote>
                             </decoDesc>
@@ -317,49 +326,64 @@
             <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc"> 
                       <ab>
-                          
+                          <lb n="1"/>[+Κ(ύρι)ε βοήθει τῷ σῷ δούλ(ῳ)] ?
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="2"/>[...?...]
+                          <lb n="3"/>[β(ασιλικῷ)] ? [(πρωτο)]σπαθ[α-]
+                          <lb n="4"/>[ρ(ίῳ)] [(καὶ)] στρα[τ-]
+                          <lb n="5"/>[ηγ]ῷ τῶν
+                          <lb n="6"/>[Κιβ]ιρρ-
+                          <lb n="7"/>[αιωτῶν]
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="1"/>[...?...]
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="2"/>[...?...]
+                          <lb n="3"/>[c. 1-2]ΣΠΘ̣.
+                          <lb n="4"/>..ΣΤΡ̣.
+                          <lb n="5"/>..Τ̣Ν
+                          <lb n="6"/>...ΙΡΡ
+                          <lb n="7"/>[c. 4-6]
                       </ab>
                   </div>
               </div>
             <div type="apparatus">
                 <listApp>
-                    <app/>
+                    <app loc="2">
+                        <note><bibl><ptr target="Prigent1994"/>, <citedRange unit="part"
+                            >58</citedRange></bibl>: [Λ]έ[ο(ντι)].</note>
+                    </app>
                 </listApp>
             </div>
             <div type="translation">
-                <p/>
-                <p xml:lang="en"/>
-                <p xml:lang="fr"/>
+                <p>+ Κύριε βοήθει τῷ σῷ δούλῳ (?) / N., βασιλικῷ (?) πρωτοσπαθαρίῳ καὶ στρατηγῷ τῶν Κιβιρραιωτῶν.</p>
+                <p xml:lang="en">Lord aid your servant (?) N., imprial (?) protospatharios and strategos of the Kibyrrhaiotai.</p>
+                <p xml:lang="fr">Seigneur protège ton serviteur N., protospathaire impérial (?) et stratège des Cibyrrhéotes.</p>
             </div>
             <div type="commentary" subtype="text">
                 <p xml:lang="fr"/>
             </div>
             <div type="commentary" subtype="footnotes"/>
             <div type="bibliography" subtype="edition">
-                <p><bibl><ptr target="Prigent1994"/>, <citedRange unit="part">58</citedRange></bibl> =
-                    <bibl><ptr target="Karagiorgou2016"/>, <citedRange unit="part">20</citedRange>.</bibl>
+                <p><bibl><ptr target="Prigent1994"/>, <citedRange unit="part">58</citedRange></bibl>
+                    = <bibl><ptr target="Karagiorgou2016"/>, <citedRange unit="part"
+                        >20</citedRange>.</bibl>
                 </p>
             </div>
             <div type="bibliography" subtype="discussion">
                 <p>
-                    <bibl><ptr target="Karagiorgou2021"/>, mentionné avec identifiant KIB_78  (IFEB 1099).</bibl>
+                    <bibl><ptr target="Karagiorgou2021"/>, mentionné avec identifiant KIB_78 (IFEB
+                        1099).</bibl>
                 </p>
             </div>
         </body>

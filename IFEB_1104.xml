@@ -21,8 +21,8 @@
             </titleStmt>
             <editionStmt>
                 <edition>
-                    <seg xml:lang="fr">Amélioration digitale</seg>
-                    <seg xml:lang="en">Digital enhancement</seg>
+                    <seg xml:lang="fr">Digitale originelle</seg>
+                    <seg xml:lang="en">Born digital</seg>
                 </edition>
                 <editor role="digital-editor" resp="#AS" when="2025-01-09">Alessio
                     Sopracasa</editor>
@@ -316,24 +316,32 @@
             <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc"> 
                       <ab>
-                          
+                          <lb n="1"/>+Κ(ύρι)ε βοήθη [τῷ σῷ δούλῳ]
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="2"/>[+Ἀν]αστ-
+                          <lb n="3"/>[ασίῳ] (πρωτο)σπ[α-]
+                          <lb n="4"/>[θ(αρίῳ)] [(καὶ)] [στ]ρατηγ(ῷ)
+                          <lb n="5"/>[τοῦ] Ἐγέου
+                          <lb n="6"/>[Πε]λάγ(ους)
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="1"/>ΚΕ̣ΟΗΘΗ̣........
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="2"/>...̣Σ̣Τ̣
+                          <lb n="3"/>....̣ΣΠ.
+                          <lb n="4"/>....ΡΤΗΓ
+                          <lb n="5"/>...Ε̣Γ̣Ε̣ΟΥ̣
+                          <lb n="6"/>..Λ̣Γ̣
                       </ab>
                   </div>
               </div>
@@ -343,9 +351,9 @@
                 </listApp>
             </div>
             <div type="translation">
-                <p/>
-                <p xml:lang="en"/>
-                <p xml:lang="fr"/>
+                <p>+ Κύριε βοήθη τῷ σῷ δούλῳ / + Ἀναστασίῳ πρωτοσπαθαρίῳ καὶ στρατηγῷ τοῦ Ἐγέου Πελάγους.</p>
+                <p xml:lang="en">Lord aid your servant Anastasios, protospatharios and strategos of the Aegean Sea.</p>
+                <p xml:lang="fr">Seigneur protège ton serviteur Anastase, protospathaire et stratège de la Mer Égée.</p>
             </div>
             <div type="commentary" subtype="text">
                 <p xml:lang="fr"/>
