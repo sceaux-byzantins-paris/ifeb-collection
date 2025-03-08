@@ -6,10 +6,10 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="fr">Sceau de Théophylacte, koitonite et stratège de la Mer
-                    Égée</title>
-                <title xml:lang="en">Seal of Theophylaktos, koitonites and strategos of the Aegean
-                    Sea</title>
+                <title xml:lang="fr">Sceau de Philothée ou Dorothée, <hi rend="italic"
+                        >épi tou koitonos</hi> Gardé de Dieu et stratège de la Mer Égée</title>
+                <title xml:lang="en">Seal of Philotheos or Dorotheos, epi tou koitonos Guarded by
+                    God and strategos of the Aegean Sea</title>
                 <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
                 <editor role="seal-editor" xml:id="VP">Vivien Prigent</editor>
                 <editor role="seal-editor" xml:id="AS">Alessio Sopracasa</editor>
@@ -199,8 +199,12 @@
                                         <dimensions type="written" unit="mm">
                                             <dim type="diameter"/>
                                         </dimensions>
-                                        <p xml:lang="fr">Iconographie.</p>
-                                        <p xml:lang="en">Iconography.</p>
+                                        <p xml:lang="fr">Iconographie, avec inscription en colonne
+                                            et peut-être une légende invocative ciruclaire au
+                                            pourtour, aujourd'hui disparue.</p>
+                                        <p xml:lang="en">Iconography, with inscription in columns
+                                            and maybe an invocative circular legend not
+                                            preserved.</p>
                                     </layout>
                                 </layoutDesc>
                             </objectDesc>
@@ -213,13 +217,14 @@
                                 <decoNote>
                                     <figure>
                                         <figDesc n="r" ana="person male saint Elias bust"
-                                            xml:lang="fr">Buste de saint indéterminé: si la lecture
-                                            de l’épigraphe l’accompagnant est correcte, il pourrait
-                                            s’agir de saint Elie.</figDesc>
+                                            xml:lang="fr">Buste de saint indéterminé, avec épigraphe
+                                            en colonne: si la lecture de l’épigraphe l’accompagnant
+                                            est correcte, il pourrait s’agir de saint
+                                            Elie.</figDesc>
                                         <figDesc n="r" ana="person male saint Elias bust"
-                                            xml:lang="en">Bust of an indeterminate saint: if the
-                                            accompanying label is correct, it could be saint
-                                            Elias.</figDesc>
+                                            xml:lang="en">Bust of an indeterminate saint, with
+                                            inscription in columns: if the accompanying label is
+                                            correct, it could be saint Elias.</figDesc>
                                         <figDesc n="decoR" xml:lang="fr">Bordure
                                             indistincte.</figDesc>
                                         <figDesc n="decoR" xml:lang="en">Indistinct
@@ -320,24 +325,38 @@
             <div type="edition" subtype="editorial" xml:space="preserve">
                 <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"> 
                       <ab>
-                          
+                          <cb n="a"/>Ὁ ἅγιο(ς)
+                          <cb n="b"/>Ἠλία(ς)
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="1"/>[Φιλο-] vel [Δωρο-]
+                          <lb n="2"/>[θ]έῳ ἐπ-
+                          <lb n="3"/>[ὶ] τοῦ Θεοφ(υ)-
+                          <lb n="4"/>[λ]άκτ(ου) κοιτ(ῶνος)
+                          <lb n="5"/>[(καὶ)] στρατ(ηγοῦ) τοῦ
+                          <lb n="6"/>[Α]ἰγαίου Πε-
+                          <lb n="7"/>Λ(άγους)
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
                 <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"> 
                       <ab>
-                          
+                          <cb n="a"/>Ο̣|Α̣|ΓΙ|Ο̣
+                          <cb n="b"/>Η̣|ΛΙ|Α̣
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="1"/>....
+                          <lb n="2"/>.Ẹ̣ẸΠ̣
+                          <lb n="3"/>.ΤΘΕΟ̣Φ,
+                          <lb n="4"/>.ΑΚΤ,ΚΟΙΤ,
+                          <lb n="5"/>.ΣΤΡΑΤ,Τ
+                          <lb n="6"/>.Ι̣ΓΑΙΠΕ̣
+                          <lb n="7"/>Λ,
                       </ab>
                   </div>
               </div>
@@ -347,9 +366,12 @@
                 </listApp>
             </div>
             <div type="translation">
-                <p/>
-                <p xml:lang="en"/>
-                <p xml:lang="fr"/>
+                <p>Ὁ ἅγιος Ἠλίας. / ...(?) Φιλοθέῳ vel Δωροθέῳ ἐπὶ τοῦ Θεοφυλάκτου κοιτῶνος καὶ
+                    στρατηγοῦ τοῦ Αἰγαίου Πελάγους.</p>
+                <p xml:lang="en">Saint Elias. ...(?) Philotheos or Dorotheos, epi tou koitonos
+                    Guarded by God and strategos of the Aegean Sea.</p>
+                <p xml:lang="fr">Saint Élie. ...(?) Philothée ou Dorothée, <hi rend="italic">épi tou
+                        koitonos</hi> Gardé de Dieu et stratège de la Mer Égée.</p>
             </div>
             <div type="commentary" subtype="text">
                 <p xml:lang="fr"/>
@@ -357,7 +379,8 @@
             <div type="commentary" subtype="footnotes"/>
             <div type="bibliography" subtype="edition">
                 <p>
-                    <bibl><ptr target="Prigent1994"/>, <citedRange unit="part">66</citedRange>.</bibl>
+                    <bibl><ptr target="Prigent1994"/>, <citedRange unit="part"
+                        >66</citedRange>.</bibl>
                 </p>
             </div>
         </body>

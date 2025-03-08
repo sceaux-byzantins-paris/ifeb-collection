@@ -6,8 +6,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="fr"/>
-                <title xml:lang="en"/>
+                <title xml:lang="fr">Sceau de Léon, spathaire impérial et protonotaire de Thessalonique</title>
+                <title xml:lang="en">Seal of Leo, imperial spatharios and protonotarios of Thessalonica</title>
                 <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
                 <editor role="seal-editor" xml:id="VP">Vivien Prigent</editor>
                 <editor role="seal-editor" xml:id="AS">Alessio Sopracasa</editor>
@@ -19,8 +19,8 @@
             </titleStmt>
             <editionStmt>
                 <edition>
-                    <seg xml:lang="fr">Amélioration digitale</seg>
-                    <seg xml:lang="en">Digital enhancement</seg>
+                    <seg xml:lang="fr">Digitale originelle</seg>
+                    <seg xml:lang="en">Born digital</seg>
                 </edition>
                 <editor role="digital-editor" resp="#AS" when="2024-12-05">Alessio
                     Sopracasa</editor>
@@ -323,48 +323,53 @@
     <text>
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
-                <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"> 
-                      <ab>
-                          
-                      </ab>
-                  </div>
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc"> 
                       <ab>
-                          
+                          <lb n="1"/>Κ(ύρι)ε βοήθ[ει] [τῷ] σῷ δούλῳ
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="2"/>+[Λ]έ[ω-]
+                          <lb n="3"/>ντο[ς] β(ασιλικοῦ) σπ-
+                          <lb n="4"/>αθαρ(ίου) (καὶ) πρω-
+                          <lb n="5"/>τονοταρ(ίῳ) Θ-
+                          <lb n="6"/>εσσαλον-
+                          <lb n="7"/>νί[κης]
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
-                <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"> 
-                      <ab>
-                          
-                      </ab>
-                  </div>
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="1"/>̣Κ̣Ε̣ΟΗ̣Θ̣....Σ̣̣Δ̣ΟΥΛ
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="2"/>.Ε.
+                          <lb n="3"/>ΝΤΟ.ΣΠ
+                          <lb n="4"/>Θ̣Ρ̣̣Π̣Ρ̣Ο̣
+                          <lb n="5"/>ΤΟΝΟΤ̣ΡΘ
+                          <lb n="6"/>ΕΣΣ̣̣Λ̣ΟΝ
+                          <lb n="7"/>Ν̣Ι̣...
                       </ab>
                   </div>
               </div>
             <div type="apparatus">
                 <listApp>
-                    <app/>
+                    <app loc="1-7">
+                        <note>On remarquera que l’invocation au datif de l’avers est suivie par une
+                            légende au génitif au revers, d’un usage très tardif, comme remarqué par
+                            <bibl><ptr target="Istanbul"/>, p. <citedRange unit="page">352</citedRange></bibl>.</note>
+                    </app>
+                    <app loc="2"><note>La lecture du prénom est rendue sûre par la présence de pièces parallèles.</note></app>
                 </listApp>
             </div>
             <div type="translation">
-                <p/>
-                <p xml:lang="en"/>
-                <p xml:lang="fr"/>
+                <p>Κύριε βοήθει τῷ σῷ δούλῳ / + Λέωντος βασιλικοῦ σπαθαρίου καὶ πρωτονοταρίῳ Θεσσαλοννίκης.</p>
+                <p xml:lang="en">Lord aid your servant Leo, imperial spatharios and protonotarios of Thessalonica.</p>
+                <p xml:lang="fr">Seigneur protège ton serviteur Léon, spathaire impérial et protonotaire de Thessalonique.</p>
             </div>
             <div type="commentary" subtype="text">
                 <p xml:lang="fr"/>
@@ -388,8 +393,8 @@
                     </bibl>. </p>
                 <p>Musée archéologique d'Istanbul, 657-277: <bibl><ptr target="Istanbul"/>,
                             <citedRange unit="part">3.115</citedRange></bibl>. </p>
-                <p>Musée de l'Ermitage (Saint-Petersbourg), M-4855: <bibl><ptr
-                            target="Sokolova1986"/>, pl. <citedRange unit="part"><ref
+                <p>Musée de l'Ermitage (Saint-Petersbourg), M-4855: <bibl><ptr target="Sokolova1986"
+                        />, pl. <citedRange unit="part"><ref
                                 target="http://www.vremennik.biz/opus/BB/47/57244"
                             >VII</ref></citedRange></bibl>.</p>
             </div>
@@ -397,9 +402,11 @@
                 <p>Les parallèles de Dumabarton Oaks sont mentionnés dans <bibl><ptr
                             target="PmbZOnline"/>, <citedRange unit="entry"><ref
                                 target="https://www.degruyter.com/database/PMBZ/entry/PMBZ26614/html"
-                                >24460</ref></citedRange></bibl>; le parallèle ded l'Ermitage est mentionné dans <bibl>
-                                    <ptr target="SBS_Articles1986-1992"/>, p. <citedRange unit="page">172, no. 7</citedRange>
-                                </bibl>.</p>
+                                >24460</ref></citedRange></bibl>; le parallèle ded l'Ermitage est
+                    mentionné dans <bibl>
+                        <ptr target="SBS_Articles1986-1992"/>, p. <citedRange unit="page">172, no.
+                            7</citedRange>
+                    </bibl>.</p>
             </div>
         </body>
     </text>

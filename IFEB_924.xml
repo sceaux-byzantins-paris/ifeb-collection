@@ -6,9 +6,9 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="fr">Sceau de Balantios, <hi rend="italic">anthypatos</hi>, patrice,
+                <title xml:lang="fr">Sceau de Balantios, <hi rend="italic">anthypatos</hi> patrice,
                     protospathaire impérial et stratège du Lykandos</title>
-                <title xml:lang="en">Seal of Balantios, anthypatos, patrikios, imperial
+                <title xml:lang="en">Seal of Balantios, anthypatos patrikios, imperial
                     protospatharios et strategos of the Lykandos</title>
                 <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
                 <editor role="seal-editor" xml:id="VP">Vivien Prigent</editor>
@@ -328,34 +328,45 @@
             <div type="edition" subtype="editorial" xml:space="preserve">
                 <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"> 
                       <ab>
-                          
+                          <cb n="a"/>Ὁ ἅγ(ιος)
+                          <cb n="b"/>Nηκό(λαος)
                       </ab>
                   </div>
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc"> 
                       <ab>
-                          
+                          <lb n="1"/>Ἅγ(ιε) Νικόλ[αε βοήθει τῷ σῷ δούλῳ ?]
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="2"/>+Β[α]λαν-
+                          <lb n="3"/>τ(ίῳ) ἀν[θ]υ(πάτῳ) πατ-
+                          <lb n="4"/>ρηκ(ίῳ) β(ασιλικῷ) (πρωτο)σπαθ(αρίῳ)
+                          <lb n="5"/>(καὶ) στρατηγ(ῷ)
+                          <lb n="6"/>Λικάνδ(ου)
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
                 <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"> 
                       <ab>
-                          
+                          <cb n="a"/>Ο||,
+                          <cb n="b"/>Ν|Η|Κ̣Ο̣
                       </ab>
                   </div>
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="1"/>Γ,ΝΙΚΟΛ̣[...?...]
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="2"/>̣.ΛΝ
+                          <lb n="3"/>ΤˊΝ.Υ,ΠΤ
+                          <lb n="4"/>Ρ̣ΗˊˊˊΣΠΘˋ
+                          <lb n="5"/>Σ̣ΤΡΤΗΓˊ
+                          <lb n="6"/>ΛΙΝΔˊ
+                          <lb n="7"/>
                       </ab>
                   </div>
               </div>
@@ -365,9 +376,12 @@
                 </listApp>
             </div>
             <div type="translation">
-                <p/>
-                <p xml:lang="en"/>
-                <p xml:lang="fr"/>
+                <p>Ὁ ἅγιος Nηκόλαος. + Ἅγιε Νικόλαε βοήθει τῷ σῷ δούλῳ (?) / + Βαλαντίῳ ἀνθυπάτῳ
+                    πατρηκίῳ, βασιλικῷ πρωτοσπαθαρίῳ καὶ στρατηγῷ Λικάνδου.</p>
+                <p xml:lang="en">Saint Nicolas. Saint Nicolas protège ton serviteur (?) Balantios,
+                    <hi rend="italic">anthypatos</hi> patrice, protospathaire impérial et stratège du Lykandos.</p>
+                <p xml:lang="fr">Saint Nicholas. Saint Nicholas aid your servant (?) Balantios,
+                    anthypatos patrikios, imperial protospatharios and strategos of the Lykandos.</p>
             </div>
             <div type="commentary" subtype="text">
                 <p xml:lang="fr">Un sceau très vraisemblablement du même personnage a été vendu aux

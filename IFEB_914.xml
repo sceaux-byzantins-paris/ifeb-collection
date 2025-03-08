@@ -6,8 +6,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="fr"/>
-                <title xml:lang="en"/>
+                <title xml:lang="fr">Sceau de Syméon, vestarque et juge de Thessalonique, du Boléron et du Strymon</title>
+                <title xml:lang="en">Seal of Symeon, vestarches and judge of Thessalonica, Boleron and Strymon</title>
                 <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
                 <editor role="seal-editor" xml:id="VP">Vivien Prigent</editor>
                 <editor role="seal-editor" xml:id="AS">Alessio Sopracasa</editor>
@@ -19,8 +19,8 @@
             </titleStmt>
             <editionStmt>
                 <edition>
-                    <seg xml:lang="fr">Amélioration digitale</seg>
-                    <seg xml:lang="en">Digital enhancement</seg>
+                    <seg xml:lang="fr">Digitale originelle</seg>
+                    <seg xml:lang="en">Born digital</seg>
                 </edition>
                 <editor role="digital-editor" resp="#AS" when="2024-12-06">Alessio
                     Sopracasa</editor>
@@ -237,7 +237,7 @@
                                             <dim type="diameter"/>
                                         </dimensions>
                                         <p xml:lang="fr">Légende métrique linéaire sur 5 lignes.</p>
-                                        <p xml:lang="en">Linear legend of 5 lines.</p>
+                                        <p xml:lang="en">Linear metrical legend of 5 lines.</p>
                                     </layout>
                                 </layoutDesc>
                             </objectDesc>
@@ -304,49 +304,60 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" subtype="editorial" xml:space="preserve">
-                <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"> 
+            <div type="edition" subtype="editorial" xml:space="preserve"><!-- légende métrique -->
+                  <div type="textpart" n="obv" subtype="face" rend="linear" xml:lang="grc"> 
                       <ab>
-                          
-                      </ab>
-                  </div>
-                  <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc"> 
-                      <ab>
-                          
+                          <lb n="1"/>+Θεσα-
+                          <lb n="2"/>[λον]ίκης
+                          <lb n="3"/>[Βολ]εροῦ
+                          <lb n="4"/>καὶ Στρυ-
+                          <lb n="5"/>μονο(ς)
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="6"/>[+]κριτ(ὴν)
+                          <lb n="7"/>[π]αριστῶ
+                          <lb n="8"/>[Σ]υμεὼν
+                          <lb n="9"/>[τ]ὸν βε-
+                          <lb n="10"/>στάρχ(ῃν)
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
-                <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"> 
+                  <div type="textpart" n="obv" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          
-                      </ab>
-                  </div>
-                  <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc">
-                      <ab>
-                          
+                          <lb n="1"/>̣Θ̣ΕΣΑ̣
+                          <lb n="2"/>...Ι̣ΗΣ̣
+                          <lb n="3"/>...Ε̣Ρ̣ΟΥ
+                          <lb n="4"/>̣Α̣ΙΣΤΡΥ
+                          <lb n="5"/>ΟΝΟˋ
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="6"/>.ΡΙΤ
+                          <lb n="7"/>.Α̣ΡΙΣΤ
+                          <lb n="8"/>.ΥΕΝ̣
+                          <lb n="9"/>.ΟΝΕ̣
+                          <lb n="10"/>Σ̣ΤΑΡΧ
                       </ab>
                   </div>
               </div>
             <div type="apparatus">
                 <listApp>
-                    <app/>
+                    <app loc="1-10">
+                        <note>Avers et revers peuvent très bien être inversés: ici il a été choisi
+                            de suivre la transcription de <bibl><ptr target="Wassiliou-Seibt2011"/>,
+                                    <citedRange unit="entry">942</citedRange></bibl>.
+                        </note>
+                    </app>
                 </listApp>
             </div>
             <div type="translation">
-                <p/>
-                <p xml:lang="en"/>
-                <p xml:lang="fr"/>
+                <p>+ Θεσαλονίκης, Βολεροῦ καὶ Στρυμονος / + κριτὴν παριστῶ Συμεὼν τὸν βεστάρχῃν.</p>
+                <p xml:lang="en">I present the vestarches Symeon, judge of Thessalonica, Boleron and Strymon.</p>
+                <p xml:lang="fr">Je présente le vestarque Syméon, juge de Thessalonique, du Boléron et du Strymon.</p>
             </div>
             <div type="commentary" subtype="text">
                 <p xml:lang="fr"/>
@@ -354,9 +365,8 @@
             <div type="commentary" subtype="footnotes"/>
             <div type="bibliography" subtype="edition"/>
             <div type="bibliography" subtype="discussion">
-                <p>
-                    Le sceau est répertorié dans <bibl><ptr target="Wassiliou-Seibt2011"/>, <citedRange unit="entry">942</citedRange></bibl>.
-                </p>
+                <p> Le sceau est répertorié dans <bibl><ptr target="Wassiliou-Seibt2011"/>,
+                            <citedRange unit="entry">942</citedRange></bibl>. </p>
             </div>
         </body>
     </text>

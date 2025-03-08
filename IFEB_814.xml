@@ -313,24 +313,32 @@
             <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="monogram-cross" xml:lang="grc"> 
                       <ab>
-                          
+                          <lb n="1"/>(Θεοτόκε βοήθει) τῷ σῷ δούλῳ
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="2"/>+Λέον-
+                          <lb n="3"/>τι ἐκ πρ-
+                          <lb n="4"/>οισώπου
+                          <lb n="5"/>Μοθών-
+                          <lb n="6"/>[η]ς
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="monogram-cross" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="1"/>Κ-ΤΟ̣-Η-Β-Θ Τ-Σ-Δ-Λ
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="2"/>Λ̣ΕΟ
+                          <lb n="3"/>Τ̣ΙΕΚΠΡ
+                          <lb n="4"/>ΟΙΣΠΟΥ
+                          <lb n="5"/>Μ̣Ο̣Θ̣
+                          <lb n="6"/>..Σ̣̣
                       </ab>
                   </div>
               </div>
@@ -340,9 +348,9 @@
                 </listApp>
             </div>
             <div type="translation">
-                <p/>
-                <p xml:lang="en"/>
-                <p xml:lang="fr"/>
+                <p>Θεοτόκε βοήθει τῷ σῷ δούλῳ / + Λέοντι ἐκ προισώπου Μοθώνης.</p>
+                <p xml:lang="en">Mother of God aid your servant Leo, ek prosopou of Modon.</p>
+                <p xml:lang="fr">Mère de Dieu protège ton serviteur Léon, <hi rend="italic">ek prosôpou</hi> de Modon.</p>
             </div>
             <div type="commentary" subtype="text">
                 <p xml:lang="fr"/>

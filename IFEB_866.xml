@@ -258,11 +258,9 @@
                                         <!-- perle après la légende? -->
                                         <figDesc n="decoV" xml:lang="fr">Bordure de feuillage; une
                                             croisette précède le début de la légende, sur une même
-                                            ligne; après la légende, sur une ligne séparée, une
-                                            perle.</figDesc>
+                                            ligne.</figDesc>
                                         <figDesc n="decoV" xml:lang="en">Wreath border; a crosslet
-                                            precedes the beginning of the legend, on the same line;
-                                            after the legend, on a separate line, a pearl.</figDesc>
+                                            precedes the beginning of the legend, on the same line.</figDesc>
                                     </figure>
                                 </decoNote>
                             </decoDesc>
@@ -314,24 +312,30 @@
             <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="monogram-cross" xml:lang="grc"> 
                       <ab>
-                          
+                          <lb n="1"/>(Θεοτόκε βοήθει) τῷ σῷ δούλῳ
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="2"/>+Λέον-
+                          <lb n="3"/>[τ]ι β(ασιλικῷ) χαρτ-
+                          <lb n="4"/>ουλ(αρίῳ) τ(ῶν) Μαλ-
+                          <lb n="5"/>αγην(ῶν)
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="monogram-cross" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="1"/>Κ̣-ΤΟ-Η̣-Β-Θ Τ̣-Σ-Δ-Λ̣
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="2"/>̣ΛΕΟΝ
+                          <lb n="3"/>.ΙΒ/ΧΑΡΤ
+                          <lb n="4"/>̣Λ/Τ̣/ΜΑΛ̣
+                          <lb n="5"/>ΑΓΗΝ/
                       </ab>
                   </div>
               </div>
@@ -341,9 +345,9 @@
                 </listApp>
             </div>
             <div type="translation">
-                <p/>
-                <p xml:lang="en"/>
-                <p xml:lang="fr"/>
+                <p>Θεοτόκε βοήθει τῷ σῷ δούλῳ / + Λέοντι βασιλικῷ χαρτουλαρίῳ τῶν Μαλαγηνῶν.</p>
+                <p xml:lang="en">Mother of God aid your servant Leo, imperial chartoularios of Malagina.</p>
+                <p xml:lang="fr">Mère de Dieu protège ton serviteur Léon, chartulaire impérial de Malagina.</p>
             </div>
             <div type="commentary" subtype="text">
                 <p xml:lang="fr"/>

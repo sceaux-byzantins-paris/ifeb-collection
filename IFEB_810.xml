@@ -6,8 +6,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="fr"/>
-                <title xml:lang="en"/>
+                <title xml:lang="fr">Sceau de Procope, protospathaire impérial et stratège de Longobardie</title>
+                <title xml:lang="en">Seal of Prokopios, imperial protospatharios and strategos of Longobardia</title>
                 <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
                 <editor role="seal-editor" xml:id="VP">Vivien Prigent</editor>
                 <editor role="seal-editor" xml:id="AS">Alessio Sopracasa</editor>
@@ -19,8 +19,8 @@
             </titleStmt>
             <editionStmt>
                 <edition>
-                    <seg xml:lang="fr">Amélioration digitale</seg>
-                    <seg xml:lang="en">Digital enhancement</seg>
+                    <seg xml:lang="fr">Digitale originelle</seg>
+                    <seg xml:lang="en">Born digital</seg>
                 </edition>
                 <editor role="digital-editor" resp="#AS" when="2024-11-02">Alessio
                     Sopracasa</editor>
@@ -206,10 +206,10 @@
                                             <dim type="diameter"/>
                                         </dimensions>
                                         <p xml:lang="fr">Iconographie avec, d'après la pièce
-                                            parallèle, légende invocative circulaire et épigraphe en
+                                            d'Athènes, légende invocative circulaire et épigraphe en
                                             colonne de part et d'autre de l'effigie.</p>
-                                        <p xml:lang="en">Iconography with, according to the parallel
-                                            seal, a circular invocative legend and epigraph in
+                                        <p xml:lang="en">Iconography with, according to the seal in
+                                            Athens, a circular invocative legend and epigraph in
                                             columns on either side of the image.</p>
                                     </layout>
                                 </layoutDesc>
@@ -222,21 +222,23 @@
                             <decoDesc>
                                 <decoNote>
                                     <figure>
-                                        <figDesc n="r" ana="person male saint St-Prokopios bust" xml:lang="fr">L'état de conservation
-                                            du sceau ne permet de voir que la tête d'un saint
-                                            imberbe et aux cheveux bouclées, représenté en buste: la
-                                            pièce parallèle d'Athènes permet de l'identifier en tant
-                                            que saint Procope.</figDesc>
-                                        <figDesc n="r" ana="person male saint St-Prokopios bust" xml:lang="en">The state of
-                                            preservation of the seal only makes it possible to see
-                                            the head of a beardless saint with curly hair, depicted
-                                            in bust form: the parallel piece from Athens makes it
-                                            possible to identify him as saint Procopius.</figDesc>
+                                        <figDesc n="r" ana="person male saint St-Prokopios bust"
+                                            xml:lang="fr">L'état de conservation du sceau ne permet
+                                            de voir que la tête d'un saint imberbe et aux cheveux
+                                            bouclées, représenté en buste: la pièce d'Athènes permet
+                                            de l'identifier en tant que saint Procope.</figDesc>
+                                        <figDesc n="r" ana="person male saint St-Prokopios bust"
+                                            xml:lang="en">The state of preservation of the seal only
+                                            makes it possible to see the head of a beardless saint
+                                            with curly hair, depicted in bust form: the piece from
+                                            Athens makes it possible to identify him as saint
+                                            Procopius.</figDesc>
                                         <figDesc n="decoR" xml:lang="fr">D'après la pièce parallèle
                                             et le revers de notre exemplaire, cercle de
                                             grènetis.</figDesc>
                                         <figDesc n="decoR" xml:lang="en">According to the parallel
-                                            seal and the obverse of our piece, circle of dots.</figDesc>
+                                            seal and the obverse of our piece, circle of
+                                            dots.</figDesc>
                                     </figure>
                                 </decoNote>
                             </decoDesc>
@@ -260,8 +262,10 @@
                                         <dimensions type="written" unit="mm">
                                             <dim type="diameter"/>
                                         </dimensions>
-                                        <p xml:lang="fr">Légende linéaire sur 5 lignes, dont la première a disparu.</p>
-                                        <p xml:lang="en">Linear legend of 5 lines, of which the first one is lost.</p>
+                                        <p xml:lang="fr">Légende linéaire sur 5 lignes, dont la
+                                            première a disparu.</p>
+                                        <p xml:lang="en">Linear legend of 5 lines, of which the
+                                            first one is lost.</p>
                                     </layout>
                                 </layoutDesc>
                             </objectDesc>
@@ -274,10 +278,10 @@
                                 <decoNote>
                                     <figure>
                                         <!--<figDesc n="v" ana="" xml:lang=""/>-->
-                                        <figDesc n="decoV" xml:lang="fr">Cercle de grènetis
-                                            très partiellement conservé.</figDesc>
-                                        <figDesc n="decoV" xml:lang="en">Circle of dots very partially
-                                            preserved.</figDesc>
+                                        <figDesc n="decoV" xml:lang="fr">Cercle de grènetis très
+                                            partiellement conservé.</figDesc>
+                                        <figDesc n="decoV" xml:lang="en">Circle of dots very
+                                            partially preserved.</figDesc>
                                     </figure>
                                 </decoNote>
                             </decoDesc>
@@ -327,48 +331,71 @@
     <text>
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
-                <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"> 
+                <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"><!-- souligné -->
                       <ab>
-                          
+                          <cb n="a"/>[Ὁ ἅγιος Προ]
+                          <cb n="b"/>[κόπ(ιος)]
                       </ab>
                   </div>
-                  <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc"> 
+                  <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc"><!-- souligné -->
                       <ab>
-                          
+                          <lb n="1"/>[+Κ(ύρι)ε βοήθει τῷ σῷ δούλῳ]
                       </ab>
                   </div>
-                  <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
+                  <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc"><!-- 1ère ligne soulignée -->
                       <ab>
-                          
+                          <lb n="2"/>[Προκοπ(ίῳ)]
+                          <lb n="3"/>β(ασιλικῷ) (πρωτο)σπ[αθ(αρίῳ)]
+                          <lb n="4"/>(καὶ) στρατ[ηγ(ῷ)]
+                          <lb n="5"/>Λαγου[β-]
+                          <lb n="6"/>αρδίας
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
                 <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"> 
                       <ab>
-                          
+                          <cb n="a"/>.|..|.
+                          <cb n="b"/>.|.|.
                       </ab>
                   </div>
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="1"/>..................
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="2"/>.......
+                          <lb n="3"/>ˊˊΣΠ..
+                          <lb n="4"/>ΣΤΡΤ̣..
+                          <lb n="5"/>ΛΓΟΥ̣.
+                          <lb n="6"/>ΡΔΙ̣Σ
                       </ab>
                   </div>
               </div>
             <div type="apparatus">
                 <listApp>
-                    <app/>
+                    <app loc="5-6">
+                        <lem>Λαγου[β]|αρδίας</lem>
+                        <rdg>[Λ]αγοβα|ρδίας</rdg>
+                        <note>in <bibl><ptr target="Athens1996"/>, <citedRange unit="part"
+                                    >52</citedRange></bibl>.</note>
+                    </app>
+                    <app loc="2-6">
+                        <note>La distribution des lettres entre les lignes proposées ici n’est pas
+                            exactement la même que celle présente dans l’édition de la pièce
+                            d’Athènes.</note>
+                    </app>
                 </listApp>
             </div>
             <div type="translation">
-                <p/>
-                <p xml:lang="en"/>
-                <p xml:lang="fr"/>
+                <p>Ὁ ἅγιος Προκόπιος. + Κύριε βοήθει τῷ σῷ δούλῳ / Προκοπίῳ βασιλικῷ πρωτοσπαθαρίῳ
+                    καὶ στρατηγῷ Λαγουβαρδίας.</p>
+                <p xml:lang="en">Saint Prokopios. Lord aid your servant Prokopios, imperial
+                    protospatharios and strategos of Longobardia.</p>
+                <p xml:lang="fr">Saint Procope. Seigneur protège ton serviteur Procope,
+                    protospathaire impérial et stratège de Longobardie.</p>
             </div>
             <div type="commentary" subtype="text">
                 <p xml:lang="fr"/>
@@ -376,8 +403,10 @@
             <div type="commentary" subtype="footnotes"/>
             <div type="bibliography" subtype="edition"/>
             <div type="bibliography" subtype="parallels">
-                <bibl>
-                    <ptr target="Athens1996"/>, <citedRange unit="part">52</citedRange>.</bibl>
+                <p>Collection Orphanidis-Nikolaidis, Musée Numismatique d'Athènes, 423 (si ce sceau
+                    n'est pas un parallèle, il est en tout cas très proche):<bibl>
+                        <ptr target="Athens1996"/>, <citedRange unit="part"
+                    >52</citedRange>.</bibl></p>
             </div>
         </body>
     </text>

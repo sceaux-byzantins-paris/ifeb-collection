@@ -6,6 +6,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
+                <title xml:lang="fr">Sceau de Jean Pégônitès, stratège de Nicopolis</title>
+                <title xml:lang="en">Seal of John Pegonites, strategos of Nikopolis</title>
                 <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
                 <editor role="seal-editor" xml:id="VP">Vivien Prigent</editor>
                 <editor role="seal-editor" xml:id="AS">Alessio Sopracasa</editor>
@@ -17,8 +19,8 @@
             </titleStmt>
             <editionStmt>
                 <edition>
-                    <seg xml:lang="fr">Amélioration digitale</seg>
-                    <seg xml:lang="en">Digital enhancement</seg>
+                    <seg xml:lang="fr">Digitale originelle</seg>
+                    <seg xml:lang="en">Born digital</seg>
                 </edition>
                 <editor role="digital-editor" resp="#AS" when="2024-11-07">Alessio
                     Sopracasa</editor>
@@ -274,14 +276,13 @@
                                             partiellement conservé (la bordure restant est double,
                                             en raison vraisemblablement d'un glissement lors de la
                                             frappe); d'après les pièces parallèles, la dernière
-                                            ligne de la légende était flanqué de deux perles, une à
-                                            gauche et une à droite.</figDesc>
+                                            ligne de la légende était flanqué de deux
+                                            perles.</figDesc>
                                         <figDesc n="decoV" xml:lang="en">Circle of dots partially
                                             preserved (the remaining border is doubled, probably due
                                             to slipping during striking); according to the parallel
                                             specimens, the last line of the legend was flanked by
-                                            two pearls, one on the left and one on the
-                                            right.</figDesc>
+                                            two pearls.</figDesc>
                                     </figure>
                                 </decoNote>
                             </decoDesc>
@@ -333,36 +334,61 @@
             <div type="edition" subtype="editorial" xml:space="preserve">
                 <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"> 
                       <ab>
-                          
+                          <cb n="a"/>(Ὁ ἅγιος) Ἰω(άννης) [ὁ]
+                          <cb n="b"/>[Θεολόγ(ος)]
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="1"/>[Ἰ]ω(άννης) στρα-
+                          <lb n="2"/>[τ]ηγὸς Νι-
+                          <lb n="3"/>[κ]οπό[λ]ον
+                          <lb n="4"/>[ὁ] Πηγονί-
+                          <lb n="5"/>της
                       </ab>
                   </div>
               </div>
-            <div type="edition" subtype="diplomatic" xml:space="preserve">
+            <div type="edition" subtype="diplomatic" xml:space="preserve"><!-- vérifier su r // s'il y a une ligne deco avant la légende au revers -->
                 <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"> 
                       <ab>
-                          
+                          <cb n="a"/>|Ι̅̅|.
+                          <cb n="b"/>.|.|.|..|.
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          
+                          <lb n="1"/>.ΣΤΡΑ
+                          <lb n="2"/>.ΗΓΟΣΝΙ
+                          <lb n="3"/>.Ο̣ΠΟ.ΟΝ
+                          <lb n="4"/>.ΠΗΓΟΝΙ
+                          <lb n="5"/>.ΤΗΣ.
                       </ab>
                   </div>
               </div>
             <div type="apparatus">
                 <listApp>
-                    <app/>
+                    <app loc="1">
+                        <lem>[Θεολόγ(ος)]</lem>
+                        <rdg>
+                            <note>in <bibl>
+                                    <ptr target="JordanovCorpus3"/>, <citedRange unit="part"
+                                        >1366</citedRange></bibl> transcrit d’après la pièce
+                                parallèle de Shumen [Θ(εο)λ(ό)γος]; in <bibl>
+                                    <ptr target="Wassiliou-Seibt2009"/>, <citedRange unit="part"
+                                        >1</citedRange> (avec photo)</bibl> transcrit d’après la
+                                pièce parallèle Zacos (BnF) Θ[(εο)]λ(ό)γ(ος); in <bibl><!-- pages à vérifier à la Byzantine: W IX 36 -->
+                                    <ptr target="Cheynet2015"/>, p. <citedRange unit="page"
+                                        >???</citedRange>
+                                </bibl> la distribution des lettres sur la colonne de droite d’après
+                                le parallèle Zacos (BnF) diffère légèrement.</note>
+                        </rdg>
+                    </app>
                 </listApp>
             </div>
             <div type="translation">
-                <p/>
-                <p xml:lang="en"/>
-                <p xml:lang="fr"/>
+                <p>Ὁ ἅγιος Ἰωάννης ὁ Θεολόγος. / Ἰωάννης στρατηγὸς Νικοπόλον ὁ Πηγονίτης.</p>
+                <p xml:lang="en">Saint John the Theologian. John Pegonites, strategos of Nikopolis.</p>
+                <p xml:lang="fr">Saint Jean le Théologien. Jean Pégônitès, stratège de Nicopolis.</p>
             </div>
             <div type="commentary" subtype="text">
                 <p xml:lang="fr"/>
@@ -372,17 +398,15 @@
             <div type="bibliography" subtype="parallels">
                 <p>RHM-Shumen, 15448: <bibl>
                         <ptr target="JordanovCorpus3"/>, <citedRange unit="part"
-                        >1366</citedRange>;</bibl>
-                </p>
-                <p> Collection Zacos (BnF), 1204: <bibl>
-                        <!-- première éd. du // BnF, à vérifier: A.-K. ΒΑΣΙΛΕΙΟΥ-Seibt, Νέα στοιχεία για τη βυζαντινή Νικόπολη
+                        >1366</citedRange></bibl>; </p>
+                <!-- première éd. du // BnF, à vérifier: A.-K. ΒΑΣΙΛΕΙΟΥ-Seibt, Νέα στοιχεία για τη βυζαντινή Νικόπολη
 βάσει σφραγιστικών δεδομένων, in: Νικόπολις Β´. Πρακτικά του Δευτέρου Διεθνούς Συμποσίου
 για τη Νικόπολη (11-15 Σεπτεμβρίου 2002). Ι-ΙΙ. Preveza 2007, I, 590 f., Nr. 3; II, 396, Abb. 3 -->
+                <p> Collection Zacos (BnF), 1204: <bibl>
                         <ptr target="Wassiliou-Seibt2009"/>, <citedRange unit="part">1</citedRange>
-                        (avec photo) = <bibl>
-                            <ptr target="Cheynet2015"/>, p. <citedRange unit="page">???</citedRange>
-                            (avec photo).<!-- pages à vérifier à la Byzantine: W IX 36 -->
-                        </bibl>
+                        (avec photo)</bibl> = <bibl>
+                        <ptr target="Cheynet2015"/>, p. <citedRange unit="page">???</citedRange>
+                        (avec photo).<!-- pages à vérifier à la Byzantine: W IX 36 -->
                     </bibl>
                 </p>
             </div>
