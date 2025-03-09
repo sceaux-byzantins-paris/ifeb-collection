@@ -289,6 +289,7 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change who="AS" when="2025-03-09">Leidenisation and indexing.</change>
             <change who="AS" when="2024-12-11">Creation of the XML record.</change>
         </revisionDesc>
     </teiHeader>
@@ -312,16 +313,16 @@
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="monogram-cross" xml:lang="grc"> 
-                      <ab>
-                          <lb n="1"/>(Θεοτόκε βοήθει) [τ]ῷ σῷ δούλ[ῳ]
+                      <ab ana="dat">
+                          <lb n="1"/><rs type="invocation" ref="#"><expan><ex>Θεοτόκε βοήθει</ex></expan> <supplied reason="lost">τ</supplied>ῷ σῷ δούλ<supplied reason="lost">ῳ</supplied></rs>
                       </ab>
                   </div>
-                  <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
-                          <lb n="2"/>+Ζοή[λ-]
-                          <lb n="3"/>ῳ ὑπάτῳ [(καὶ)]
-                          <lb n="4"/>κυρῷ Χε[ρ-]
-                          <lb n="5"/>σόνος
+                  <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc"><!-- compléter indexing pour kyr -->
+                      <ab ana="dat">
+                          <lb n="2"/>+<forename>Ζοή<supplied reason="lost">λ</supplied>
+                          <lb n="3" break="no"/>ῳ</forename> <rs type="dignity" ref="#d0089">ὑπάτῳ</rs> <supplied reason="lost"><expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan></supplied>
+                          <lb n="4"/><rs>κυρῷ</rs> <placeName ref="#geo0056">Χε<supplied reason="lost">ρ</supplied>
+                          <lb n="5" break="no"/>σόνος</placeName>
 
                       </ab>
                   </div>

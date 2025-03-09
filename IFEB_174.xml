@@ -283,6 +283,7 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change who="AS" when="2025-03-09">Leidenisation and indexing.</change>
             <change who="AS" when="2024-12-11">Creation of the XML record.</change>
         </revisionDesc>
     </teiHeader>
@@ -306,19 +307,19 @@
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
                 <div type="textpart" n="obv" subtype="sigla" rend="columns" xml:lang="grc"> 
-                      <ab>
-                          <cb n="a"/>[Μ(ήτη)ρ]
-                          <cb n="B"/>Θ(εο)[ῦ]
+                      <ab ana="nom">
+                          <cb n="a"/><supplied reason="lost"><expan><abbr>Μ</abbr><ex>ήτη</ex><abbr>ρ</abbr></expan></supplied>
+                          <cb n="B"/><expan><abbr>Θ</abbr><ex>εο</ex><abbr><supplied reason="lost">ῦ</supplied></abbr></expan>
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
-                          <lb n="1"/>+Θ(εοτό)κε [β(οή)θ(ει)]
-                          <lb n="2"/>Θεοδώρ(ῳ)
-                          <lb n="3"/>χαρτουλ(αρίῳ)
-                          <lb n="4"/>(πρωτο)νοταρ(ίῳ)
-                          <lb n="5"/>Μεσοπ-
-                          <lb n="6"/>[ο]ταμ(ίας)
+                      <ab ana="dat">
+                          <lb n="1"/>+<rs type="invocation" ref="#inv001"><expan><abbr>Θ</abbr><ex>εοτό</ex><abbr>κε</abbr></expan> <supplied reason="lost"><expan><abbr>β</abbr><ex>οή</ex><abbr>θ</abbr><ex>ει</ex></expan></supplied></rs>
+                          <lb n="2"/><forename><expan><abbr>Θεοδώρ</abbr><ex>ῳ</ex></expan></forename>
+                          <lb n="3"/><rs type="office" subtype="civil" ref="#of0193"><expan><abbr>χαρτουλ</abbr><ex>αρίῳ</ex></expan></rs>
+                          <lb n="4"/><expan><abbr><am>A</am></abbr><ex>πρωτο</ex><abbr>νοταρ</abbr><ex>ίῳ</ex></expan>
+                          <lb n="5"/><placeName ref="#geo0063"><expan><abbr>Μεσοπ
+                          <lb n="6" break="no"/><supplied reason="lost">ο</supplied>ταμ</abbr><ex>ίας</ex></expan></placeName>
                       </ab>
                   </div>
               </div>

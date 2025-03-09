@@ -6,7 +6,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="fr">Sceau de Léon, commerciaire impérial et abydètikos de Thessalonique</title>
+                <title xml:lang="fr">Sceau de Léon, commerciaire impérial et <hi rend="italic">abydètikos</hi> de Thessalonique</title>
                 <title xml:lang="en">Seal of Leo, imperial kommerkiarios and abydetikos of Thessalonica</title>
                 <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
                 <editor role="seal-editor" xml:id="VP">Vivien Prigent</editor>
@@ -296,6 +296,7 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change who="AS" when="2025-03-09">Leidenisation and indexing.</change>
             <change who="AS" when="2024-12-03">Creation of the XML record.</change>
         </revisionDesc>
     </teiHeader>
@@ -319,18 +320,18 @@
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="monogram-cross" xml:lang="grc"> 
-                      <ab>
-                          <lb n="1"/>(Θεοτόκε βοήθει) τῷ σῷ δούλῳ
+                      <ab ana="dat">
+                          <lb n="1"/><rs type="invocation" ref="#inv002"><expan><ex>Θεοτόκε βοήθει</ex></expan> τῷ σῷ δούλῳ</rs>
                       </ab>
                   </div>
-                  <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
-                          <lb n="2"/>+Λεών-
-                          <lb n="3"/>τος β(ασιλικοῦ) κουμ-
-                          <lb n="4"/>ερκηαρίου (καὶ) [ἀ-]
-                          <lb n="5"/>βυδητηκ[οῦ]
-                          <lb n="6"/>[Θ]εσσαλ[ο-]
-                          <lb n="7"/>[νί]κ[ης]
+                  <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc"><!-- abydikos = abydètikos? -->
+                      <ab ana="gen">
+                          <lb n="2"/>+<forename>Λεών
+                          <lb n="3" break="no"/>τος</forename> <rs type="office" subtype="civil" ref="#of0105"><expan><abbr>β</abbr><ex>ασιλικοῦ</ex></expan> κουμ-
+                          <lb n="4"/>ερκηαρίου</rs> <expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> <rs type="office" subtype="civil" ref="#of0014"><supplied reason="lost">ἀ</supplied>
+                          <lb n="5" break="no"/>βυδητηκ<supplied reason="lost">οῦ</supplied></rs>
+                          <lb n="6"/><placeName ref="#geo0027"><supplied reason="lost">Θ</supplied>εσσαλ<supplied reason="lost">ο</supplied>
+                          <lb n="7" break="no"/><supplied reason="lost">νί</supplied>κ<supplied reason="lost">ης</supplied></placeName>
                       </ab>
                   </div>
               </div>
@@ -359,7 +360,7 @@
             <div type="translation">
                 <p>Θεοτόκε βοήθει τῷ σῷ δούλῳ / + Λεώντος βασιλικοῦ κουμερκηαρίου καὶ ἀβυδητηκοῦ Θεσσαλονίκης.</p>
                 <p xml:lang="en">Mother of God aid you servant Leo, imperial kommerkiarios and abydetikos of Thessalonica.</p>
-                <p xml:lang="fr">Mère de Dieu protège ton serviteur Léon, commerciaire impérial et abydètikos de Thessalonique.</p>
+                <p xml:lang="fr">Mère de Dieu protège ton serviteur Léon, commerciaire impérial et <hi rend="italic">abydètikos</hi> de Thessalonique.</p>
             </div>
             <div type="commentary" subtype="text">
                 <p xml:lang="fr">On signalera l'existence des sceaux d'un Léon commerciaire impérial

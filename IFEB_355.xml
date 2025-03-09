@@ -293,6 +293,7 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change who="AS" when="2025-03-09">Leidenisation and indexing.</change>
             <change who="AS" when="2024-10-31">Creation of the XML record.</change>
         </revisionDesc>
     </teiHeader>
@@ -316,16 +317,16 @@
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc"> 
-                      <ab>
-                          <lb n="1"/>Κ(ύρι)ε βοήθ(ει) τῷ σῷ δ(ού)λ(ῳ)
+                      <ab ana="dat">
+                          <lb n="1"/><rs type="invocation" ref="#inv004"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> <expan><abbr>βοήθ</abbr><ex>ει</ex></expan> τῷ σῷ <expan><abbr>δ</abbr><ex>ού</ex><abbr>λ</abbr><ex>ῳ</ex></expan></rs>
                       </ab>
                   </div>
-                  <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
-                          <lb n="2"/>+Ἰωάνν(ῃ)
-                          <lb n="3"/>β(ασιλικῷ) κουβικ(ουλαρίῳ) (καὶ)
-                          <lb n="4"/>ἄρχ(οντι) Βικη-
-                          <lb n="5"/>τ(ῶν) Ἐλλά(δος)
+                  <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc"><!-- Biketoi à ajouter -->
+                      <ab ana="dat">
+                          <lb n="2"/>+<forename><expan><abbr>Ἰωάνν</abbr><ex>ῃ</ex></expan></forename>
+                          <lb n="3"/><rs type="dignity" ref="#d0091"><expan><abbr>β</abbr><ex>ασιλικῷ</ex></expan> <expan><abbr>κουβικ</abbr><ex>ουλαρίῳ</ex></expan></rs> <expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan>
+                          <lb n="4"/><rs type="office" subtype="military" ref="#of0031"><expan><abbr>ἄρχ</abbr><ex>οντι</ex></expan></rs> <expan><abbr>Βικη
+                          <lb n="5" break="no"/>τ</abbr><ex>ῶν</ex></expan> <placeName ref="#geo0028"><expan><abbr>Ἐλλά</abbr><ex>δος</ex></expan></placeName>
                       </ab>
                   </div>
               </div>

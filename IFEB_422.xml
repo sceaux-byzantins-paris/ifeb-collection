@@ -6,8 +6,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="fr"/>
-                <title xml:lang="en"/>
+                <title xml:lang="fr">Sceau de Georges Hexamilitès, protospathaire, juge de l’Hippodrome et des Arméniaques</title>
+                <title xml:lang="en">Seal of George Hexamilites, protospatharios, judge of the Hippodrome and of the Armeniakon</title>
                 <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
                 <editor role="seal-editor" xml:id="VP">Vivien Prigent</editor>
                 <editor role="seal-editor" xml:id="AS">Alessio Sopracasa</editor>
@@ -138,6 +138,7 @@
                                     </rs>
                                     <rs type="matrix" subtype="not-surviving">
                                         <idno type="SigiDoc">m-YgLTsf</idno>
+                                        <idno type="PBW" corresp="http://pbw2016.kdl.kcl.ac.uk/boulloterion/2580/">2580</idno>
                                     </rs>
                                 </layout>
                             </layoutDesc>
@@ -294,6 +295,7 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change who="AS" when="2025-03-09">Leidenisation and indexing.</change>
             <change who="AS" when="2024-11-06">Creation of the XML record.</change>
         </revisionDesc>
     </teiHeader>
@@ -317,21 +319,21 @@
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
                 <div type="textpart" n="obv" subtype="sigla" rend="columns" xml:lang="grc"> 
-                      <ab>
-                          <cb n="a"/>Μή(τη)ρ
-                          <cb n="b"/>[Θ(εο)ῦ]
+                      <ab ana="nom">
+                          <cb n="a"/><expan><abbr>Μή</abbr><ex>τη</ex><abbr>ρ</abbr></expan>
+                          <cb n="b"/><supplied reason="lost"><expan><abbr>Θ</abbr><ex>εο</ex><abbr>ῦ</abbr></expan></supplied>
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
-                          <lb n="0"/>[-+-]
-                          <lb n="1"/>[Θ(εοτό)κε β(οή)θ(ει)]
-                          <lb n="2"/>[Γεω]ργ[(ίῳ)] [(πρωτο-)]
-                          <lb n="3"/>[σπα]θ(αρίῳ) κριτ(ῇ)
-                          <lb n="4"/>[ἐπὶ] [τ]οῦ [Ἱ]ππ(ο-)
-                          <lb n="5"/>[δρ(όμου)] [(καὶ)] [τ(ῶν)] [Ἀρ]με-
-                          <lb n="6"/>[ν(ικῶν)] [θ(ε)μ(άτων)] [ὁ] Ἑξα-
-                          <lb n="7"/>[μ]ηλ(ή)τ(ης)
+                      <ab ana="dat-nom">
+                          <lb n="0"/><supplied reason="lost">-+-</supplied>
+                          <lb n="1"/><rs type="invocation" ref="#inv001"><supplied reason="lost"><expan><abbr>Θ</abbr><ex>εοτό</ex><abbr>κε</abbr></expan></supplied> <supplied reason="lost"><expan><abbr>β</abbr><ex>οή</ex><abbr>θ</abbr><ex>ει</ex></expan></supplied></rs>
+                          <lb n="2"/><forename><expan><abbr><supplied reason="lost">Γεω</supplied>ργ</abbr><supplied reason="lost"><ex>ίῳ</ex></supplied></expan></forename> <rs type="dignity" ref="#d0066"><expan><abbr><supplied reason="lost"><expan><abbr><am>A</am></abbr><ex>πρωτο</ex></expan></supplied></abbr>
+                          <lb n="3" break="no"/><abbr><supplied reason="lost">σπα</supplied>θ</abbr><ex>αρίῳ</ex></expan></rs> <rs type="office" subtype="civil" ref="#of0112"><expan><abbr>κριτ</abbr><ex>ῇ</ex></expan></rs>
+                          <lb n="4"/><supplied reason="lost">ἐπὶ</supplied> <supplied reason="lost">τ</supplied>οῦ <rs type="institution" ref="#org0017"><expan><abbr><supplied reason="lost">Ἱ</supplied>ππ</abbr><ex>ο</ex>
+                          <lb n="5" break="no"/><supplied reason="lost"><abbr>δρ</abbr><ex>όμου</ex></supplied></expan></rs> <supplied reason="lost"><expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan></supplied> <supplied reason="lost"><expan><abbr>τ</abbr><ex>ῶν</ex></expan></supplied> <placeName ref="#geo0018"><expan><abbr><supplied reason="lost">Ἀρ</supplied>με</abbr>
+                          <lb n="6" break="no"/><supplied reason="lost"><abbr>ν</abbr><ex>ικῶν</ex></supplied></expan> <supplied reason="lost"><expan><abbr>θ</abbr><ex>ε</ex><abbr>μ</abbr><ex>άτων</ex></expan></supplied></placeName> <supplied reason="lost">ὁ</supplied> <surname><expan><abbr>Ἑξα
+                          <lb n="7" break="no"/><supplied reason="lost">μ</supplied>ηλ</abbr><ex>ή</ex><abbr>τ</abbr><ex>ης</ex></expan></surname>
                       </ab>
                   </div>
               </div>

@@ -294,6 +294,7 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change who="AS" when="2025-03-09">Leidenisation and indexing.</change>
             <change who="AS" when="2024-12-11">Creation of the XML record.</change>
         </revisionDesc>
     </teiHeader>
@@ -317,20 +318,20 @@
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="linear" xml:lang="grc"> 
-                      <ab>
-                          <lb n="1"/>+Ἰγνά-
-                          <lb n="2"/>τ(ιος) σπαθα[ρ(ο)-]
-                          <lb n="3"/>κανδιδ(ᾶ)[τ(ος)]
-                          <lb n="4"/>[ἀ]σηκρ[ῆ-]
-                          <lb n="5"/>τι[ς]
+                      <ab ana="nom">
+                          <lb n="1"/>+<forename><expan><abbr>Ἰγνά
+                          <lb n="2" break="no"/>τ</abbr><ex>ιος</ex></expan></forename> <rs type="dignity" ref="#d0080"><expan><abbr>σπαθα</abbr><supplied reason="lost"><abbr>ρ</abbr><ex>ο</ex></supplied>
+                          <lb n="3" break="no"/><abbr>κανδιδ</abbr><ex>ᾶ</ex><supplied reason="lost"><abbr>τ</abbr><ex>ος</ex></supplied></expan></rs>
+                          <lb n="4"/><rs type="office" subtype="civil" ref="#of0026"><supplied reason="lost">ἀ</supplied>σηκρ<supplied reason="lost">ῆ</supplied>
+                          <lb n="5" break="no"/>τι<supplied reason="lost">ς</supplied></rs>
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
-                          <lb n="6"/>[κ]αὶ
-                          <lb n="7"/>[κρ]ιτὴς
-                          <lb n="8"/>[τ]οῦ Ἐγέου
-                          <lb n="9"/>[Πε]λάγ(ου)
+                      <ab ana="nom">
+                          <lb n="6"/><supplied reason="lost">κ</supplied>αὶ
+                          <lb n="7"/><rs type="office" subtype="civil" ref="#of0112"><supplied reason="lost">κρ</supplied>ιτὴς</rs>
+                          <lb n="8"/><supplied reason="lost">τ</supplied>οῦ <placeName ref="#geo0039">Ἐγέου
+                          <lb n="9"/><expan><abbr><supplied reason="lost">Πε</supplied>λάγ</abbr><ex>ου</ex></expan></placeName>
                       </ab>
                   </div>
               </div>
