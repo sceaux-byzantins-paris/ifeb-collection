@@ -316,17 +316,17 @@
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc"> 
-                      <ab>
-                          <lb n="1"/>+Κ(ύρι)ε βοή[θει] [τῷ] [σῷ] δούλ(ῳ)
+                      <ab ana="dat">
+                          <lb n="1"/>+<rs type="invocation" ref="#inv004"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> βοή<supplied reason="lost">θει</supplied> <supplied reason="lost">τῷ</supplied> <supplied reason="lost">σῷ</supplied> <expan><abbr>δούλ</abbr><ex>ῳ</ex></expan></rs>
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
-                          <lb n="2"/>[...?...]
-                          <lb n="3"/>. β(ασιλικῷ) (πρωτο)σπαθ-
-                          <lb n="4"/>αρήῳ (καὶ) στ-
-                          <lb n="5"/>ρατιγ(ῷ) τ(ῶν) Κυ-
-                          <lb n="6"/>βεριοτ(ῶν)
+                      <ab ana="dat">
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" quantity="1" unit="character"></gap> <expan><abbr>β</abbr><ex>ασιλικῷ</ex></expan> <rs type="dignity" ref="#d0066"><expan><abbr><am>A</am></abbr><ex>πρωτο</ex>σπαθ
+                          <lb n="4" break="no"/>αρήῳ</expan></rs> <expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> <rs type="office" subtype="military" ref="#of0279"><expan><abbr>στ
+                          <lb n="5" break="no"/>ρατιγ</abbr><ex>ῷ</ex></expan></rs> <expan><abbr>τ</abbr><ex>ῶν</ex></expan> <placeName ref="#geo0023"><expan><abbr>Κυ
+                          <lb n="6" break="no"/>βεριοτ</abbr><ex>ῶν</ex></expan></placeName>
                       </ab>
                   </div>
               </div>

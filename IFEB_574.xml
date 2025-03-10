@@ -318,25 +318,25 @@
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="linear" xml:lang="grc"> 
-                      <ab><!-- corriger omicron -->
-                          <lb n="1"/>[+Κ(ύρι)]ε β[ο-]
-                          <lb n="2"/>[ή]θη το [σ(ο)]
-                          <lb n="3"/>δούλο
-                          <lb n="4"/>Μιχαὴ(λ)
+                      <ab ana="dat"><!-- corriger omicron -->
+                          <lb n="1"/><supplied reason="lost">+</supplied><rs type="invocation" ref="#inv004"><expan><supplied reason="lost"><abbr>Κ</abbr><ex>ύρι</ex></supplied><abbr>ε</abbr></expan> β<supplied reason="lost">ο</supplied>
+                          <lb n="2" break="no"/><supplied reason="lost">ή</supplied>θη το <supplied reason="lost"><expan><abbr>σ</abbr><ex>ο</ex></expan></supplied>
+                          <lb n="3"/>δούλο</rs>
+                          <lb n="4"/><forename><expan><abbr>Μιχαὴ</abbr><ex>λ</ex></expan></forename>
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
-                          <lb n="5"/>[π]ροξ[ίμ(ῳ)]
-                          <lb n="6"/>[τ]ου κατ[ε-]
-                          <lb n="7"/>πάνου Ἀ[ν-]
-                          <lb n="8"/>τηοχί(ας)
+                      <ab ana="dat">
+                          <lb n="5"/><rs type="office" subtype="military" ref="#of0273"><expan><abbr><supplied reason="lost">π</supplied>ροξ</abbr><supplied reason="lost"><abbr>ίμ</abbr><ex>ῳ</ex></supplied></expan></rs>
+                          <lb n="6"/><supplied reason="lost">τ</supplied>ου <rs type="office" subtype="military" ref="#of0263">κατ<supplied reason="lost">ε</supplied>
+                          <lb n="7" break="no"/>πάνου</rs> <placeName ref="#geo0001"><expan><abbr>Ἀ<supplied reason="lost">ν</supplied>
+                          <lb n="8" break="no"/>τηοχί</abbr><ex>ας</ex></expan></placeName>
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
+                      <ab ana="dat">
                           <lb n="1"/>..Ε.
                           <lb n="2"/>.Θ̣ΗΤΟ̣.
                           <lb n="3"/>ΔΟΥΛΟ̣
@@ -345,7 +345,7 @@
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
+                      <ab ana="dat">
                           <lb n="5"/>.ΡΟ..
                           <lb n="6"/>.ΟΥΚΤ.
                           <lb n="7"/>Π̣̣ΟΥ̣.

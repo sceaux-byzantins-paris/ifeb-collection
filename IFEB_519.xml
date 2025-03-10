@@ -329,32 +329,32 @@
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
                 <div type="textpart" n="obv" subtype="sigla" rend="columns" xml:lang="grc"> 
-                      <ab><!-- souligné: d'après // -->
-                          <cb n="a"/>[Μιχ]
-                          <cb n="b"/>[αή(λ)]
+                      <ab ana="nom">
+                          <cb n="a"/><expan><abbr><supplied reason="lost" evidence="parallel">Μιχ</supplied></abbr>
+                          <cb n="b"/><supplied reason="lost" evidence="parallel"><abbr>αή</abbr><ex>λ</ex></supplied></expan>
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
-                          <lb n="1"/>[+Κ(ύρι)ε β(οή)θ(ει)]<!-- souligné: d'après // -->
-                          <lb n="2"/>[Θε]οδώ[ρ(ῳ)]
-                          <lb n="3"/>[(πρωτο)σ]πα[θ(αρίῳ)] ἐπ[ὶ]
-                          <lb n="4"/>[τ(οῦ)] χρ(υσο)(τρι)[κ]λ(ίνου) (καὶ) κ[(ου-)]
-                          <lb n="5"/>[ρ(ά)]τ(ωρι) Μεσοπ[ο-]
-                          <lb n="6"/>[τ]αμ(ίας) τ(ῷ) Χρ[ύ-]
-                          <lb n="7"/>[σ]ῳ
+                      <ab ana="dat">
+                          <lb n="1"/><rs type="invocation" ref="#inv003"><supplied reason="lost" evidence="parallel">+</supplied><supplied reason="lost" evidence="parallel"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan></supplied> <supplied reason="lost" evidence="parallel"><expan><abbr>β</abbr><ex>οή</ex><abbr>θ</abbr><ex>ει</ex></expan></supplied></rs>
+                          <lb n="2"/><forename><expan><abbr><supplied reason="lost">Θε</supplied>οδώ</abbr><supplied reason="lost"><abbr>ρ</abbr><ex>ῳ</ex></supplied></expan></forename>
+                          <lb n="3"/><rs type="dignity" ref="#d0066"><expan><abbr><supplied reason="lost"><abbr><am cert="medium">A</am></abbr><ex>πρωτο</ex><abbr>σ</abbr></supplied></abbr><abbr>πα</abbr><supplied reason="lost"><abbr>θ</abbr><ex>αρίῳ</ex></supplied></expan></rs> <rs type="office" subtype="civil" ref="#of0070">ἐπ<supplied reason="lost">ὶ</supplied>
+                          <lb n="4"/><supplied reason="lost"><expan><abbr>τ</abbr><ex>οῦ</ex></expan></supplied> <expan><abbr>Χρ</abbr><ex>υσο</ex><abbr><am>Γ</am></abbr><ex>τρι</ex><abbr><supplied reason="lost">κ</supplied>λ</abbr><ex>ίνου</ex></expan></rs> <expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> <rs type="office" subtype="civil" ref="#of0107"><expan><abbr>κ<supplied reason="lost">ου</supplied></abbr>
+                          <lb n="5" break="no"/><supplied reason="lost"><abbr>ρ</abbr><ex>ά</ex></supplied><abbr>τ</abbr><ex>ωρι</ex></expan></rs> <placeName ref="#geo0063"><expan><abbr>Μεσοπ<supplied reason="lost">ο</supplied>
+                          <lb n="6" break="no"/><supplied reason="lost">τ</supplied>αμ</abbr><ex>ίας</ex></expan></placeName> <expan><abbr>τ</abbr><ex>ῷ</ex></expan> <surname>Χρ<supplied reason="lost">ύ</supplied>
+                          <lb n="7" break="no"/><supplied reason="lost">σ</supplied>ῳ</surname>
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
                 <div type="textpart" n="obv" subtype="sigla" rend="columns" xml:lang="grc"> 
-                      <ab>
+                      <ab ana="nom">
                           <cb n="a"/>...
                           <cb n="b"/>..
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
+                      <ab ana="dat">
                           <lb n="1"/>.....
                           <lb n="2"/>..ΟΔ.
                           <lb n="3"/>..Π̣Α̣.Ε̣Π.
@@ -378,7 +378,7 @@
                 </listApp>
             </div>
             <div type="translation">
-                <p>Μιχαήλ / + Κύριε βοήθει Θεοδώρῳ πρωτοσπαθαρίῳ, ἐπὶ τοῦ χρυσοτρικλίνου καὶ
+                <p>Μιχαήλ / + Κύριε βοήθει Θεοδώρῳ πρωτοσπαθαρίῳ, ἐπὶ τοῦ Χρυσοτρικλίνου καὶ
                     κουράτωρι Μεσοποταμίας τῷ Χρύσῳ.</p>
                 <p xml:lang="en">Michael. Lord help Theodoros Chrysos, protospatharios, epi tou
                     Chrysotriklinou and kourator of Mesopotamia.</p>

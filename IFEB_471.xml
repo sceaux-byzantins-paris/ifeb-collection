@@ -320,42 +320,48 @@
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
                 <div type="textpart" n="obv" subtype="sigla" rend="columns" xml:lang="grc"> 
-                      <ab>
-                          <cb n="a"/>[Μ(ήτη)ρ] vel [Μή(τη)ρ] Θ(εο)ῦ
+                      <ab ana="nom">
+                          <cb n="a"/><app type="alternative">
+                              <lem><supplied reason="lost"><expan><abbr>Μ</abbr><ex>ήτη</ex><abbr>ρ</abbr></expan></supplied></lem>
+                              <rdg><supplied reason="lost"><expan><abbr>Μή</abbr><ex>τη</ex><abbr>ρ</abbr></expan></supplied></rdg></app>
+                          <cb n="b"/><expan><abbr>Θ</abbr><ex>εο</ex><abbr>ῦ</abbr></expan>
                       </ab>
                   </div>
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc"> 
-                      <ab>
-                          <lb n="1"/>[+Θ(εότο)κε] [β]οήθει
+                      <ab ana="und">
+                          <lb n="1"/><supplied reason="lost">+</supplied><rs type="invocation" ref="#inv001"><supplied reason="lost"><expan><abbr>Θ</abbr><ex>εότο</ex><abbr>κε</abbr></expan></supplied> <supplied reason="lost">β</supplied>οήθει</rs>
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
-                          <lb n="2"/>Λέοντ(ι)
-                          <lb n="3"/>βεστάρχ(ῃ) vel βεστάρχῃ
-                          <lb n="4"/>κριτ(ῃ) τοῦ β[ή-]
-                          <lb n="5"/>λου καὶ Στ[ρ-]
-                          <lb n="6"/>υμ[όν(ος)]
+                      <ab ana="dat">
+                          <lb n="2"/><forename><expan><abbr>Λέοντ</abbr><ex>ι</ex></expan></forename>
+                          <lb n="3"/><app type="alternative">
+                              <lem><rs type="dignity" ref="#d0017"><expan><abbr>βεστάρχ</abbr><ex>ῃ</ex></expan></rs></lem>
+                              <rdg><rs type="dignity" ref="#d0017">βεστάρχῃ</rs></rdg>
+                          </app>
+                          <lb n="4"/><rs type="office" subtype="civil" ref="#of0112"><expan><abbr>κριτ</abbr><ex>ῃ</ex></expan></rs> τοῦ <rs type="institution" ref="#org0007">β<supplied reason="lost">ή</supplied>
+                          <lb n="5" break="no"/>λου</rs> καὶ <placeName ref="#geo0088"><expan><abbr>Στ<supplied reason="lost">ρ</supplied>
+                          <lb n="6" break="no"/>υμ</abbr><supplied reason="lost"><abbr>όν</abbr><ex>ος</ex></supplied></expan></placeName>
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
                 <div type="textpart" n="obv" subtype="sigla" rend="columns" xml:lang="grc"> 
-                      <ab>
-                          <cb n="a"/>[c. 2-3]
+                      <ab ana="nom">
+                          <cb n="a"/><gap reason="lost" atLeast="2" atMost="3" unit="character"/>
                           <cb n="b"/>ΘΥ
                       </ab>
                   </div>
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc">
-                      <ab>
+                      <ab ana="und">
                           <lb n="1"/>.....Ο̣Η̣Θ̣Ε̣Ι̣
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
+                      <ab ana="dat">
                           <lb n="0"/>̣.̣
                           <lb n="2"/>ΛΕΟΝΤ
-                          <lb n="3"/>̣ΕΣΤΑ̣ΡΧ̣[1?]
+                          <lb n="3"/>̣ΕΣΤΑ̣ΡΧ̣<gap reason="lost" quantity="1" unit="character" precision="low"/>
                           <lb n="4"/>Κ̣ΡΙΤ,Τ̣̣.
                           <lb n="5"/>Λ̣Α̣ΙΣΤ̣.
                           <lb n="6"/>Υ̣Μ̣..
@@ -378,7 +384,7 @@
             <div type="commentary" subtype="footnotes"/>
             <div type="bibliography" subtype="edition">
                 <p>
-                    <bibl><ptr target="Prigent1994"/>, <citedRange unit="part">129</citedRange></bibl>
+                    <bibl><ptr target="Prigent1994"/>, <citedRange unit="part">129</citedRange></bibl>.
                 </p>
             </div>
         </body>
