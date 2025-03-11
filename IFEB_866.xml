@@ -311,27 +311,27 @@
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="monogram-cross" xml:lang="grc"> 
-                      <ab>
-                          <lb n="1"/>(Θεοτόκε βοήθει) τῷ σῷ δούλῳ
+                      <ab ana="dat">
+                          <lb n="1"/><rs type="invocation" ref="#inv002"><expan><ex>Θεοτόκε βοήθει</ex></expan> τῷ σῷ δούλῳ</rs>
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
-                          <lb n="2"/>+Λέον-
-                          <lb n="3"/>[τ]ι β(ασιλικῷ) χαρτ-
-                          <lb n="4"/>ουλ(αρίῳ) τ(ῶν) Μαλ-
-                          <lb n="5"/>αγην(ῶν)
+                      <ab ana="dat">
+                          <lb n="2"/>+<forename>Λέον
+                          <lb n="3" break="no"/><supplied reason="lost">τ</supplied>ι</forename> <rs type="office" subtype="civil" ref="#of0293"><expan><abbr>β</abbr><ex>ασιλικῷ</ex></expan> <expan><abbr>χαρτ
+                          <lb n="4" break="no"/>ουλ</abbr><ex>αρίῳ</ex></expan></rs> <expan><abbr>τ</abbr><ex>ῶν</ex></expan> <placeName ref="#geo0318"><expan><abbr>Μαλ
+                          <lb n="5" break="no"/>αγην</abbr><ex>ῶν</ex></expan></placeName>
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="monogram-cross" xml:lang="grc">
-                      <ab>
+                      <ab ana="dat">
                           <lb n="1"/>Κ̣-ΤΟ-Η̣-Β-Θ Τ̣-Σ-Δ-Λ̣
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
+                      <ab ana="dat">
                           <lb n="2"/>̣ΛΕΟΝ
                           <lb n="3"/>.ΙΒ/ΧΑΡΤ
                           <lb n="4"/>̣Λ/Τ̣/ΜΑΛ̣

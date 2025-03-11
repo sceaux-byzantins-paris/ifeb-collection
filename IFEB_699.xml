@@ -6,8 +6,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="fr"/>
-                <title xml:lang="en"/>
+                <title xml:lang="fr">Sceau de Aétios, patrice, protospathaire impérial et stratège de Macédoine</title>
+                <title xml:lang="en">Seal of Aetios, patrikios, imperial protospatharios and strategos of Macedonia</title>
                 <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
                 <editor role="seal-editor" xml:id="VP">Vivien Prigent</editor>
                 <editor role="seal-editor" xml:id="AS">Alessio Sopracasa</editor>
@@ -312,28 +312,28 @@
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc"> 
-                      <ab>
-                          <lb n="1"/>[+]Κ(ύρι)ε βοήθη τῷ σῷ δούλ(ῳ)
+                      <ab ana="dat">
+                          <lb n="1"/><supplied reason="lost">+</supplied><rs type="invocation" ref="#inv004"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> βοήθη τῷ σῷ <expan><abbr>δούλ</abbr><ex>ῳ</ex></expan></rs>
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
-                          <lb n="2"/>+Ἀετί(ῳ)
-                          <lb n="3"/>πατρικ(ίῳ) β(ασιλικῷ)
-                          <lb n="4"/>(πρωτο)σπαθαρ(ίῳ)
-                          <lb n="5"/>(καὶ) στρατιγ(ῷ)
-                          <lb n="6"/>Μακεδ(ονίας)
+                      <ab ana="dat">
+                          <lb n="2"/>+<forename><expan><abbr>Ἀετί</abbr><ex>ῳ</ex></expan></forename>
+                          <lb n="3"/><rs type="dignity" ref="#d0047"><expan><abbr>πατρικ</abbr><ex>ίῳ</ex></expan></rs> <rs type="dignity" ref="#d0067"><expan><abbr>β</abbr><ex>ασιλικῷ</ex></expan>
+                          <lb n="4"/><expan><abbr><am>A</am></abbr><ex>πρωτο</ex><abbr>σπαθαρ</abbr><ex>ίῳ</ex></expan></rs>
+                          <lb n="5"/><expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> <rs type="office" subtype="military" ref="#of0279"><expan><abbr>στρατιγ</abbr><ex>ῷ</ex></expan></rs>
+                          <lb n="6"/><placeName ref="#geo0036"><expan><abbr>Μακεδ</abbr><ex>ονίας</ex></expan></placeName>
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc">
-                      <ab>
+                      <ab ana="dat">
                           <lb n="1"/>.̣ΕΟΗΘΗΤΣΔΟΥΛ/
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
+                      <ab ana="dat">
                           <lb n="2"/>̣ΕΤΙ
                           <lb n="3"/>ΠΤΡΙ//
                           <lb n="4"/>/ΣΠΘΡ

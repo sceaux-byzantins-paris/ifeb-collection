@@ -310,27 +310,27 @@
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="monogram-cross" xml:lang="grc"> 
-                      <ab>
-                          <lb n="1"/>(Θεοτόκε βοήθει) τῷ σῷ δούλῳ
+                      <ab ana="dat">
+                          <lb n="1"/><rs type="invocation" ref="#inv002"><expan><ex>Θεοτόκε βοήθει</ex></expan> τῷ σῷ δούλῳ</rs>
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
-                          <lb n="2"/>Λέων-
-                          <lb n="3"/>[τ(ι)] (πρωτο)νοτα-
-                          <lb n="4"/>[ρ(ίῳ)] [Πελ]ωπ-
-                          <lb n="5"/>ονήσου
+                      <ab ana="dat">
+                          <lb n="2"/><forename><expan><abbr>Λέων</abbr>
+                          <lb n="3" break="no"/><supplied reason="lost"><abbr>τ</abbr><ex>ι</ex></supplied></expan></forename> <rs type="office" subtype="civil" ref="#of0172"><expan><abbr><am></am></abbr><ex>πρωτο</ex><abbr>νοτα</abbr>
+                          <lb n="4" break="no"/><supplied reason="lost"><abbr>ρ</abbr><ex>ίῳ</ex></supplied></expan></rs> <placeName ref="#geo0045"><supplied reason="lost">Πελ</supplied>ωπ
+                          <lb n="5" break="no"/>ονήσου</placeName>
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="monogram-cross" xml:lang="grc">
-                      <ab>
+                      <ab ana="dat">
                           <lb n="1"/>Κ̣-ΤΟ-Η̣-Β-. Τ-Σ̣-Δ̣-Λ
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
+                      <ab ana="dat">
                           <lb n="2"/>ΛΕΝ
                           <lb n="3"/>. /Α̣ΝΟ̣ΤΑ
                           <lb n="4"/>....Π̣

@@ -304,44 +304,52 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" subtype="editorial" xml:space="preserve"><!-- légende métrique -->
+            <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="linear" xml:lang="grc"> 
-                      <ab>
-                          <lb n="1"/>+Θεσα-
-                          <lb n="2"/>[λον]ίκης
-                          <lb n="3"/>[Βολ]εροῦ
-                          <lb n="4"/>καὶ Στρυ-
-                          <lb n="5"/>μονο(ς)
-                      </ab>
+                      <lg type="metrical" met="dodecasyllabic" subtype="true">
+                          <l>
+                              <lb n="1"/>+<placeName ref="#geo0027">Θεσα
+                          <lb n="2" break="no"/><supplied reason="lost">λον</supplied>ίκης</placeName>
+                          <lb n="3"/><placeName ref="#geo0094"><supplied reason="lost">Βολ</supplied>εροῦ</placeName>
+                          <lb n="4"/>καὶ <placeName ref="#geo0088"><expan><abbr>Στρυ
+                          <lb n="5" break="no"/>μονο</abbr><ex>ς</ex></expan></placeName>
+                          </l>
+                      </lg>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
-                          <lb n="6"/>[+]κριτ(ὴν)
-                          <lb n="7"/>[π]αριστῶ
-                          <lb n="8"/>[Σ]υμεὼν
-                          <lb n="9"/>[τ]ὸν βε-
-                          <lb n="10"/>στάρχ(ῃν)
-                      </ab>
+                      <lg type="metrical" met="dodecasyllabic" subtype="true">
+                          <l>
+                              <lb n="6"/><supplied reason="lost">+</supplied><rs type="office" subtype="civil" ref="#of0112"><expan><abbr>κριτ</abbr><ex>ὴν</ex></expan></rs>
+                          <lb n="7"/><supplied reason="lost">π</supplied>αριστῶ
+                          <lb n="8"/><forename><supplied reason="lost">Σ</supplied>υμεὼν</forename>
+                          <lb n="9"/><supplied reason="lost">τ</supplied>ὸν <rs type="dignity" ref="#d0017"><expan><abbr>βε
+                          <lb n="10" break="no"/>στάρχ</abbr><ex>ῃν</ex></expan></rs>
+                          </l>
+                      </lg>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
-                          <lb n="1"/>̣Θ̣ΕΣΑ̣
+                      <lg type="metrical" met="dodecasyllabic" subtype="true">
+                          <l>
+                              <lb n="1"/>̣Θ̣ΕΣΑ̣
                           <lb n="2"/>...Ι̣ΗΣ̣
                           <lb n="3"/>...Ε̣Ρ̣ΟΥ
                           <lb n="4"/>̣Α̣ΙΣΤΡΥ
                           <lb n="5"/>ΟΝΟˋ
-                      </ab>
+                          </l>
+                      </lg>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
-                          <lb n="6"/>.ΡΙΤ
+                      <lg type="metrical" met="dodecasyllabic" subtype="true">
+                          <l>
+                              <lb n="6"/>.ΡΙΤ
                           <lb n="7"/>.Α̣ΡΙΣΤ
                           <lb n="8"/>.ΥΕΝ̣
                           <lb n="9"/>.ΟΝΕ̣
                           <lb n="10"/>Σ̣ΤΑΡΧ
-                      </ab>
+                          </l>
+                      </lg>
                   </div>
               </div>
             <div type="apparatus">

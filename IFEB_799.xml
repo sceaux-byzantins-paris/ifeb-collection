@@ -330,27 +330,27 @@
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="monogram-cross" xml:lang="grc"> 
-                      <ab>
-                          <lb n="1"/>(Θεοτόκε βοήθει) [τῷ] σῷ [δ]ούλῳ
+                      <ab ana="dat">
+                          <lb n="1"/><rs type="invocation" ref="#inv002"><expan><ex>Θεοτόκε βοήθει</ex></expan> <supplied reason="lost">τῷ</supplied> σῷ <supplied reason="lost">δ</supplied>ούλῳ</rs>
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
-                          <lb n="2"/>+Ἀρ[σαβ-
-                          <lb n="3"/>ὴρ β(ασιλικῷ) (πρωτο)σπα[θ(αρίῳ)?] [(καὶ)]?
-                          <lb n="4"/>στρατ(ηγῷ) Θε[σ-]
-                          <lb n="5"/>σαλο[ν(ίκης)]
+                      <ab ana="dat">
+                          <lb n="2"/>+<forename>Ἀρ<supplied reason="lost">σαβ</supplied>
+                          <lb n="3" break="no"/>ὴρ</forename> <rs type="#d0067"><expan><abbr>β</abbr><ex>ασιλικῷ</ex></expan> <expan><abbr><am>A</am></abbr><ex>πρωτο</ex><abbr>σπα</abbr><supplied reason="lost"><abbr>θ</abbr><ex cert="low">αρίῳ</ex></supplied></expan></rs> <supplied reason="lost"><expan><abbr><am cert="low">S</am></abbr><ex cert="low">καὶ</ex></expan></supplied>
+                          <lb n="4"/><rs type="office" subtype="military" ref="#of0279"><expan><abbr>στρατ</abbr><ex>ηγῷ</ex></expan></rs> <placeName ref="#geo0027"><expan><abbr>Θε<supplied reason="lost">σ</supplied>
+                          <lb n="5" break="no"/>σαλο</abbr><supplied reason="lost"><abbr>ν</abbr><ex>ίκης</ex></supplied></expan></placeName>
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="monogram-cross" xml:lang="grc">
-                      <ab>
+                      <ab ana="dat">
                           <lb n="1"/>.-..-Η-Β-Θ ..-Σ-.-Λ
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
+                      <ab ana="dat">
                           <lb n="2"/>Ρ̣...
                           <lb n="3"/>Η̣ΡΒ//ΣΠ..
                           <lb n="4"/>ΣΤΡΤ/ΘΕ.
@@ -376,25 +376,23 @@
                     et stratège de Thesslaonique.</p>
             </div>
             <div type="commentary" subtype="text">
-                <p xml:lang="fr"/>
+                <p>Un sceau très proche, mais qui n'est pas un parallèle, appartient à la collection Dumbarton
+                    Oaks (BZS.1955.1.697), provenant de l'ancienne collection Zacos: <bibl><ptr
+                        target="Zacos1"/>, <citedRange unit="part">1739</citedRange></bibl> = <bibl>
+                            <ptr target="DOseals1"/>, <citedRange unit="part">18.61</citedRange>
+                        </bibl> = <bibl>
+                            <ptr target="DOsealsOnline"/>, <citedRange unit="entry"><ref
+                                target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.697/view"
+                                >BZS.1955.1.697</ref></citedRange>
+                        </bibl>; voir aussi <bibl>
+                            <ptr target="PmbZOnline"/>, <citedRange unit="entry"><ref
+                                target="https://www.degruyter.com/database/PMBZ/entry/PMBZ11690/html"
+                                >604</ref></citedRange>
+                        </bibl>.</p>
             </div>
             <div type="commentary" subtype="footnotes"/>
             <div type="bibliography" subtype="edition"/>
-            <div type="bibliography" subtype="discussion">
-                <p>Un sceau très proche, mais pas parallèle, appartient à la collection Dumbarton
-                    Oaks (BZS.1955.1.697), provenant de l'ancienne collection Zacos: <bibl><ptr
-                            target="Zacos1"/>, <citedRange unit="part">1739</citedRange></bibl> = <bibl>
-                        <ptr target="DOseals1"/>, <citedRange unit="part">18.61</citedRange>
-                    </bibl> = <bibl>
-                        <ptr target="DOsealsOnline"/>, <citedRange unit="entry"><ref
-                                target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.697/view"
-                                >BZS.1955.1.697</ref></citedRange>
-                    </bibl>; voir aussi <bibl>
-                        <ptr target="PmbZOnline"/>, <citedRange unit="entry"><ref
-                                target="https://www.degruyter.com/database/PMBZ/entry/PMBZ11690/html"
-                                >604</ref></citedRange>
-                    </bibl>.</p>
-            </div>
+            <div type="bibliography" subtype="discussion"/>
         </body>
     </text>
 </TEI>

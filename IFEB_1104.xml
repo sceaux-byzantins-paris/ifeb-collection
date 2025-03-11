@@ -315,28 +315,28 @@
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc"> 
-                      <ab>
-                          <lb n="1"/>+Κ(ύρι)ε βοήθη [τῷ σῷ δούλῳ]
+                      <ab ana="dat">
+                          <lb n="1"/>+<rs type="invocation" ref="#inv004"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> βοήθη <supplied reason="lost">τῷ</supplied> <supplied reason="lost">σῷ</supplied> <supplied reason="lost">δούλῳ</supplied></rs>
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
-                          <lb n="2"/>[+Ἀν]αστ-
-                          <lb n="3"/>[ασίῳ] (πρωτο)σπ[α-]
-                          <lb n="4"/>[θ(αρίῳ)] [(καὶ)] [στ]ρατηγ(ῷ)
-                          <lb n="5"/>[τοῦ] Ἐγέου
-                          <lb n="6"/>[Πε]λάγ(ους)
+                      <ab ana="dat">
+                          <lb n="2"/><supplied reason="lost">+</supplied><forename><supplied reason="lost">Ἀν</supplied>αστ
+                          <lb n="3" break="no"/><supplied reason="lost">ασίῳ</supplied></forename> <rs type="dignity" ref="#d0066"><expan><abbr><am></am></abbr><ex>πρωτο</ex><abbr>σπ<supplied reason="lost">α</supplied></abbr>
+                          <lb n="4" break="no"/><supplied reason="lost"><abbr>θ</abbr><ex>αρίῳ</ex></supplied></expan></rs> <supplied reason="lost"><expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan></supplied> <rs type="office" subtype="military" ref="#of0279"><expan><abbr><supplied reason="lost">στ</supplied>ρατηγ</abbr><ex>ῷ</ex></expan></rs>
+                          <lb n="5"/><supplied reason="lost">τοῦ</supplied> <placeName ref="#geo0039">Ἐγέου
+                          <lb n="6"/><expan><abbr><supplied reason="lost">Πε</supplied>λάγ</abbr><ex>ους</ex></expan></placeName>
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc">
-                      <ab>
+                      <ab ana="dat">
                           <lb n="1"/>ΚΕ̣ΟΗΘΗ̣........
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
+                      <ab ana="dat">
                           <lb n="2"/>...̣Σ̣Τ̣
                           <lb n="3"/>....̣ΣΠ.
                           <lb n="4"/>....ΡΤΗΓ

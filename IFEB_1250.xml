@@ -321,28 +321,28 @@
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc"> 
-                      <ab><!-- omicron -->
-                          <lb n="1"/>[+Κ(ύρι)ε βοήθει τῷ σῷ] δούλο
+                      <ab ana="dat"><!-- omicron --><!-- omicron dans la restauration? -->
+                          <lb n="1"/><supplied reason="lost">+</supplied><rs type="invocation" ref="#inv004"><supplied reason="lost"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan></supplied> <supplied reason="lost">βοήθει</supplied> <supplied reason="lost">τῷ</supplied> <supplied reason="lost">σῷ</supplied> δούλο</rs>
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
-                          <lb n="2"/>[c. 5]
-                          <lb n="3"/>[.] πατρ[ικ(ίῳ)]
-                          <lb n="4"/>[(καὶ)] δουκ(ὶ) [Θε-]
-                          <lb n="5"/>σαλον(ίκης)
+                      <ab ana="dat">
+                          <lb n="2"/><gap reason="lost" quantity="5" unit="character" precision="low"/>
+                          <lb n="3"/><gap reason="lost" quantity="1" unit="character"></gap> <rs type="dignity" ref="#d0047"><expan><abbr>πατρ</abbr><supplied reason="lost"><abbr>ικ</abbr><ex>ίῳ</ex></supplied></expan></rs>
+                          <lb n="4"/><supplied reason="lost"><expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan></supplied> <rs type="office" subtype="military" ref="#of0245"><expan><abbr>δουκ</abbr><ex>ὶ</ex></expan></rs> <placeName ref="#geo0027"><expan><abbr><supplied reason="lost">Θε</supplied>
+                          <lb n="5" break="no"/>σαλον</abbr><ex>ίκης</ex></expan></placeName>
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc">
-                      <ab>
+                      <ab ana="dat">
                           <lb n="1"/>.............Δ̣Ο̣Υ̣ΛΟ
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
-                          <lb n="2"/>c.5
+                      <ab ana="dat">
+                          <lb n="2"/><gap reason="lost" quantity="5" unit="character" precision="low"/>
                           <lb n="3"/>.ΠΑ̣Τ̣Ρ̣..
                           <lb n="4"/>.ΔΟ̣Υˊ..
                           <lb n="5"/>ΣΑΛΟΝ

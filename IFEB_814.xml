@@ -312,28 +312,28 @@
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="monogram-cross" xml:lang="grc"> 
-                      <ab>
-                          <lb n="1"/>(Θεοτόκε βοήθει) τῷ σῷ δούλῳ
+                      <ab ana="dat">
+                          <lb n="1"/><rs type="invocation" ref="#inv002"><expan><ex>Θεοτόκε βοήθει</ex></expan> τῷ σῷ δούλῳ</rs>
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
-                          <lb n="2"/>+Λέον-
-                          <lb n="3"/>τι ἐκ πρ-
-                          <lb n="4"/>οισώπου
-                          <lb n="5"/>Μοθών-
-                          <lb n="6"/>[η]ς
+                      <ab ana="dat">
+                          <lb n="2"/>+<forename>Λέον
+                          <lb n="3" break="no"/>τι</forename> <rs type="office" ref="#of0251">ἐκ πρ
+                          <lb n="4" break="no"/>οισώπου</rs>
+                          <lb n="5"/><placeName ref="#geo0317">Μοθών
+                          <lb n="6" break="no"/><supplied reason="lost">η</supplied>ς</placeName>
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="monogram-cross" xml:lang="grc">
-                      <ab>
+                      <ab ana="dat">
                           <lb n="1"/>Κ-ΤΟ̣-Η-Β-Θ Τ-Σ-Δ-Λ
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
+                      <ab ana="dat">
                           <lb n="2"/>Λ̣ΕΟ
                           <lb n="3"/>Τ̣ΙΕΚΠΡ
                           <lb n="4"/>ΟΙΣΠΟΥ

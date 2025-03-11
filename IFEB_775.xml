@@ -325,27 +325,27 @@
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="monogram-cross" xml:lang="grc"> 
-                      <ab>
-                          <lb n="1"/>(Θεοτόκε βοήθει) [τ]ῷ σῷ [δού]λῳ
+                      <ab ana="dat">
+                          <lb n="1"/><rs type="invocation" ref="#inv002"><expan><ex>Θεοτόκε βοήθει</ex></expan> <supplied reason="lost">τ</supplied>ῷ σῷ <supplied reason="lost">δού</supplied>λῳ</rs>
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
-                          <lb n="2"/>[+]Γρη[γ]ο-
-                          <lb n="3"/>[ρί]ῳ β(ασιλικῷ) σπ(αθαρίῳ)
-                          <lb n="4"/>[(καὶ)] [σ]τρα[τ]ι(γῷ) Θ-
-                          <lb n="5"/>[ε]σαλον(ίκης)
+                      <ab ana="dat">
+                          <lb n="2"/><supplied reason="lost">+</supplied><forename>Γρη<supplied reason="lost">γ</supplied>ο
+                          <lb n="3" break="no"/><supplied reason="lost">ρί</supplied>ῳ</forename> <rs type="dignity" ref="#d0079"><expan><abbr>β</abbr><ex>ασιλικῷ</ex></expan> <expan><abbr>σπ</abbr><ex>αθαρίῳ</ex></expan></rs>
+                          <lb n="4"/><supplied reason="lost"><expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan></supplied> <rs type="office" subtype="military" ref="#of0279"><expan><abbr><supplied reason="lost">σ</supplied>τρα<supplied reason="lost">τ</supplied>ι</abbr><ex>γῷ</ex></expan></rs> <expan><abbr>Θ
+                          <lb n="5" break="no"/><supplied reason="lost">ε</supplied>σαλον</abbr><ex>ίκης</ex></expan>
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="monogram-cross" xml:lang="grc">
-                      <ab>
+                      <ab ana="dat">
                           <lb n="1"/>.-..-Η-Β-Θ .-Σ̣̣-..-Λ̣
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
+                      <ab ana="dat">
                           <lb n="2"/>.Γ̣Ρ̣Η̣.Ο̣
                           <lb n="3"/>..Β/Σ̣Π̣/
                           <lb n="4"/>..Τ̣Ρ̣.Ι̣/Θ

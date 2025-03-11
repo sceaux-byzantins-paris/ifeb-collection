@@ -42,15 +42,18 @@
             </publicationStmt>
             <sourceDesc>
                 <listPerson type="issuer">
-                    <person gender="M" role="military">
+                    <person gender="M" role="military"><!-- ??? -->
                         <persName xml:lang="grc">
-                            <forename>Θεοφύλακτος</forename>
+                            <forename>Φιλόθεος</forename>
+                            <forename type="alternative">Δωρόθεος</forename>
                         </persName>
                         <persName xml:lang="fr">
-                            <forename>Théophylacte</forename>
+                            <forename>Philothée</forename>
+                            <forename type="alternative">Dorothée</forename>
                         </persName>
                         <persName xml:lang="en">
-                            <forename>Theophylaktos</forename>
+                            <forename>Philotheos</forename>
+                            <forename type="alternative">Dorotheos</forename>
                         </persName>
                     </person>
                 </listPerson>
@@ -324,32 +327,33 @@
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
                 <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"> 
-                      <ab>
-                          <cb n="a"/>Ὁ ἅγιο(ς)
-                          <cb n="b"/>Ἠλία(ς)
+                      <ab type="nom">
+                          <cb n="a"/>Ὁ <expan><abbr>ἅγιο</abbr><ex>ς</ex></expan>
+                          <cb n="b"/><expan><abbr>Ἠλία</abbr><ex>ς</ex></expan>
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
-                          <lb n="1"/>[Φιλο-] vel [Δωρο-]
-                          <lb n="2"/>[θ]έῳ ἐπ-
-                          <lb n="3"/>[ὶ] τοῦ Θεοφ(υ)-
-                          <lb n="4"/>[λ]άκτ(ου) κοιτ(ῶνος)
-                          <lb n="5"/>[(καὶ)] στρατ(ηγοῦ) τοῦ
-                          <lb n="6"/>[Α]ἰγαίου Πε-
-                          <lb n="7"/>Λ(άγους)
+                      <ab ana="dat">
+                          <lb n="1"/><app type="alternative"><lem><supplied reason="lost">Φιλο</supplied></lem>
+                              <rdg><supplied reason="lost">Δωρο</supplied></rdg></app>
+                          <lb n="2" break="no"/><supplied reason="lost">θ</supplied>έῳ <rs type="office" subtype="civil" ref="#of0068">ἐπ
+                          <lb n="3" break="no"/><supplied reason="lost">ὶ</supplied> τοῦ <expan><abbr>Θεοφ</abbr><ex>υ</ex>
+                          <lb n="4" break="no"/><abbr><supplied reason="lost">λ</supplied>άκτ</abbr><ex>ου</ex></expan> <expan><abbr>κοιτ</abbr><ex>ῶνος</ex></expan></rs>
+                          <lb n="5"/><supplied reason="lost"><expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan></supplied> <rs type="office" subtype="military" ref="#of0279"><expan><abbr>στρατ</abbr><ex>ηγῷ</ex></expan></rs> τοῦ
+                          <lb n="6"/><placeName ref="#geo0039"><supplied reason="lost">Α</supplied>ἰγαίου <expan><abbr>Πε
+                          <lb n="7" break="no"/>Λ</abbr><ex>άγους</ex></expan></placeName>
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
                 <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"> 
-                      <ab>
+                      <ab ana="nom">
                           <cb n="a"/>Ο̣|Α̣|ΓΙ|Ο̣
                           <cb n="b"/>Η̣|ΛΙ|Α̣
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
+                      <ab ana="dat">
                           <lb n="1"/>....
                           <lb n="2"/>.Ẹ̣ẸΠ̣
                           <lb n="3"/>.ΤΘΕΟ̣Φ,
@@ -366,11 +370,11 @@
                 </listApp>
             </div>
             <div type="translation">
-                <p>Ὁ ἅγιος Ἠλίας. / ...(?) Φιλοθέῳ vel Δωροθέῳ ἐπὶ τοῦ Θεοφυλάκτου κοιτῶνος καὶ
-                    στρατηγοῦ τοῦ Αἰγαίου Πελάγους.</p>
-                <p xml:lang="en">Saint Elias. ...(?) Philotheos or Dorotheos, epi tou koitonos
+                <p>Ὁ ἅγιος Ἠλίας. / ...(?) Φιλοθέῳ <hi rend="italic">vel</hi> Δωροθέῳ ἐπὶ τοῦ Θεοφυλάκτου κοιτῶνος καὶ
+                    στρατηγῷ τοῦ Αἰγαίου Πελάγους.</p>
+                <p xml:lang="en">Saint Elias. ...(?) Philotheos <hi rend="italic">or</hi> Dorotheos, epi tou koitonos
                     Guarded by God and strategos of the Aegean Sea.</p>
-                <p xml:lang="fr">Saint Élie. ...(?) Philothée ou Dorothée, <hi rend="italic">épi tou
+                <p xml:lang="fr">Saint Élie. ...(?) Philothée <hi rend="italic">ou</hi> Dorothée, <hi rend="italic">épi tou
                         koitonos</hi> Gardé de Dieu et stratège de la Mer Égée.</p>
             </div>
             <div type="commentary" subtype="text">

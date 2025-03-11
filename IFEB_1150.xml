@@ -320,28 +320,28 @@
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc"> 
-                      <ab>
-                          <lb n="1"/>[Θ(εοτό)]κε βοήθη τῷ σῷ δούλ(ῳ)
+                      <ab ana="dat">
+                          <lb n="1"/><rs type="invocation" ref="#inv002"><expan><supplied reason="lost"><abbr>Θ</abbr><ex>εοτό</ex></supplied><ex>κε</ex></expan> βοήθη τῷ σῷ <expan><abbr>δούλ</abbr><ex>ῳ</ex></expan></rs>
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
-                          <lb n="2"/>+Φωτ[ε-]
-                          <lb n="3"/>[ί]νῳ β(ασιλικῷ) σπα-
-                          <lb n="4"/>θ(αρίῳ) (καὶ) κουμερ-
-                          <lb n="5"/>κια[ρ(ίῳ)] Χερ-
-                          <lb n="6"/>σῶνο(ς)
+                      <ab ana="dat">
+                          <lb n="2"/>+<forename>Φωτ<supplied reason="lost">ε</supplied>
+                          <lb n="3" break="no"/><supplied reason="lost">ί</supplied>νῳ</forename> <rs type="dignity" ref="#d0079"><expan><abbr>β</abbr><ex>ασιλικῷ</ex></expan> <expan><abbr>σπα
+                          <lb n="4" break="no"/>θ</abbr><ex>αρίῳ</ex></expan></rs> <expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> <rs type="office" subtype="civil" ref="#of0102"><expan><abbr>κουμερ
+                          <lb n="5" break="no"/>κια</abbr><supplied reason="lost"><abbr>ρ</abbr><ex>ίῳ</ex></supplied></expan></rs> <placeName ref="#geo0056"><expan><abbr>Χερ
+                          <lb n="6" break="no"/>σῶνο</abbr><ex>ς</ex></expan></placeName>
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc">
-                      <ab>
+                      <ab ana="dat">
                           <lb n="1"/>.Κ̣Ε̣̣Ο̣Η̣Θ̣Η̣Τ̣̣ΣΔΟΥΛ/
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc"><!-- dernière ligne avec 3 perles après la légende? -->
-                      <ab>
+                      <ab ana="dat">
                           <lb n="2"/>̣ΦΤ̣.
                           <lb n="3"/>.Ν/ΣΠΑ
                           <lb n="4"/>Θ/ΚΟΥΕ̣Ρ̣

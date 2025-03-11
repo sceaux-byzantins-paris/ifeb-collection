@@ -319,40 +319,40 @@
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
                 <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"> 
-                      <ab>
-                          <cb n="a"/>(Ὁ ἅγιος) Διμ
-                          <cb n="b"/>ήτρ(ιος)
+                      <ab ana="nom">
+                          <cb n="a"/><expan><abbr>Ὁ ἅ</abbr><ex>γιος</ex></expan> <expan><abbr>Διμ
+                          <cb n="b"/>ήτρ</abbr><ex>ιος</ex></expan>
                       </ab>
                   </div>
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc"> 
-                      <ab>
-                          <lb n="1"/>+Ἅγ[ιε Διμήτριε βοήθει τῷ σ]ῷ δ(ούλῳ)
+                      <ab ana="dat">
+                          <lb n="1"/>+<rs type="invocation" ref="#inv012">Ἅγ<supplied reason="lost">ιε</supplied> <supplied reason="lost">Διμήτριε</supplied> <supplied reason="lost">βοήθει</supplied> <supplied reason="lost">τῷ</supplied> <supplied reason="lost">σ</supplied>ῷ <expan><abbr>δ</abbr><ex>ούλῳ</ex></expan></rs>
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
-                          <lb n="2"/>Πα[ύλῳ(?)]
-                          <lb n="3"/>[β(ασιλικῷ)] (πρωτο)σπαθ(αρίῳ)
-                          <lb n="4"/>(καὶ) στρα-
-                          <lb n="5"/>τιγ(ῷ) Ἡε-
-                          <lb n="6"/>ρηχοῦ
+                      <ab ana="dat">
+                          <lb n="2"/><forename>Πα<supplied reason="lost" cert="low">ύλῳ</supplied></forename>
+                          <lb n="3"/><rs type="dignity" ref="#d0067"><supplied reason="lost"><expan><abbr>β</abbr><ex>ασιλικῷ</ex></expan></supplied> <expan><abbr><am>A</am></abbr><ex>πρωτο</ex><abbr>σπαθ</abbr><ex>αρίῳ</ex></expan></rs>
+                          <lb n="4"/><expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> <rs type="office" subtype="military" ref="#of0279"><expan><abbr>στρα
+                          <lb n="5" break="no"/>τιγ</abbr><ex>ῷ</ex></expan></rs> <placeName ref="#geo0319">Ἠ
+                          <lb n="6" break="no"/>ρηχοῦ</placeName>
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
                 <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"> 
-                      <ab>
+                      <ab ana="nom">
                           <cb n="a"/>|Ι|
                           <cb n="b"/>Η|Τ|Ρ|,
                       </ab>
                   </div>
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc">
-                      <ab>
+                      <ab ana="dat">
                           <lb n="1"/>Α̣Γ̣...................̣ˊ
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
+                      <ab ana="dat">
                           <lb n="2"/>Π̣Α...
                           <lb n="3"/>.ΑˊΣΠΑΘ̣
                           <lb n="4"/>ΣΤΡΑ
@@ -368,7 +368,7 @@
                             par le premier éditeur du sceau.</note>
                     </app>
                     <app loc="5-6">
-                        <note>Alors que la forme correcte serait Ἡερηχοῦς, le génitif du nom du lieu
+                        <note>Alors que la forme correcte serait Ἠερηχοῦς, le génitif du nom du lieu
                             a été laissé en tant que tel dans l'édition, sans postuler la présence
                             d'une abréviation (voir <bibl><ptr target="Prigent2019"/>, p. <citedRange
                                 unit="page">141</citedRange></bibl>).</note>
@@ -377,7 +377,7 @@
             </div>
             <div type="translation">
                 <p>Ὁ ἅγιος Διμήτριος. Ἅγιε Διμήτριε βοήθει τῷ σῷ δούλῳ / Παύλῳ (?) βασιλικῷ
-                    πρωτοσπαθαρίῳ καὶ στρατιγῷ Ἡερηχοῦ.</p>
+                    πρωτοσπαθαρίῳ καὶ στρατιγῷ Ἠερηχοῦ.</p>
                 <p xml:lang="en">Saint Demetrios. Saint Demetrios aid your servant Paul, imperial
                     protospatharios and strategos of Iericho.</p>
                 <p xml:lang="fr">Saint Dèmètrios. Saint Dèmètrios protège ton serviteur Paul (?),

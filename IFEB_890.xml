@@ -324,29 +324,29 @@
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc"> 
-                      <ab>
-                          <lb n="1"/>Κ(ύρι)ε βοήθ[ει] [τῷ] σῷ δούλῳ
+                      <ab ana="dat">
+                          <lb n="1"/><rs type="invocation" ref="#inv004"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> βοήθ<supplied reason="lost">ει</supplied> <supplied reason="lost">τῷ</supplied> σῷ δούλῳ</rs>
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
-                          <lb n="2"/>+[Λ]έ[ω-]
-                          <lb n="3"/>ντο[ς] β(ασιλικοῦ) σπ-
-                          <lb n="4"/>αθαρ(ίου) (καὶ) πρω-
-                          <lb n="5"/>τονοταρ(ίῳ) Θ-
-                          <lb n="6"/>εσσαλον-
-                          <lb n="7"/>νί[κης]
+                      <ab ana="gen">
+                          <lb n="2"/>+<forename><supplied reason="lost">Λ</supplied>έ<supplied reason="lost">ω</supplied>
+                          <lb n="3" break="no"/>ντο<supplied reason="lost">ς</supplied></forename> <rs type="dignity" ref="#d0079"><expan><abbr>β</abbr><ex>ασιλικοῦ</ex></expan> <expan><abbr>σπ
+                          <lb n="4" break="no"/>αθαρ</abbr><ex>ίου</ex></expan></rs> <expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> <rs type="office" subtype="civil" ref="#of0172"><expan><abbr>πρω
+                          <lb n="5" break="no"/>τονοταρ</abbr><ex>ίου</ex></expan></rs> <placeName ref="#geo0027">Θ
+                          <lb n="6" break="no"/>εσσαλον
+                          <lb n="7" break="no"/>νί<supplied reason="lost">κης</supplied></placeName>
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc">
-                      <ab>
+                      <ab ana="dat">
                           <lb n="1"/>̣Κ̣Ε̣ΟΗ̣Θ̣....Σ̣̣Δ̣ΟΥΛ
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
+                      <ab ana="gen">
                           <lb n="2"/>.Ε.
                           <lb n="3"/>ΝΤΟ.ΣΠ
                           <lb n="4"/>Θ̣Ρ̣̣Π̣Ρ̣Ο̣
@@ -367,7 +367,7 @@
                 </listApp>
             </div>
             <div type="translation">
-                <p>Κύριε βοήθει τῷ σῷ δούλῳ / + Λέωντος βασιλικοῦ σπαθαρίου καὶ πρωτονοταρίῳ Θεσσαλοννίκης.</p>
+                <p>Κύριε βοήθει τῷ σῷ δούλῳ / + Λέωντος βασιλικοῦ σπαθαρίου καὶ πρωτονοταρίου Θεσσαλοννίκης.</p>
                 <p xml:lang="en">Lord aid your servant Leo, imperial spatharios and protonotarios of Thessalonica.</p>
                 <p xml:lang="fr">Seigneur protège ton serviteur Léon, spathaire impérial et protonotaire de Thessalonique.</p>
             </div>

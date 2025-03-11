@@ -327,40 +327,40 @@
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
                 <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"> 
-                      <ab>
-                          <cb n="a"/>Ὁ ἅγ(ιος)
-                          <cb n="b"/>Nηκό(λαος)
+                      <ab ana="nom">
+                          <cb n="a"/>Ὁ <expan><abbr>ἅγ</abbr><ex>ιος</ex></expan>
+                          <cb n="b"/><expan><abbr>Nηκό</abbr><ex>λαος</ex></expan>
                       </ab>
                   </div>
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc"> 
-                      <ab>
-                          <lb n="1"/>Ἅγ(ιε) Νικόλ[αε βοήθει τῷ σῷ δούλῳ ?]
+                      <ab ana="dat">
+                          <lb n="1"/><rs type="invocation" ref="#inv011"><expan><abbr>Ἅγ</abbr><ex>ιε</ex></expan> Νικόλ<supplied reason="lost">αε</supplied> <supplied reason="lost" cert="low">βοήθει</supplied> <supplied reason="lost" cert="low">τῷ</supplied> <supplied reason="lost" cert="low">σῷ</supplied> <supplied reason="lost" cert="low">δούλῳ</supplied></rs>
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
-                          <lb n="2"/>+Β[α]λαν-
-                          <lb n="3"/>τ(ίῳ) ἀν[θ]υ(πάτῳ) πατ-
-                          <lb n="4"/>ρηκ(ίῳ) β(ασιλικῷ) (πρωτο)σπαθ(αρίῳ)
-                          <lb n="5"/>(καὶ) στρατηγ(ῷ)
-                          <lb n="6"/>Λικάνδ(ου)
+                      <ab ana="dat">
+                          <lb n="2"/>+<forename><expan><abbr>Β<supplied reason="lost">α</supplied>λαν
+                          <lb n="3" break="no"/>τ</abbr><ex>ίῳ</ex></expan></forename> <rs type="dignity" ref="#d0006"><expan><abbr>ἀν<supplied reason="lost">θ</supplied>υ</abbr><ex>πάτῳ</ex></expan> <expan><abbr>πατ
+                          <lb n="4" break="no"/>ρηκ</abbr><ex>ίῳ</ex></expan></rs> <rs type="dignity" ref="#d0067"><expan><abbr>β</abbr><ex>ασιλικῷ</ex></expan> <expan><abbr><am>A</am></abbr><ex>πρωτο</ex><abbr>σπαθ</abbr><ex>αρίῳ</ex></expan></rs>
+                          <lb n="5"/><expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> <rs type="office" subtype="military" ref="#of0279"><expan><abbr>στρατηγ</abbr><ex>ῷ</ex></expan></rs>
+                          <lb n="6"/><placeName ref="#geo0035"><expan><abbr>Λικανδ</abbr><ex>οῦ</ex></expan></placeName>
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
                 <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"> 
-                      <ab>
+                      <ab ana="nom">
                           <cb n="a"/>Ο||,
                           <cb n="b"/>Ν|Η|Κ̣Ο̣
                       </ab>
                   </div>
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc">
-                      <ab>
+                      <ab ana="dat">
                           <lb n="1"/>Γ,ΝΙΚΟΛ̣[...?...]
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
+                      <ab ana="dat">
                           <lb n="2"/>̣.ΛΝ
                           <lb n="3"/>ΤˊΝ.Υ,ΠΤ
                           <lb n="4"/>Ρ̣ΗˊˊˊΣΠΘˋ
@@ -377,7 +377,7 @@
             </div>
             <div type="translation">
                 <p>Ὁ ἅγιος Nηκόλαος. + Ἅγιε Νικόλαε βοήθει τῷ σῷ δούλῳ (?) / + Βαλαντίῳ ἀνθυπάτῳ
-                    πατρηκίῳ, βασιλικῷ πρωτοσπαθαρίῳ καὶ στρατηγῷ Λικάνδου.</p>
+                    πατρηκίῳ, βασιλικῷ πρωτοσπαθαρίῳ καὶ στρατηγῷ Λικανδοῦ.</p>
                 <p xml:lang="en">Saint Nicolas. Saint Nicolas protège ton serviteur (?) Balantios,
                     <hi rend="italic">anthypatos</hi> patrice, protospathaire impérial et stratège du Lykandos.</p>
                 <p xml:lang="fr">Saint Nicholas. Saint Nicholas aid your servant (?) Balantios,

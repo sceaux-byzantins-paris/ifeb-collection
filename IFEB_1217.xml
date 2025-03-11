@@ -317,29 +317,29 @@
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc"> 
-                      <ab>
-                          <lb n="1"/>[Θ(εοτό)κε β(οή)θ(ει) τ]ῆ σῇ δούλῃ
+                      <ab ana="dat">
+                          <lb n="1"/><rs type="invocation" ref="#inv013"><supplied reason="lost"><expan><abbr>Θ</abbr><ex>εοτό</ex><abbr>κε</abbr></expan></supplied> <supplied reason="lost"><expan><abbr>β</abbr><ex>οή</ex><abbr>θ</abbr><ex>ει</ex></expan></supplied> <supplied reason="lost">τ</supplied>ῆ σῇ δούλῃ</rs>
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
-                          <lb n="2"/>+Θ(εοτό)κε [βο-]
-                          <lb n="3"/>ήθη τῖ σῖ [δού(λῃ)]
-                          <lb n="4"/>στρατιγ[ίσ-]
-                          <lb n="5"/>α τοῦ Ἀγέ[ου]
-                          <lb n="6"/>Πε[λάγου(ς)]
+                      <ab ana="dat">
+                          <lb n="2"/>+<rs type="invocation" ref="#inv013"><expan><abbr>Θ</abbr><ex>εοτό</ex><abbr>κε</abbr></expan> <supplied reason="lost">βο</supplied>
+                          <lb n="3" break="no"/>ήθη τῖ σῖ <supplied reason="lost"><expan><abbr>δού</abbr><ex>λῃ</ex></expan></supplied></rs>
+                          <lb n="4"/><rs type="office" subtype="military" ref="#of0280">στρατιγ<supplied reason="lost">ίσ</supplied>
+                          <lb n="5" break="no"/>ᾳ</rs> τοῦ <placeName ref="#geo0039">Ἀγέ<supplied reason="lost">ου</supplied>
+                          <lb n="6"/><expan><abbr>Πε</abbr><supplied reason="lost"><abbr>λάγου</abbr><ex>ς</ex></supplied></expan></placeName>
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc">
-                      <ab>
+                      <ab ana="dat">
                           <lb n="1"/>......Η̣ΣΗΔΟΥΛΗ
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
-                          <lb n="0"/>[...?...]
+                      <ab ana="dat">
+                          <lb n="0"/><gap reason="lost" extent="unknown" unit="character"/>
                           <lb n="2"/>̣ΘΕ..
                           <lb n="3"/>ΗΘΗΤΙΣΙ̣..
                           <lb n="4"/>Σ̣ΤΡΑΤΙΓ..
@@ -354,7 +354,7 @@
                 </listApp>
             </div>
             <div type="translation">
-                <p>Θεοτόκε βοήθει τῇ σῇ δούλῃ. / + Θεοτόκε βοήθη τῖ σῖ δούλῃ στρατιγίσα τοῦ Ἀγέου
+                <p>Θεοτόκε βοήθει τῇ σῇ δούλῃ. / + Θεοτόκε βοήθη τῖ σῖ δούλῃ στρατιγίσᾳ τοῦ Ἀγέου
                     Πελάγους.</p>
                 <p xml:lang="en">Mother of God aid your servant. Mother of God aid your servant
                     the strategissa of the Aegean Sea.</p>

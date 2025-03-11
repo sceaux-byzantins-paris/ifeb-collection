@@ -324,39 +324,39 @@
     <text>
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
-                <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"><!-- lost columns???? -->
-                      <ab>
-                          <gap reason="lost" extent="unknown" unit="line"/>
+                <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc">
+                      <ab ana="und">
+                          <gap reason="lost" extent="unknown" unit="line"/><!-- lost columns!!! -->
                       </ab>
                   </div>
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc"> 
-                      <ab>
-                          <lb n="1"/>οσπρεσεισο
+                      <ab ana="und">
+                          <lb n="1"/><orig>οσπρεσεισο</orig>
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
-                          <lb n="2"/>+Κοσμ-
-                          <lb n="3"/>ᾷ β(ασιλικῷ) (πρωτο)σπαθ(αρίῳ)
-                          <lb n="4"/>(καὶ) ἐκ προ[σ-]
-                          <lb n="5"/>όπ(ου) Θεσα-
-                          <lb n="6"/>λονίκ(ης)
+                      <ab ana="dat">
+                          <lb n="2"/>+<forename>Κοσμ
+                          <lb n="3" break="no"/>ᾷ</forename> <rs type="dignity" ref="#d0067"><expan><abbr>β</abbr><ex>ασιλικῷ</ex></expan> <expan><abbr><am>A</am></abbr><ex>πρωτο</ex><abbr>σπαθ</abbr><ex>αρίῳ</ex></expan></rs>
+                          <lb n="4"/><expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> <rs type="office" subtype="military" ref="#of0251">ἐκ <expan><abbr>προ<supplied reason="lost">σ</supplied>
+                          <lb n="5" break="no"/>όπ</abbr><ex>ου</ex></expan></rs> <placeName ref="#geo0027"><expan><abbr>Θεσα
+                          <lb n="6" break="no"/>λονίκ</abbr><ex>ης</ex></expan></placeName>
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
                 <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"> 
-                      <ab>
+                      <ab ana="und">
                           <gap reason="lost" extent="unknown" unit="line"/>
                       </ab>
                   </div>
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc">
-                      <ab>
+                      <ab ana="und">
                           <lb n="1"/>ΟΣΠΡ̣ΕΣ̣Ε̣Ι̣Σ̣Ο̣
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
+                      <ab ana="dat">
                           <lb n="2"/>̣ΟΣ
                           <lb n="3"/>ΑΑΣΠΑΘ
                           <lb n="4"/>̣Ε̣ΠΡ̣Ο̣.
