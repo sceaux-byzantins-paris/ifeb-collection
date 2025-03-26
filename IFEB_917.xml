@@ -298,13 +298,13 @@
         <surfaceGrp>
             <surface n="r">
                 <desc>Obverse</desc>
-                <graphic url="IFEB_0917A.jpg" type="photo">
+                <graphic url="https://ifeb.sigidoc.huma-num.fr/images/IFEB_0917A.jpg" type="photo">
                     <desc>Digital image of the obverse.</desc>
                 </graphic>
             </surface>
             <surface n="v">
                 <desc>Reverse</desc>
-                <graphic url="IFEB_0917B.jpg" type="photo">
+                <graphic url="https://ifeb.sigidoc.huma-num.fr/images/IFEB_0917B.jpg" type="photo">
                     <desc>Digital image of the reverse.</desc>
                 </graphic>
             </surface>
