@@ -1,335 +1,330 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:lang="fr">Sceau de Théodore Chrysos, protospathaire, <hi rend="italic"
-                        >épi tou Chrysotriklinou</hi> et curateur de Mésopotamie</title>
-                <title xml:lang="en">Seal of Theodoros Chrysos, protospatharios, epi tou
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="fr">Sceau de Théodore Chrysos, protospathaire, <hi rend="italic">épi tou Chrysotriklinou</hi> et curateur de Mésopotamie</title>
+            <title xml:lang="en">Seal of Theodoros Chrysos, protospatharios, epi tou
                     Chrysotriklinou and kourator of Mesopotamia</title>
-                <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
-                <editor role="seal-editor" xml:id="VP">Vivien Prigent</editor>
-                <editor role="seal-editor" xml:id="AS">Alessio Sopracasa</editor>
-                <funder>
-                    <orgName corresp="https://anr.fr/">Agence Nationale de la Recherche
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <editor role="seal-editor" xml:id="VP">Vivien Prigent</editor>
+            <editor role="seal-editor" xml:id="AS">Alessio Sopracasa</editor>
+            <funder>
+               <orgName corresp="https://anr.fr/">Agence Nationale de la Recherche
                         (ANR)</orgName>, France / <orgName corresp="https://www.dfg.de/">Deutsche
                         Forschungsgemeinschaft (DFG)</orgName>, Deutschland </funder>
-                <principal>Alessio Sopracasa</principal>
-            </titleStmt>
-            <editionStmt>
-                <edition>
-                    <seg xml:lang="fr">Digitale originelle</seg>
-                    <seg xml:lang="en">Born digital</seg>
-                </edition>
-                <editor role="digital-editor" resp="#AS" when="2024-12-12">Alessio
+            <principal>Alessio Sopracasa</principal>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Digitale originelle</seg>
+               <seg xml:lang="en">Born digital</seg>
+            </edition>
+            <editor role="digital-editor" resp="#AS" when="2024-12-12">Alessio
                     Sopracasa</editor>
-            </editionStmt>
-            <publicationStmt>
-                <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
+         </editionStmt>
+         <publicationStmt>
+            <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
                     Methodologies for Historical Research in Byzantine Studies</authority>
-                <idno type="filename">IFEB_450</idno>
-                <idno type="SigiDocID">s-C5dapm</idno>
-                <idno type="sequence"/>
-                <date/>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
-                        >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+            <idno type="filename">IFEB_450</idno>
+            <idno type="SigiDocID">s-C5dapm</idno>
+            <idno type="sequence"/>
+            <date/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
                         4.0</licence>
-                </availability>
-            </publicationStmt>
-            <sourceDesc>
-                <listPerson type="issuer">
-                    <person gender="M" role="civil">
-                        <persName xml:lang="grc">
-                            <forename>Θεόδωρος</forename>
-                            <surname>Χρυσός</surname>
-                        </persName>
-                        <persName xml:lang="fr">
-                            <forename>Théodore</forename>
-                            <surname>Chrysos</surname>
-                        </persName>
-                        <persName xml:lang="en">
-                            <forename>Theodoros</forename>
-                            <surname>Chrysos</surname>
-                        </persName>
-                        <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Theodoros/20123/"
-                            >Theodoros 20123 </idno>
-                    </person>
-                </listPerson>
-                <msDesc>
-                    <msIdentifier>
-                        <country>
-                            <seg xml:lang="fr">France</seg>
-                            <seg xml:lang="en">France</seg>
-                        </country>
-                        <settlement>
-                            <seg xml:lang="fr">
-                                <placeName ref="https://www.geonames.org/2988507/paris.html"
-                                    >Paris</placeName>
-                            </seg>
-                            <seg xml:lang="en">
-                                <placeName ref="https://www.geonames.org/2988507/paris.html"
-                                    >Paris</placeName>
-                            </seg>
-                        </settlement>
-                        <institution>Institut Catholique de Paris</institution>
-                        <repository>Institut Français d’Études Byzantines</repository>
-                        <collection type="public">
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="civil">
+                  <persName xml:lang="grc">
+                     <forename>Θεόδωρος</forename>
+                     <surname>Χρυσός</surname>
+                  </persName>
+                  <persName xml:lang="fr">
+                     <forename>Théodore</forename>
+                     <surname>Chrysos</surname>
+                  </persName>
+                  <persName xml:lang="en">
+                     <forename>Theodoros</forename>
+                     <surname>Chrysos</surname>
+                  </persName>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Theodoros/20123/">Theodoros 20123 </idno>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="fr">France</seg>
+                     <seg xml:lang="en">France</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2988507/paris.html">Paris</placeName>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2988507/paris.html">Paris</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>Institut Catholique de Paris</institution>
+                  <repository>Institut Français d’Études Byzantines</repository>
+                  <collection type="public">
                             <!-- ??? -->
-                            <rs type="collection-name" xml:lang="en">IFEB</rs>
-                            <rs type="collection-name" xml:lang="fr">IFEB</rs>
-                        </collection>
-                        <idno type="inv-nr-current">450</idno>
-                        <altIdentifier>
-                            <repository/>
-                            <idno type="inv-nr-former">519</idno>
-                        </altIdentifier>
-                    </msIdentifier>
-                    <msContents>
-                        <summary n="whole">
-                            <seg xml:lang="fr">Administration provinciale</seg>
-                            <seg xml:lang="en">Provincial administration</seg>
-                        </summary>
-                    </msContents>
-                    <physDesc>
-                        <objectDesc>
-                            <supportDesc>
-                                <support>
-                                    <objectType>
-                                        <term>
-                                            <seg xml:lang="fr">Sceau</seg>
-                                            <seg xml:lang="en">Seal</seg>
-                                        </term>
-                                        <interp type="workType" xml:lang="fr">Empreinte
+                     <rs type="collection-name" xml:lang="en">IFEB</rs>
+                     <rs type="collection-name" xml:lang="fr">IFEB</rs>
+                  </collection>
+                  <idno type="inv-nr-current">450</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former">519</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary n="whole">
+                     <seg xml:lang="fr">Administration provinciale</seg>
+                     <seg xml:lang="en">Provincial administration</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte
                                             originale</interp>
-                                        <interp type="workType" xml:lang="en">Original
+                              <interp type="workType" xml:lang="en">Original
                                             impression</interp>
-                                    </objectType>
-                                    <material>
-                                        <seg xml:lang="fr">Plomb</seg>
-                                        <seg xml:lang="en">Lead</seg>
-                                    </material>
-                                    <dimensions type="support" unit="mm">
-                                        <dim type="diameter">22</dim>
-                                    </dimensions>
-                                    <measure type="weight" unit="g"/>
-                                    <measure type="axis" unit="clock"/>
-                                    <measure type="overstrikeOrient" unit="clock"/>
-                                    <measure type="channelOrient" unit="clock"/>
-                                    <measure type="countermark" unit="clock"/>
-                                </support>
-                                <condition rend="corroded worn-edge broken">
-                                    <p xml:lang="fr">Très mauvais état de conservation; oxydé; très
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">22</dim>
+                           </dimensions>
+                           <measure type="weight" unit="g"/>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock"/>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="corroded worn-edge broken">
+                           <p xml:lang="fr">Très mauvais état de conservation; oxydé; très
                                         endommagé, avec pertes plus ou moins importantes et
                                         profondes le long des trois-quarts du bord.</p>
-                                    <p xml:lang="en">Very poor state of conservation; corroded; very
+                           <p xml:lang="en">Very poor state of conservation; corroded; very
                                         damaged, with more or less significant and deep losses along
                                         three quarters of the edge.</p>
-                                </condition>
-                            </supportDesc>
-                            <layoutDesc>
-                                <layout n="whole">
-                                    <rs type="execution">
-                                        <seg xml:lang="fr">Frappé</seg>
-                                        <seg xml:lang="en">Struck</seg>
-                                    </rs>
-                                    <rs type="shape">
-                                        <seg xml:lang="fr">Ronde</seg>
-                                        <seg xml:lang="en">Round</seg>
-                                    </rs>
-                                    <rs type="matrix" subtype="not-surviving">
-                                        <idno type="SigiDoc">m-zVpWry</idno>
-                                        <idno type="PBW"
-                                            corresp="http://pbw2016.kdl.kcl.ac.uk/boulloterion/533/"
-                                            >533</idno>
-                                    </rs>
-                                </layout>
-                            </layoutDesc>
-                        </objectDesc>
-                    </physDesc>
-                    <history>
-                        <origin>
-                            <origPlace>
-                                <seg xml:lang="fr">
-                                    <placeName ref="https://pleiades.stoa.org/places/981534"
-                                        >Mésopotamie</placeName>
-                                </seg>
-                                <seg xml:lang="en">
-                                    <placeName ref="https://pleiades.stoa.org/places/981534"
-                                        >Mesopotamia</placeName>
-                                </seg>
-                            </origPlace>
-                            <origDate type="analysis" notBefore="1001" notAfter="1100"
-                                evidence="titulature parallel" cert="high" resp="#JCC #VP #AS">
-                                <seg xml:lang="fr">XIe siècle</seg>
-                                <seg xml:lang="en">11th C.</seg>
-                            </origDate>
-                        </origin>
-                        <provenance type="found" subtype="discovered">
-                            <placeName type="ancientFindspot" xml:lang="fr"/>
-                            <rs type="circumstances" xml:lang=""/>
-                        </provenance>
-                        <provenance type="observed" subtype="seen">
-                            <p xml:lang=""/>
-                        </provenance>
-                        <provenance type="not-observed" subtype="lost">
-                            <p xml:lang=""/>
-                        </provenance>
-                        <provenance type="transferred" subtype="moved">
-                            <p xml:lang=""/>
-                        </provenance>
-                        <acquisition>
-                            <p xml:lang=""/>
-                        </acquisition>
-                    </history>
-                    <msPart n="r">
-                        <msIdentifier/>
-                        <msContents>
-                            <summary n="r">
-                                <seg xml:lang="en">Obverse</seg>
-                            </summary>
-                            <textLang n="r" mainLang="grc">
-                                <seg xml:lang="fr">Grec byzantin</seg>
-                                <seg xml:lang="en">Byzantine Greek</seg>
-                            </textLang>
-                        </msContents>
-                        <physDesc>
-                            <objectDesc>
-                                <layoutDesc>
-                                    <layout n="r">
-                                        <dimensions type="written" unit="mm">
-                                            <dim type="diameter"/>
-                                        </dimensions>
-                                        <p xml:lang="fr">Iconographie avec, d'après la pièce
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-zVpWry</idno>
+                              <idno type="PBW" corresp="http://pbw2016.kdl.kcl.ac.uk/boulloterion/533/">533</idno>
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">
+                           <placeName ref="https://pleiades.stoa.org/places/981534">Mésopotamie</placeName>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName ref="https://pleiades.stoa.org/places/981534">Mesopotamia</placeName>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis"
+                               notBefore="1001"
+                               notAfter="1100"
+                               evidence="titulature parallel"
+                               cert="high"
+                               resp="#JCC #VP #AS">
+                        <seg xml:lang="fr">XIe siècle</seg>
+                        <seg xml:lang="en">11th C.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found" subtype="discovered">
+                     <placeName type="ancientFindspot" xml:lang="fr"/>
+                     <rs type="circumstances" xml:lang=""/>
+                  </provenance>
+                  <provenance type="observed" subtype="seen">
+                     <p xml:lang=""/>
+                  </provenance>
+                  <provenance type="not-observed" subtype="lost">
+                     <p xml:lang=""/>
+                  </provenance>
+                  <provenance type="transferred" subtype="moved">
+                     <p xml:lang=""/>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang=""/>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                     <textLang n="r" mainLang="grc">
+                        <seg xml:lang="fr">Grec byzantin</seg>
+                        <seg xml:lang="en">Byzantine Greek</seg>
+                     </textLang>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie avec, d'après la pièce
                                             parallèle, de part et d'autre de l'effigie, sigle perdue
                                             à gauche et dont des traces sont peut-être visibles à
                                             droite.</p>
-                                        <p xml:lang="en">Iconography with, according to the parallel
+                              <p xml:lang="en">Iconography with, according to the parallel
                                             seal, on either side of the image, a lost sigla on the
                                             left, traces of which are perhaps visible on the
                                             right.</p>
-                                    </layout>
-                                </layoutDesc>
-                            </objectDesc>
-                            <handDesc>
-                                <handNote n="r">
-                                    <seg xml:lang="en"/>
-                                </handNote>
-                            </handDesc>
-                            <decoDesc>
-                                <decoNote>
-                                    <figure>
-                                        <figDesc n="r"
-                                            ana="person male archangel Michael bust globe scepter"
-                                            xml:lang="fr">Buste de l'archange Michel, portant un <hi
-                                                rend="italic">lôros</hi> décoré et tenant un sceptre
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r"
+                                       ana="person male archangel Michael bust globe scepter"
+                                       xml:lang="fr">Buste de l'archange Michel, portant un <hi rend="italic">lôros</hi> décoré et tenant un sceptre
                                             de la main droite et le globe de la main
                                             gauche.</figDesc>
-                                        <figDesc n="r"
-                                            ana="person male archangel Michael bust globe scepter"
-                                            xml:lang="en">Bust of the archangel Michael, wearing a
+                              <figDesc n="r"
+                                       ana="person male archangel Michael bust globe scepter"
+                                       xml:lang="en">Bust of the archangel Michael, wearing a
                                             decorated lôros and holding a sceptre in his right hand
                                             and the globe in his left..</figDesc>
-                                        <figDesc n="decoR" xml:lang="fr">Bordure
+                              <figDesc n="decoR" xml:lang="fr">Bordure
                                             indistincte.</figDesc>
-                                        <figDesc n="decoR" xml:lang="en">Indistinct
+                              <figDesc n="decoR" xml:lang="en">Indistinct
                                             border.</figDesc>
-                                    </figure>
-                                </decoNote>
-                            </decoDesc>
-                        </physDesc>
-                    </msPart>
-                    <msPart n="v">
-                        <msIdentifier/>
-                        <msContents>
-                            <summary n="v">
-                                <seg xml:lang="en">Reverse</seg>
-                            </summary>
-                            <textLang n="v" mainLang="grc">
-                                <seg xml:lang="fr">Grec byzantin</seg>
-                                <seg xml:lang="en">Byzantine Greek</seg>
-                            </textLang>
-                        </msContents>
-                        <physDesc>
-                            <objectDesc>
-                                <layoutDesc>
-                                    <layout n="v">
-                                        <dimensions type="written" unit="mm">
-                                            <dim type="diameter"/>
-                                        </dimensions>
-                                        <p xml:lang="fr">Légende linéaire sur 7 lignes, dont la
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v">
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                     <textLang n="v" mainLang="grc">
+                        <seg xml:lang="fr">Grec byzantin</seg>
+                        <seg xml:lang="en">Byzantine Greek</seg>
+                     </textLang>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Légende linéaire sur 7 lignes, dont la
                                             première a disparu.</p>
-                                        <p xml:lang="en">Linear legend of 7 lines, of which the
+                              <p xml:lang="en">Linear legend of 7 lines, of which the
                                             first one is lost.</p>
-                                    </layout>
-                                </layoutDesc>
-                            </objectDesc>
-                            <handDesc>
-                                <handNote n="v">
-                                    <seg xml:lang=""/>
-                                </handNote>
-                            </handDesc>
-                            <decoDesc>
-                                <decoNote>
-                                    <figure>
-                                        <figDesc n="decoV" xml:lang="fr">Bordure
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang=""/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Bordure
                                             indistincte.</figDesc>
-                                        <figDesc n="decoV" xml:lang="en">Indistinct
+                              <figDesc n="decoV" xml:lang="en">Indistinct
                                             border.</figDesc>
-                                    </figure>
-                                </decoNote>
-                            </decoDesc>
-                        </physDesc>
-                    </msPart>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <editorialDecl>
-                <p/>
-            </editorialDecl>
-        </encodingDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="Grek">Greek script</language>
-                <language ident="Latn">Latin script</language>
-                <language ident="grc">Ancient Greek language (to 1453; assumed to be in its standard
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="Grek">Greek script</language>
+            <language ident="Latn">Latin script</language>
+            <language ident="grc">Ancient Greek language (to 1453; assumed to be in its standard
                     script: Grek)</language>
-                <language ident="la">Latin language (assumed to be in its standard script:
+            <language ident="la">Latin language (assumed to be in its standard script:
                     Latn)</language>
-                <language ident="grc-Latn">Ancient Greek Language (to 1453), rendered in Latin
+            <language ident="grc-Latn">Ancient Greek Language (to 1453), rendered in Latin
                     script</language>
-                <language ident="la-Grek">Latin written in Greek script</language>
-            </langUsage>
-        </profileDesc>
-        <revisionDesc>
-            <change who="AS" when="2025-03-20">URL to photos added.</change>
-            <change who="AS" when="2025-03-09">Leidenisation and indexing.</change>
-            <change who="AS" when="2024-12-12">Creation of the XML record.</change>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile>
-        <surfaceGrp>
-            <surface n="r">
-                <desc>Obverse</desc>
-                <graphic url="https://ifeb.sigidoc.huma-num.fr/images/IFEB_0519A.jpg" type="photo">
-                    <desc>Digital image of the obverse.</desc>
-                </graphic>
-            </surface>
-            <surface n="v">
-                <desc>Reverse</desc>
-                <graphic url="https://ifeb.sigidoc.huma-num.fr/images/IFEB_0519B.jpg" type="photo">
-                    <desc>Digital image of the reverse.</desc>
-                </graphic>
-            </surface>
-        </surfaceGrp>
-    </facsimile>
-    <text>
-        <body>
-            <div type="edition" subtype="editorial" xml:space="preserve">
+            <language ident="la-Grek">Latin written in Greek script</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AS" when="2025-03-20">URL to photos added.</change>
+         <change who="AS" when="2025-03-09">Leidenisation and indexing.</change>
+         <change who="AS" when="2024-12-12">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic url="https://ifeb.sigidoc.huma-num.fr/images/IFEB_0519A.jpg"
+                     type="photo">
+               <desc>Digital image of the obverse.</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic url="https://ifeb.sigidoc.huma-num.fr/images/IFEB_0519B.jpg"
+                     type="photo">
+               <desc>Digital image of the reverse.</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve">
                 <div type="textpart" n="obv" subtype="sigla" rend="columns" xml:lang="grc"> 
                       <ab ana="nom">
                           <cb n="a"/><expan><abbr><supplied reason="lost" evidence="parallel">Μιχ</supplied></abbr>
@@ -348,7 +343,7 @@
                       </ab>
                   </div>
               </div>
-            <div type="edition" subtype="diplomatic" xml:space="preserve">
+         <div type="edition" subtype="diplomatic" xml:space="preserve">
                 <div type="textpart" n="obv" subtype="sigla" rend="columns" xml:lang="grc"> 
                       <ab ana="nom">
                           <cb n="a"/>...
@@ -367,48 +362,51 @@
                       </ab>
                   </div>
               </div>
-            <div type="apparatus">
-                <listApp>
-                    <app loc="a-b">
-                        <note>La lecture du sigle est basée sur la pièce parallèle de la collection
+         <div type="apparatus">
+            <listApp>
+               <app loc="a-b">
+                  <note>La lecture du sigle est basée sur la pièce parallèle de la collection
                             Seyrig.</note>
-                    </app>
-                    <app loc="1">
-                        <note>La lecture de l’invocation est basée sur la pièce parallèle de la
+               </app>
+               <app loc="1">
+                  <note>La lecture de l’invocation est basée sur la pièce parallèle de la
                             collection Seyrig.</note>
-                    </app>
-                </listApp>
-            </div>
-            <div type="translation">
-                <p>Μιχαήλ / + Κύριε βοήθει Θεοδώρῳ πρωτοσπαθαρίῳ, ἐπὶ τοῦ Χρυσοτρικλίνου καὶ
+               </app>
+            </listApp>
+         </div>
+         <div type="translation">
+            <p>Μιχαήλ / + Κύριε βοήθει Θεοδώρῳ πρωτοσπαθαρίῳ, ἐπὶ τοῦ Χρυσοτρικλίνου καὶ
                     κουράτωρι Μεσοποταμίας τῷ Χρύσῳ.</p>
-                <p xml:lang="en">Michael. Lord help Theodoros Chrysos, protospatharios, epi tou
+            <p xml:lang="en">Michael. Lord help Theodoros Chrysos, protospatharios, epi tou
                     Chrysotriklinou and kourator of Mesopotamia.</p>
-                <p xml:lang="fr">Michel. Seigneur protège Théodore Chrysos, protospathaire, <hi
-                        rend="italic">épi tou Chrysotriklinou</hi> et curateur de Mésopotamie.</p>
-            </div>
-            <div type="commentary" subtype="text">
-                <p xml:lang="fr"/>
-            </div>
-            <div type="commentary" subtype="footnotes"/>
-            <div type="bibliography" subtype="edition">
-                <p>
-                    <bibl><ptr target="Prigent1994"/>, <citedRange unit="part"
-                        >91</citedRange>.</bibl>
+            <p xml:lang="fr">Michel. Seigneur protège Théodore Chrysos, protospathaire, <hi rend="italic">épi tou Chrysotriklinou</hi> et curateur de Mésopotamie.</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <p xml:lang="fr"/>
+         </div>
+         <div type="commentary" subtype="footnotes"/>
+         <div type="bibliography" subtype="edition">
+            <p>
+               <bibl>
+                  <ptr target="Prigent1994"/>, <citedRange unit="part">91</citedRange>.</bibl>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p>Collection Seyrig, no. 406: <bibl>
+                  <ptr target="Seyrig"/>, <citedRange unit="part">186</citedRange> (sans
+                        lecture du nom de famille).</bibl>
+               <!-- (lien à ajouter) -->
+            </p>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p> La pièce parallèle de la collection Seyrig est mentionnée dans <bibl>
+                  <ptr target="PBW"/>, <citedRange unit="entry">
+                     <ref target="http://pbw2016.kdl.kcl.ac.uk/boulloterion/533/">boulloterion
+                        533</ref>
+                  </citedRange>
+               </bibl>.
                 </p>
-            </div>
-            <div type="bibliography" subtype="parallels">
-                <p>Collection Seyrig, no. 406: <bibl>
-                        <ptr target="Seyrig"/>, <citedRange unit="part">186</citedRange> (sans
-                        lecture du nom de famille).</bibl><!-- (lien à ajouter) -->
-                </p>
-            </div>
-            <div type="bibliography" subtype="discussion">
-                <p> La pièce parallèle de la collection Seyrig est mentionnée dans <bibl><ptr
-                    target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/boulloterion/533/">boulloterion
-                        533</ref></citedRange></bibl>.
-                </p>
-            </div>
-        </body>
-    </text>
+         </div>
+      </body>
+   </text>
 </TEI>

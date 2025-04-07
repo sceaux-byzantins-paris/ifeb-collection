@@ -1,219 +1,216 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:lang="fr">Sceau de Kosmas, protospathaire impérial et <hi rend="italic">ek prosopou</hi> de Thessalonique</title>
-                <title xml:lang="en">Seal of Kosmas, imperial protospatharios and ek prosopou of Thessalonica</title>
-                <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
-                <editor role="seal-editor" xml:id="VP">Vivien Prigent</editor>
-                <editor role="seal-editor" xml:id="AS">Alessio Sopracasa</editor>
-                <funder>
-                    <orgName corresp="https://anr.fr/">Agence Nationale de la Recherche
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="fr">Sceau de Kosmas, protospathaire impérial et <hi rend="italic">ek prosopou</hi> de Thessalonique</title>
+            <title xml:lang="en">Seal of Kosmas, imperial protospatharios and ek prosopou of Thessalonica</title>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <editor role="seal-editor" xml:id="VP">Vivien Prigent</editor>
+            <editor role="seal-editor" xml:id="AS">Alessio Sopracasa</editor>
+            <funder>
+               <orgName corresp="https://anr.fr/">Agence Nationale de la Recherche
                         (ANR)</orgName>, France / <orgName corresp="https://www.dfg.de/">Deutsche
                         Forschungsgemeinschaft (DFG)</orgName>, Deutschland </funder>
-                <principal>Alessio Sopracasa</principal>
-            </titleStmt>
-            <editionStmt>
-                <edition>
-                    <seg xml:lang="fr">Digitale originelle</seg>
-                    <seg xml:lang="en">Born digital</seg>
-                </edition>
-                <editor role="digital-editor" resp="#AS" when="2024-12-04">Alessio
+            <principal>Alessio Sopracasa</principal>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Digitale originelle</seg>
+               <seg xml:lang="en">Born digital</seg>
+            </edition>
+            <editor role="digital-editor" resp="#AS" when="2024-12-04">Alessio
                     Sopracasa</editor>
-            </editionStmt>
-            <publicationStmt>
-                <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
+         </editionStmt>
+         <publicationStmt>
+            <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
                     Methodologies for Historical Research in Byzantine Studies</authority>
-                <idno type="filename">IFEB_621</idno>
-                <idno type="SigiDocID">s-GjiFba</idno>
-                <idno type="sequence"/>
-                <date/>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
-                        >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+            <idno type="filename">IFEB_621</idno>
+            <idno type="SigiDocID">s-GjiFba</idno>
+            <idno type="sequence"/>
+            <date/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
                         4.0</licence>
-                </availability>
-            </publicationStmt>
-            <sourceDesc>
-                <listPerson type="issuer">
-                    <person gender="M" role="military">
-                        <persName xml:lang="grc">
-                            <forename>Κοσμᾶς</forename>
-                        </persName>
-                        <persName xml:lang="fr">
-                            <forename>Kosmas</forename>
-                        </persName>
-                        <persName xml:lang="en">
-                            <forename>Kosmas</forename>
-                        </persName>
-                        <idno type="PmbZ"
-                            ana="https://www.degruyter.com/database/PMBZ/entry/PMBZ26261/html"
-                            >24107</idno>
-                    </person>
-                </listPerson>
-                <msDesc>
-                    <msIdentifier>
-                        <country>
-                            <seg xml:lang="fr">France</seg>
-                            <seg xml:lang="en">France</seg>
-                        </country>
-                        <settlement>
-                            <seg xml:lang="fr">
-                                <placeName ref="https://www.geonames.org/2988507/paris.html"
-                                    >Paris</placeName>
-                            </seg>
-                            <seg xml:lang="en">
-                                <placeName ref="https://www.geonames.org/2988507/paris.html"
-                                    >Paris</placeName>
-                            </seg>
-                        </settlement>
-                        <institution>Institut Catholique de Paris</institution>
-                        <repository>Institut Français d’Études Byzantines</repository>
-                        <collection type="public">
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="military">
+                  <persName xml:lang="grc">
+                     <forename>Κοσμᾶς</forename>
+                  </persName>
+                  <persName xml:lang="fr">
+                     <forename>Kosmas</forename>
+                  </persName>
+                  <persName xml:lang="en">
+                     <forename>Kosmas</forename>
+                  </persName>
+                  <idno type="PmbZ"
+                        ana="https://www.degruyter.com/database/PMBZ/entry/PMBZ26261/html">24107</idno>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="fr">France</seg>
+                     <seg xml:lang="en">France</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2988507/paris.html">Paris</placeName>
+                     </seg>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2988507/paris.html">Paris</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>Institut Catholique de Paris</institution>
+                  <repository>Institut Français d’Études Byzantines</repository>
+                  <collection type="public">
                             <!-- ??? -->
-                            <rs type="collection-name" xml:lang="en">IFEB</rs>
-                            <rs type="collection-name" xml:lang="fr">IFEB</rs>
-                        </collection>
-                        <idno type="inv-nr-current">621</idno>
-                        <altIdentifier>
-                            <repository/>
-                            <idno type="inv-nr-former">714</idno>
-                        </altIdentifier>
-                    </msIdentifier>
-                    <msContents>
-                        <summary n="whole">
-                            <seg xml:lang="fr">Administration provinciale</seg>
-                            <seg xml:lang="en">Provincial administration</seg>
-                        </summary>
-                    </msContents>
-                    <physDesc>
-                        <objectDesc>
-                            <supportDesc>
-                                <support>
-                                    <objectType>
-                                        <term>
-                                            <seg xml:lang="fr">Sceau</seg>
-                                            <seg xml:lang="en">Seal</seg>
-                                        </term>
-                                        <interp type="workType" xml:lang="fr">Empreinte
+                     <rs type="collection-name" xml:lang="en">IFEB</rs>
+                     <rs type="collection-name" xml:lang="fr">IFEB</rs>
+                  </collection>
+                  <idno type="inv-nr-current">621</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former">714</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary n="whole">
+                     <seg xml:lang="fr">Administration provinciale</seg>
+                     <seg xml:lang="en">Provincial administration</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte
                                             originale</interp>
-                                        <interp type="workType" xml:lang="en">Original
+                              <interp type="workType" xml:lang="en">Original
                                             impression</interp>
-                                    </objectType>
-                                    <material>
-                                        <seg xml:lang="fr">Plomb</seg>
-                                        <seg xml:lang="en">Lead</seg>
-                                    </material>
-                                    <dimensions type="support" unit="mm">
-                                        <dim type="diameter">19</dim>
-                                    </dimensions>
-                                    <measure type="weight" unit="g"/>
-                                    <measure type="axis" unit="clock"/>
-                                    <measure type="overstrikeOrient" unit="clock"/>
-                                    <measure type="channelOrient" unit="clock"/>
-                                    <measure type="countermark" unit="clock"/>
-                                </support>
-                                <condition rend="corroded worn-edge">
-                                    <p xml:lang="fr">Très oxydé; fortement rogné sur le pourtour
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">19</dim>
+                           </dimensions>
+                           <measure type="weight" unit="g"/>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock"/>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="corroded worn-edge">
+                           <p xml:lang="fr">Très oxydé; fortement rogné sur le pourtour
                                         notamment sur la gauche (de l'avers), avec perte de la
                                         moitié de la légende circulaire.</p>
-                                    <p xml:lang="en">Very xorroded; heavily worn around the
+                           <p xml:lang="en">Very xorroded; heavily worn around the
                                         edges, especially on the left (on the obverse), with loss of
                                         half the circular legend.</p>
-                                </condition>
-                            </supportDesc>
-                            <layoutDesc>
-                                <layout n="whole">
-                                    <rs type="execution">
-                                        <seg xml:lang="fr">Frappé</seg>
-                                        <seg xml:lang="en">Struck</seg>
-                                    </rs>
-                                    <rs type="shape">
-                                        <seg xml:lang="fr">Ronde</seg>
-                                        <seg xml:lang="en">Round</seg>
-                                    </rs>
-                                    <rs type="matrix" subtype="not-surviving">
-                                        <idno type="SigiDoc">m-pmtRin</idno>
-                                    </rs>
-                                </layout>
-                            </layoutDesc>
-                        </objectDesc>
-                    </physDesc>
-                    <history>
-                        <origin>
-                            <origPlace>
-                                <seg xml:lang="fr">
-                                    <placeName ref="https://pleiades.stoa.org/places/491741"
-                                        >Thessalonique</placeName>
-                                </seg>
-                                <seg xml:lang="en">
-                                    <placeName ref="https://pleiades.stoa.org/places/491741"
-                                        >Thessalonica</placeName>
-                                </seg>
-                            </origPlace>
-                            <origDate type="analysis" notBefore="0901" notAfter="1000"
-                                evidence="titulature epigraphy" cert="high" resp="#JCC #VP #AS">
-                                <seg xml:lang="fr">Xe siècle.</seg>
-                                <seg xml:lang="en">10th C.</seg>
-                            </origDate>
-                        </origin>
-                        <provenance type="found" subtype="discovered">
-                            <placeName type="ancientFindspot" xml:lang="fr"/>
-                            <rs type="circumstances" xml:lang=""/>
-                        </provenance>
-                        <provenance type="observed" subtype="seen">
-                            <p xml:lang=""/>
-                        </provenance>
-                        <provenance type="not-observed" subtype="lost">
-                            <p xml:lang=""/>
-                        </provenance>
-                        <provenance type="transferred" subtype="moved">
-                            <p xml:lang=""/>
-                        </provenance>
-                        <acquisition>
-                            <p xml:lang=""/>
-                        </acquisition>
-                    </history>
-                    <msPart n="r">
-                        <msIdentifier/>
-                        <msContents>
-                            <summary n="r">
-                                <seg xml:lang="en">Obverse</seg>
-                            </summary>
-                            <textLang n="r" mainLang="grc">
-                                <seg xml:lang="fr">Grec byzantin</seg>
-                                <seg xml:lang="en">Byzantine Greek</seg>
-                            </textLang>
-                        </msContents>
-                        <physDesc>
-                            <objectDesc>
-                                <layoutDesc>
-                                    <layout n="r">
-                                        <dimensions type="written" unit="mm">
-                                            <dim type="diameter"/>
-                                        </dimensions>
-                                        <p xml:lang="fr">Iconographie avec légende circulaire et peut-être
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-pmtRin</idno>
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">
+                           <placeName ref="https://pleiades.stoa.org/places/491741">Thessalonique</placeName>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName ref="https://pleiades.stoa.org/places/491741">Thessalonica</placeName>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis"
+                               notBefore="0901"
+                               notAfter="1000"
+                               evidence="titulature epigraphy"
+                               cert="high"
+                               resp="#JCC #VP #AS">
+                        <seg xml:lang="fr">Xe siècle.</seg>
+                        <seg xml:lang="en">10th C.</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="found" subtype="discovered">
+                     <placeName type="ancientFindspot" xml:lang="fr"/>
+                     <rs type="circumstances" xml:lang=""/>
+                  </provenance>
+                  <provenance type="observed" subtype="seen">
+                     <p xml:lang=""/>
+                  </provenance>
+                  <provenance type="not-observed" subtype="lost">
+                     <p xml:lang=""/>
+                  </provenance>
+                  <provenance type="transferred" subtype="moved">
+                     <p xml:lang=""/>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang=""/>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                     <textLang n="r" mainLang="grc">
+                        <seg xml:lang="fr">Grec byzantin</seg>
+                        <seg xml:lang="en">Byzantine Greek</seg>
+                     </textLang>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie avec légende circulaire et peut-être
                                             épigraphe en colonne.</p>
-                                        <p xml:lang="en">Iconography with a circular legend and maybe
+                              <p xml:lang="en">Iconography with a circular legend and maybe
                                             inscription in columns.</p>
-                                    </layout>
-                                </layoutDesc>
-                            </objectDesc>
-                            <handDesc>
-                                <handNote n="r">
-                                    <seg xml:lang="en"/>
-                                </handNote>
-                            </handDesc>
-                            <decoDesc>
-                                <decoNote>
-                                    <figure>
-                                        <figDesc n="r"
-                                            ana="2-persons male saint St-Demetrios St-Nestor standing blessing military"
-                                            xml:lang="fr">L'état de conservation du sceau ne permet
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r"
+                                       ana="2-persons male saint St-Demetrios St-Nestor standing blessing military"
+                                       xml:lang="fr">L'état de conservation du sceau ne permet
                                             pas d'identifier l'iconographie: on voit deux
                                             personnages représentés debout: un sceau conservé à
                                             Vienne et ayant appartenu au même propriétaire permet de
@@ -221,111 +218,113 @@
                                             bénissant saint Nestor à gauche, les deux représentés en
                                             tenue militaire (voir plus bas le
                                             commentaire).</figDesc>
-                                        <figDesc n="r"
-                                            ana="2-persons male saint St-Demetrios St-Nestor standing blessing military"
-                                            xml:lang="en">The state of preservation of the seal does
+                              <figDesc n="r"
+                                       ana="2-persons male saint St-Demetrios St-Nestor standing blessing military"
+                                       xml:lang="en">The state of preservation of the seal does
                                             not allow the iconography to be identified: two figures
                                             are shown standing; a seal held in Vienna and belonging
                                             to the same issuer allows them to be identified as Saint
                                             Demetrios on the right blessing Saint Nestor on the
                                             left, both depicted in military garb (see below the
                                             commentary).</figDesc>
-                                        <figDesc n="decoR" xml:lang="fr">Double cercle de grènetis
+                              <figDesc n="decoR" xml:lang="fr">Double cercle de grènetis
                                             enfermant la légende circulaire.</figDesc>
-                                        <figDesc n="decoR" xml:lang="en">Double circle of dots
+                              <figDesc n="decoR" xml:lang="en">Double circle of dots
                                             enclosing the circular legend.</figDesc>
-                                    </figure>
-                                </decoNote>
-                            </decoDesc>
-                        </physDesc>
-                    </msPart>
-                    <msPart n="v">
-                        <msIdentifier/>
-                        <msContents>
-                            <summary n="v">
-                                <seg xml:lang="en">Reverse</seg>
-                            </summary>
-                            <textLang n="v" mainLang="grc">
-                                <seg xml:lang="fr">Grec byzantin</seg>
-                                <seg xml:lang="en">Byzantine Greek</seg>
-                            </textLang>
-                        </msContents>
-                        <physDesc>
-                            <objectDesc>
-                                <layoutDesc>
-                                    <layout n="v">
-                                        <dimensions type="written" unit="mm">
-                                            <dim type="diameter"/>
-                                        </dimensions>
-                                        <p xml:lang="fr">Légende linéaire sur 5 lignes.</p>
-                                        <p xml:lang="en">Linear legend of 5 lines.</p>
-                                    </layout>
-                                </layoutDesc>
-                            </objectDesc>
-                            <handDesc>
-                                <handNote n="v">
-                                    <seg xml:lang=""/>
-                                </handNote>
-                            </handDesc>
-                            <decoDesc>
-                                <decoNote>
-                                    <figure>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v">
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                     <textLang n="v" mainLang="grc">
+                        <seg xml:lang="fr">Grec byzantin</seg>
+                        <seg xml:lang="en">Byzantine Greek</seg>
+                     </textLang>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Légende linéaire sur 5 lignes.</p>
+                              <p xml:lang="en">Linear legend of 5 lines.</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang=""/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
                                         <!--<figDesc n="v" ana="" xml:lang=""/>-->
-                                        <figDesc n="decoV" xml:lang="fr">Cercle de grènetis très
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis très
                                             partiellement conservé.</figDesc>
-                                        <figDesc n="decoV" xml:lang="en">Circle of dots very
+                              <figDesc n="decoV" xml:lang="en">Circle of dots very
                                             partially preserved.</figDesc>
-                                    </figure>
-                                </decoNote>
-                            </decoDesc>
-                        </physDesc>
-                    </msPart>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <editorialDecl>
-                <p/>
-            </editorialDecl>
-        </encodingDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="Grek">Greek script</language>
-                <language ident="Latn">Latin script</language>
-                <language ident="grc">Ancient Greek language (to 1453; assumed to be in its standard
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="Grek">Greek script</language>
+            <language ident="Latn">Latin script</language>
+            <language ident="grc">Ancient Greek language (to 1453; assumed to be in its standard
                     script: Grek)</language>
-                <language ident="la">Latin language (assumed to be in its standard script:
+            <language ident="la">Latin language (assumed to be in its standard script:
                     Latn)</language>
-                <language ident="grc-Latn">Ancient Greek Language (to 1453), rendered in Latin
+            <language ident="grc-Latn">Ancient Greek Language (to 1453), rendered in Latin
                     script</language>
-                <language ident="la-Grek">Latin written in Greek script</language>
-            </langUsage>
-        </profileDesc>
-        <revisionDesc>
-            <change who="AS" when="2025-03-20">URL to photos added.</change>
-            <change who="AS" when="2025-03-09">Leidenisation and indexing.</change>
-            <change who="AS" when="2024-12-04">Creation of the XML record.</change>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile>
-        <surfaceGrp>
-            <surface n="r">
-                <desc>Obverse</desc>
-                <graphic url="https://ifeb.sigidoc.huma-num.fr/images/IFEB_0714A.jpg" type="photo">
-                    <desc>Digital image of the obverse.</desc>
-                </graphic>
-            </surface>
-            <surface n="v">
-                <desc>Reverse</desc>
-                <graphic url="https://ifeb.sigidoc.huma-num.fr/images/IFEB_0714B.jpg" type="photo">
-                    <desc>Digital image of the reverse.</desc>
-                </graphic>
-            </surface>
-        </surfaceGrp>
-    </facsimile>
-    <text>
-        <body>
-            <div type="edition" subtype="editorial" xml:space="preserve">
+            <language ident="la-Grek">Latin written in Greek script</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="AS" when="2025-03-20">URL to photos added.</change>
+         <change who="AS" when="2025-03-09">Leidenisation and indexing.</change>
+         <change who="AS" when="2024-12-04">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic url="https://ifeb.sigidoc.huma-num.fr/images/IFEB_0714A.jpg"
+                     type="photo">
+               <desc>Digital image of the obverse.</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic url="https://ifeb.sigidoc.huma-num.fr/images/IFEB_0714B.jpg"
+                     type="photo">
+               <desc>Digital image of the reverse.</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve">
                 <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc">
                       <ab ana="und">
                           <gap reason="lost" extent="unknown" unit="line"/><!-- lost columns!!! -->
@@ -346,7 +345,7 @@
                       </ab>
                   </div>
               </div>
-            <div type="edition" subtype="diplomatic" xml:space="preserve">
+         <div type="edition" subtype="diplomatic" xml:space="preserve">
                 <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"> 
                       <ab ana="und">
                           <gap reason="lost" extent="unknown" unit="line"/>
@@ -367,69 +366,75 @@
                       </ab>
                   </div>
               </div>
-            <div type="apparatus">
-                <listApp>
-                    <app/>
-                </listApp>
-            </div>
-            <div type="translation">
-                <p>… / + Κοσμᾷ βασιλικῷ πρωτοσπαθαρίῳ καὶ ἐκ προσόπου Θεσαλονίκης.</p>
-                <p xml:lang="en">… Kosmas, imperial protospatharios and ek prosopou of Thessalonica.</p>
-                <p xml:lang="fr">… Kosmas, protospathaire impérial et <hi rend="italic">ek prosopou</hi> de Thessalonique.</p>
-            </div>
-            <!-- https://www.academia.edu/127287269/Zu_den_Szenen_aus_der_Vita_des_heiligen_Demetrios_auf_dem_Einbanddeckel_des_Neuen_Testaments_in_der_British_Library_Add_Ms_28815 -->
-            <div type="commentary" subtype="text">
-                <p xml:lang="fr">Pour une description plus détaillée et un commentaire de
+         <div type="apparatus">
+            <listApp>
+               <app/>
+            </listApp>
+         </div>
+         <div type="translation">
+            <p>… / + Κοσμᾷ βασιλικῷ πρωτοσπαθαρίῳ καὶ ἐκ προσόπου Θεσαλονίκης.</p>
+            <p xml:lang="en">… Kosmas, imperial protospatharios and ek prosopou of Thessalonica.</p>
+            <p xml:lang="fr">… Kosmas, protospathaire impérial et <hi rend="italic">ek prosopou</hi> de Thessalonique.</p>
+         </div>
+         <!-- https://www.academia.edu/127287269/Zu_den_Szenen_aus_der_Vita_des_heiligen_Demetrios_auf_dem_Einbanddeckel_des_Neuen_Testaments_in_der_British_Library_Add_Ms_28815 -->
+         <div type="commentary" subtype="text">
+            <p xml:lang="fr">Pour une description plus détaillée et un commentaire de
                     l'iconographie, voir l'édition du sceau MK 44 de Vienne, ainsi que l'édition du
                     sceau Dumbarton Oaks BZS.1951.31.5.1775 [1].</p>
-                <p xml:lang="fr">Selon W. Seibt et Al.-K. Wassiliou-Seibt ce sceau représente l'une
-                    des étapes de la carrière de Kosmas, dont ils reconstituent le <hi rend="italic"
-                        >cursus honorum</hi> sur la base des sceaux qu'ils estiment pouvoir lui
+            <p xml:lang="fr">Selon W. Seibt et Al.-K. Wassiliou-Seibt ce sceau représente l'une
+                    des étapes de la carrière de Kosmas, dont ils reconstituent le <hi rend="italic">cursus honorum</hi> sur la base des sceaux qu'ils estiment pouvoir lui
                     attribuer [2].</p>
-                <p xml:lang="fr">L'absence de reproductions de qualité pour l'ensemble des sceaux se
+            <p xml:lang="fr">L'absence de reproductions de qualité pour l'ensemble des sceaux se
                     rapportant à la carrière de Kosmas rend ardu le rapprochement des choix
                     iconographiques fait par le sigillant, d'autant plus que ces derniers ont été
                     interprétés de manière très variée par les éditeurs des différentes pièces.
                     Presque toutes les bulles qui lui ont été attribuées portent deux personnages
                     saints à l'avers, mais l'identité de ces personnages reste parfois difficile à
-                    établir: ceci est le cas pour l'étape précédente de sa carrière en tant que <hi
-                        rend="italic">bardarios</hi>, commerciaire et protonotaire de Thessalonique
+                    établir: ceci est le cas pour l'étape précédente de sa carrière en tant que <hi rend="italic">bardarios</hi>, commerciaire et protonotaire de Thessalonique
                     [3] et aussi pour la suivante, en tant que stratège de Thessalonique [4]. Ici
                     nous avons retenu l'identification proposée par W. Seibt et Al.K.
                     Wassiliou-Seibt. L'établissement précis de l'iconographie va permettre de
                     constater si certains de ces sceaux sont des parallèles par l'avers et donc de
                     poser la question du remploi partiel du <hi rend="italic">boullotèrion</hi> lors
                     d'un avancement dans la carrière de Kosmas.</p>
-            </div>
-            <div type="commentary" subtype="footnotes">
-                <p xml:lang="fr" xml:id="footnote-1">[1] <bibl><ptr target="BBÖ2"/>, <citedRange
-                            unit="part">224</citedRange></bibl>; <bibl><ptr target="DOsealsOnline"
-                        />, <citedRange unit="entry"><ref
-                                target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1951.31.5.1775/view"
-                                >BZS.1951.31.5.1775</ref></citedRange></bibl>.</p>
-                <p xml:lang="fr" xml:id="footnote-2">[2] <bibl><ptr target="BBÖ2"/>, p. <citedRange
-                            unit="page">223</citedRange></bibl>.</p>
-                <p xml:lang="fr" xml:id="footnote-3">[3] <bibl><ptr target="BBÖ2"/>, <citedRange
-                            unit="part">224</citedRange></bibl>; <bibl><ptr target="Lebedeva1931"/>,
-                            <citedRange unit="part">3</citedRange></bibl> (où la fonction de <hi
-                        rend="italic">bardarios</hi> n'est pas été lue).</p>
-                <p xml:lang="fr" xml:id="footnote-4">[4] <bibl><ptr target="Schlumberger1884"/>, p.
-                            <citedRange unit="page">103, no. 1</citedRange></bibl> = <bibl>
-                        <ptr target="Klimanov1999"/>, p. <citedRange unit="page">236-237, no.
+         </div>
+         <div type="commentary" subtype="footnotes">
+            <p xml:lang="fr" xml:id="footnote-1">[1] <bibl>
+                  <ptr target="BBÖ2"/>, <citedRange unit="part">224</citedRange>
+               </bibl>; <bibl>
+                  <ptr target="DOsealsOnline"/>, <citedRange unit="entry">
+                     <ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1951.31.5.1775/view">BZS.1951.31.5.1775</ref>
+                  </citedRange>
+               </bibl>.</p>
+            <p xml:lang="fr" xml:id="footnote-2">[2] <bibl>
+                  <ptr target="BBÖ2"/>, p. <citedRange unit="page">223</citedRange>
+               </bibl>.</p>
+            <p xml:lang="fr" xml:id="footnote-3">[3] <bibl>
+                  <ptr target="BBÖ2"/>, <citedRange unit="part">224</citedRange>
+               </bibl>; <bibl>
+                  <ptr target="Lebedeva1931"/>,
+                            <citedRange unit="part">3</citedRange>
+               </bibl> (où la fonction de <hi rend="italic">bardarios</hi> n'est pas été lue).</p>
+            <p xml:lang="fr" xml:id="footnote-4">[4] <bibl>
+                  <ptr target="Schlumberger1884"/>, p.
+                            <citedRange unit="page">103, no. 1</citedRange>
+               </bibl> = <bibl>
+                  <ptr target="Klimanov1999"/>, p. <citedRange unit="page">236-237, no.
                             35</citedRange>
-                    </bibl>.</p>
-            </div>
-            <div type="bibliography" subtype="edition"/>
-            <div type="bibliography" subtype="parallels"/>
-            <div type="bibliography" subtype="discussion">
-                <p>Le sceau de l'IFEB est mentionné dans <bibl><ptr target="BBÖ2"/>, p. <citedRange
-                            unit="page">223, et n. 463</citedRange> et dans <bibl>
-                            <ptr target="PmbZOnline"/>, <citedRange unit="entry"><ref
-                                    target="https://www.degruyter.com/database/PMBZ/entry/PMBZ26261/html"
-                                    >24107</ref></citedRange>
-                        </bibl></bibl>
-                </p>
-            </div>
-        </body>
-    </text>
+               </bibl>.</p>
+         </div>
+         <div type="bibliography" subtype="edition"/>
+         <div type="bibliography" subtype="parallels"/>
+         <div type="bibliography" subtype="discussion">
+            <p>Le sceau de l'IFEB est mentionné dans <bibl>
+                  <ptr target="BBÖ2"/>, p. <citedRange unit="page">223, et n. 463</citedRange> et dans <bibl>
+                     <ptr target="PmbZOnline"/>, <citedRange unit="entry">
+                        <ref target="https://www.degruyter.com/database/PMBZ/entry/PMBZ26261/html">24107</ref>
+                     </citedRange>
+                  </bibl>
+               </bibl>
+            </p>
+         </div>
+      </body>
+   </text>
 </TEI>
