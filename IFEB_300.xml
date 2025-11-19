@@ -217,8 +217,9 @@
                            <figure>
                               <figDesc n="r"
                                  ana="person female saint St-Catherine bust cross-in-hand"
-                                 xml:lang="fr">Buste de Sainte Catherine tenant une croix dans la
-                                 main droite et la main gauche soulevée, paume ouverte.</figDesc>
+                                 xml:lang="fr">Buste de Sainte Catherine avec chlamyde et lôros,
+                                 tenant une croix dans la main droite et avec la main gauche
+                                 soulevée, paume ouverte.</figDesc>
                               <figDesc n="r"
                                  ana="person female saint St-Catherine bust cross-in-hand"
                                  xml:lang="en">Bust of Saint Catherine holding a cross in her right
@@ -368,16 +369,24 @@
                Terre Sainte au nom du <hi rend="italic">basileus</hi> (explication qui toutefois ne
                semble pas convenir d'un point de vue chronologique) tantôt avec le développement du
                culte de cette sainte dans la terre d'origine d'Alexandre, antérieurement à
-               l'émigration vers le sud de l'Italie [2]. Une comparaison avec les autres sceaux
-               connus de ce personnage permet d'au moins avancer l'hypothèse qu'alexandre ait pu
-               réutiliser une moitié de son <hi rend="italic">boullotèrion</hi>, celle pour l'avers
-               et l'iconographie???????????.</p>
-            <!-- ??????? -->
+               l'émigration vers le sud de l'Italie [2].</p>
             <p>Ce sceau a également une troisième particularité: avec son parallèle conservé en
                Roumanie, il est le seul qui ne comporte pas le titre de <hi rend="italic"
                >comes</hi>, qui figure en revanche sur tous les autres sceaux d'Alexandre de Gravina
-               [3]????????????????.</p>
-            <!-- ??????????????? -->
+               [3]????????????????. Les sceaux du personnage comportant le titre de <hi
+                  rend="italic">comes</hi> sont conservés au Musée de l'Hermitage [4] et à la
+               Bibliothèque nationale de France [5], auxquels il faudra ajouter le sceau de la
+               collection Zacos vendu aux enchères par Spink [6]. Bien que les images publiées ne
+               permettent pas d'en avoir la certitude absolue, il semble bien que ces trois
+               exemplaires soient des parallèles: la pièce qui, à l'apparence, s'éloigne le plus est
+               celle de la BnF, mais seulement parce qu'elle est déformée le long d'une partie du
+               bord, ce qui a notamment entraîné une altération de l'alignement des lettres de la
+               première moitié de la première ligne de la légende au revers. Les revers étant par conséquent
+               différents de ceux qui ne comportent pas le titre de <hi rend="italic">comes</hi>, on pourrait s'interroger
+               si, compte-tenu du caractère exceptionnel de son choix iconographique, Alexandre a pu
+               réutiliser une moitié de son <hi rend="italic">boullotèrion</hi>, celle pour
+               l'avers: il faut bien reconnaître que l'état de conservation de l'avers du sceau de l'IFEB est très mauvais, alors que celui du sceau de Dorostolon est bien meilleur: .</p>
+
          </div>
          <div type="commentary" subtype="footnotes">
             <p xml:id="footnote-1"> À notre connaissance, la discussion la plus récente à ce sujet
@@ -401,11 +410,21 @@
                   <hi rend="italic">boullotèrion</hi> que les autres sceaux du personnage et en
                affichant une légende "Alexander, comes Gravine", alors que justement la
                particularité du sceau retrouvé à Dorostolon est celle de ne pas porter de titre. Sur
-               cette meêm page de la PBW, le sceau de l'IFEB est indiqué avec le numéro 184:
+               cette même page de la PBW, le sceau de l'IFEB est indiqué avec le numéro 184:
                toutefois, au cours de l'inventaire de cette collection ayant eu lieu en 2024 dans le
                cadre du projet ANR-DFG DigiByzSeal, aucun sceau n'a été retrouvé qui correspond au
                numéro 184, alors que le sceau d'Alexandre de Gravina était présent sous le numéro
-               300, avec lequel il est mentionné par CR SBS 3??????????</p><!-- ????????? -->
+               300, avec lequel il est mentionné par CR SBS 3??????????</p>
+            <!-- ????????? -->
+            <p xml:id="footnote-4">
+               <bibl>Sceau M-2221: <ptr target="Lihačev1991"/>, p. <citedRange unit="page"
+                     >298</citedRange>, <citedRange unit="part">11</citedRange></bibl> (image
+               LXXXI.11), republié par <bibl><ptr target="Stepanova2001"/>, p. <citedRange
+                     unit="page">67</citedRange></bibl> (image 12).</p>
+            <p xml:id="footnote-5">Sceau Zacos BnF 1225: <bibl><ptr target="Cheynet2023"/>, p.
+                     <citedRange unit="page">185, n. 22</citedRange></bibl> (image 13).</p>
+            <p xml:id="footnote-6"><bibl><ptr target="ZacosSpink2"/>, lot <citedRange unit="part"
+                     >163</citedRange></bibl>.</p>
          </div>
          <div type="bibliography" subtype="edition"/>
          <div type="bibliography" subtype="parallels">
