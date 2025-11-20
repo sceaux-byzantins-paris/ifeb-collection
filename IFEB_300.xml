@@ -292,6 +292,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change who="AS" when="2025-11-20">Implementation of commentary and bibliography.</change>
          <change who="AS" when="2025-11-17">Creation of the XML record.</change>
       </revisionDesc>
    </teiHeader>
@@ -352,8 +353,8 @@
          </div>
          <div type="translation">
             <p>Ἡ ἁγία Ἐκατερίνα. / Alexander de Gravina.</p>
-            <p xml:lang="en">St. Catherine. / Alexander of Gravina.</p>
-            <p xml:lang="fr">Sainte Catherine. / Alexandre de Gravina.</p>
+            <p xml:lang="en">St. Catherine. Alexander of Gravina.</p>
+            <p xml:lang="fr">Sainte Catherine. Alexandre de Gravina.</p>
          </div>
          <div type="commentary" subtype="text">
             <p xml:lang="fr">Le propriétaire de ce sceau est sans doute l'un des Normands les plus
@@ -362,31 +363,35 @@
                "de Gravina" est ou non à identifier avec un homonyme "de Conversano" ou même "de
                Chiaromonte" [1].</p>
             <p>Cette bulle présente deux particularités: d'abord, la légende du revers est écrite en
-               latin alors que nombres d'autres Occidentaux partis en Orient avaient fait le choix
-               du grec. L'autre particularité est son iconographie: sainte Catherine est inédite
-               dans le répertoire iconographique de sceaux byzantins ou d'inspiration byzantine et
-               son choix a été mis en relatin tantôt avec les missions diplomatiques d'Alexandre en
+               latin alors que nombre d'autres Occidentaux partis en Orient avaient fait le choix du
+               grec. L'autre particularité est son iconographie: sainte Catherine est inédite dans
+               le répertoire iconographique de sceaux byzantins ou d'inspiration byzantine et son
+               choix a été mis en relatin tantôt avec les missions diplomatiques d'Alexandre en
                Terre Sainte au nom du <hi rend="italic">basileus</hi> (explication qui toutefois ne
                semble pas convenir d'un point de vue chronologique) tantôt avec le développement du
                culte de cette sainte dans la terre d'origine d'Alexandre, antérieurement à
                l'émigration vers le sud de l'Italie [2].</p>
             <p>Ce sceau a également une troisième particularité: avec son parallèle conservé en
-               Roumanie, il est le seul qui ne comporte pas le titre de <hi rend="italic"
-               >comes</hi>, qui figure en revanche sur tous les autres sceaux d'Alexandre de Gravina
-               [3]????????????????. Les sceaux du personnage comportant le titre de <hi
-                  rend="italic">comes</hi> sont conservés au Musée de l'Hermitage [4] et à la
-               Bibliothèque nationale de France [5], auxquels il faudra ajouter le sceau de la
-               collection Zacos vendu aux enchères par Spink [6]. Bien que les images publiées ne
-               permettent pas d'en avoir la certitude absolue, il semble bien que ces trois
-               exemplaires soient des parallèles: la pièce qui, à l'apparence, s'éloigne le plus est
-               celle de la BnF, mais seulement parce qu'elle est déformée le long d'une partie du
-               bord, ce qui a notamment entraîné une altération de l'alignement des lettres de la
-               première moitié de la première ligne de la légende au revers. Les revers étant par conséquent
-               différents de ceux qui ne comportent pas le titre de <hi rend="italic">comes</hi>, on pourrait s'interroger
-               si, compte-tenu du caractère exceptionnel de son choix iconographique, Alexandre a pu
-               réutiliser une moitié de son <hi rend="italic">boullotèrion</hi>, celle pour
-               l'avers: il faut bien reconnaître que l'état de conservation de l'avers du sceau de l'IFEB est très mauvais, alors que celui du sceau de Dorostolon est bien meilleur: .</p>
-
+               Roumanie, il est le seul qui ne porte pas le titre de <hi rend="italic">comes</hi>,
+               qui figure en revanche sur tous les autres sceaux d'Alexandre de Gravina [3]. Les
+               sceaux du personnage comportant le titre de <hi rend="italic">comes</hi> sont
+               conservés au Musée de l'Hermitage [4] et à la Bibliothèque nationale de France [5],
+               auxquels il faudra ajouter le sceau de la collection Zacos vendu jadis aux enchères
+               par Spink [6]. Bien que les images publiées ne permettent pas d'en avoir la certitude
+               absolue, il semble bien que ces trois exemplaires soient des parallèles: la pièce
+               qui, à l'apparence, s'éloigne le plus est celle de la BnF, mais seulement parce
+               qu'elle est déformée le long d'une partie du bord, ce qui a notamment entraîné une
+               altération de l'alignement des lettres de la première moitié de la première ligne de
+               la légende au revers et dans la colonne de droite à l'avers, ainsi qu'une altération
+               de la tête de la sainte, qui semble pencher vers la gauche. Les revers étant par
+               conséquent différents de ceux des pièces qui ne comportent pas le titre de <hi
+                  rend="italic">comes</hi>, on pourrait s'interroger si, compte-tenu du caractère
+               exceptionnel de son choix iconographique, Alexandre a pu réutiliser une moitié de son
+                  <hi rend="italic">boullotèrion</hi>, celle pour l'avers: le médiocre état de
+               conservation de l'iconographie du sceau de l'IFEB, ainsi que, une fois de plus, des
+               photos en notre possession qui ne sont pas très exploitables, ne permettent pas de
+               trancher, même s'il est évident que la conception est clairerment la même.</p>
+            <!-- FOGG 829??????????????????????????????? -->
          </div>
          <div type="commentary" subtype="footnotes">
             <p xml:id="footnote-1"> À notre connaissance, la discussion la plus récente à ce sujet
@@ -414,7 +419,7 @@
                toutefois, au cours de l'inventaire de cette collection ayant eu lieu en 2024 dans le
                cadre du projet ANR-DFG DigiByzSeal, aucun sceau n'a été retrouvé qui correspond au
                numéro 184, alors que le sceau d'Alexandre de Gravina était présent sous le numéro
-               300, avec lequel il est mentionné par CR SBS 3??????????</p>
+               300, avec lequel il est mentionné ailleurs.</p>
             <!-- ????????? -->
             <p xml:id="footnote-4">
                <bibl>Sceau M-2221: <ptr target="Lihačev1991"/>, p. <citedRange unit="page"
@@ -429,10 +434,26 @@
          <div type="bibliography" subtype="edition"/>
          <div type="bibliography" subtype="parallels">
             <p>Muzeul Național de Istorie a României (Bucarest), 48/40: <bibl>
-                  <ptr target="Barnea1993"/>, no. <citedRange unit="part">10</citedRange></bibl>
-               (retrouvé à Dorostolon).</p>
+                  <ptr target="Barnea1993"/>, <citedRange unit="part">10</citedRange></bibl>
+               (retrouvé à Dorostolon) = <bibl><ptr target="JordanovCorpus2"/>, <citedRange
+                     unit="part">150</citedRange></bibl> = <bibl><ptr target="JordanovCorpus3"/>,
+                     <citedRange unit="part">1862-1863</citedRange></bibl> (Jordanov republie le
+               sceau précédemment édité par Barnea, mais sa lecture est la suivante: [+] Alexa[nder
+               c]om[es] Gravin[e], alors qu'il n'y a pas du tout de place pour ces lettres. Il
+               estime en effet que l'empreinte laissée par le <hi rend="italic">boullotèrion</hi>
+               n'est pas complète et l'intègre en s'appuyant sur d'autres sceaux du même personnage
+               et cite les examplaires de l'Hermitage et de la vente Spink, mais aussi le sceau
+               IFEB: cette lecture du sceau de Dorostolon doit donc être rejetée).</p>
          </div>
-         <div type="bibliography" subtype="discussion"/>
+         <div type="bibliography" subtype="discussion">
+            <p>Le sceau de l'IFEB est mentionné par <bibl><ptr target="Cheynet1995a"/>, p.
+               <citedRange unit="page">384</citedRange></bibl>, avec le numéro d'inventaire IFEB 300;
+               <bibl><ptr target="ZacosSpink2"/>, p. <citedRange unit="page">26</citedRange></bibl>,
+               avec le numéro d'inventaire IFEB 184; <bibl><ptr target="JordanovCorpus2"/>, p.
+                     <citedRange unit="part">115</citedRange></bibl> = <bibl><ptr
+                     target="JordanovCorpus3"/>, p. <citedRange unit="part">615</citedRange></bibl>,
+               avec le numéro d'inventaire IFEB 300 (2/22f)</p>
+         </div>
       </body>
    </text>
 </TEI>
