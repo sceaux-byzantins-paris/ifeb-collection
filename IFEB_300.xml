@@ -123,15 +123,18 @@
                            <p xml:lang="fr">Rogné au pourtour; échancré aux orifices du canal;
                               frappe décentrée ayant entraîné la perte partielle de la colonne
                               droite de l'inscription à l'avers et du début des lignes de
-                              l'inscription au revers; iconographie de l'avers endommagée et traces
-                              d'écrasement sur la partie droite du revers ayant endommagé la fin des
-                              lignes de l'inscription; oxydation en cours.</p>
+                              l'inscription au revers; iconographie de l'avers endommagée (trace
+                              d'impact au niveau du visage de la sainte qui semble se poursuivre
+                              vers le bas à droite) et traces d'écrasement sur la partie droite du
+                              revers ayant endommagé la fin des lignes de l'inscription; oxydation
+                              en cours.</p>
                            <p xml:lang="en">Trimmed around the border; indented at the channel
                               openings; off-centre strike resulting in partial loss of the right
                               column of the inscription on the obverse and the beginning of the
                               lines of the inscription on the reverse; damaged iconography on the
-                              obverse and traces of crushing on the right side of the reverse,
-                              damaging the end of the lines of the inscription; ongoing
+                              obverse (impact mark on the saint's face that appears to continue
+                              downwards to the right) and traces of crushing on the right side of
+                              the reverse, damaging the end of the lines of the inscription; ongoing
                               oxidation.</p>
                         </condition>
                      </supportDesc>
@@ -220,6 +223,7 @@
                                  xml:lang="fr">Buste de Sainte Catherine avec chlamyde et lôros,
                                  tenant une croix dans la main droite et avec la main gauche
                                  soulevée, paume ouverte.</figDesc>
+                              <!-- couronne????????????????????????? -->
                               <figDesc n="r"
                                  ana="person female saint St-Catherine bust cross-in-hand"
                                  xml:lang="en">Bust of Saint Catherine holding a cross in her right
@@ -364,34 +368,42 @@
                Chiaromonte" [1].</p>
             <p>Cette bulle présente deux particularités: d'abord, la légende du revers est écrite en
                latin alors que nombre d'autres Occidentaux partis en Orient avaient fait le choix du
-               grec. L'autre particularité est son iconographie: sainte Catherine est inédite dans
-               le répertoire iconographique de sceaux byzantins ou d'inspiration byzantine et son
-               choix a été mis en relatin tantôt avec les missions diplomatiques d'Alexandre en
-               Terre Sainte au nom du <hi rend="italic">basileus</hi> (explication qui toutefois ne
-               semble pas convenir d'un point de vue chronologique) tantôt avec le développement du
-               culte de cette sainte dans la terre d'origine d'Alexandre, antérieurement à
-               l'émigration vers le sud de l'Italie [2].</p>
-            <p>Ce sceau a également une troisième particularité: avec son parallèle conservé en
-               Roumanie, il est le seul qui ne porte pas le titre de <hi rend="italic">comes</hi>,
-               qui figure en revanche sur tous les autres sceaux d'Alexandre de Gravina [3]. Les
-               sceaux du personnage comportant le titre de <hi rend="italic">comes</hi> sont
-               conservés au Musée de l'Hermitage [4] et à la Bibliothèque nationale de France [5],
-               auxquels il faudra ajouter le sceau de la collection Zacos vendu jadis aux enchères
-               par Spink [6]. Bien que les images publiées ne permettent pas d'en avoir la certitude
-               absolue, il semble bien que ces trois exemplaires soient des parallèles: la pièce
-               qui, à l'apparence, s'éloigne le plus est celle de la BnF, mais seulement parce
-               qu'elle est déformée le long d'une partie du bord, ce qui a notamment entraîné une
-               altération de l'alignement des lettres de la première moitié de la première ligne de
-               la légende au revers et dans la colonne de droite à l'avers, ainsi qu'une altération
-               de la tête de la sainte, qui semble pencher vers la gauche. Les revers étant par
-               conséquent différents de ceux des pièces qui ne comportent pas le titre de <hi
-                  rend="italic">comes</hi>, on pourrait s'interroger si, compte-tenu du caractère
-               exceptionnel de son choix iconographique, Alexandre a pu réutiliser une moitié de son
-                  <hi rend="italic">boullotèrion</hi>, celle pour l'avers: le médiocre état de
-               conservation de l'iconographie du sceau de l'IFEB, ainsi que, une fois de plus, des
-               photos en notre possession qui ne sont pas très exploitables, ne permettent pas de
-               trancher, même s'il est évident que la conception est clairerment la même.</p>
-            <!-- FOGG 829??????????????????????????????? -->
+               grec; en plus, Alexandre reste attaché au titre latin et ne porte pas de titre
+               byzantin (en tout cas, sur la base des sceaux qui nous sont parvenus), peut-être pour
+               soutenir ses ambitions italiennes. L'autre particularité est son iconographie: sainte
+               Catherine est inédite dans le répertoire iconographique des sceaux byzantins ou
+               d'inspiration byzantine et son choix a été mis en relatin tantôt avec les missions
+               diplomatiques d'Alexandre en Égypte et en Terre Sainte au nom du <hi rend="italic"
+                  >basileus</hi> (explication qui toutefois ne semble pas convenir d'un point de vue
+               chronologique) tantôt avec le développement du culte de cette sainte dans la terre
+               d'origine d'Alexandre, antérieurement à l'émigration vers le sud de l'Italie [2].</p>
+            <p>Ce sceau a également une troisième particularité: avec ses parallèles conservés en
+               Roumanie et à Washington D.C., il ne porte pas le titre de <hi rend="italic"
+                  >comes</hi>, qui figure en revanche sur tous les autres sceaux d'Alexandre de
+               Gravina [3]. Les sceaux du personnage comportant le titre de <hi rend="italic"
+                  >comes</hi> sont conservés au Musée de l'Hermitage [4] et à la Bibliothèque
+               nationale de France [5], auxquels il faudra ajouter le sceau de la collection Zacos
+               vendu jadis aux enchères par Spink [6]. Bien que les images publiées ne permettent
+               pas d'en avoir la certitude absolue, il semble bien que ces trois exemplaires soient
+               des parallèles: la pièce qui, à l'apparence, s'éloigne le plus est celle de la BnF,
+               mais seulement parce qu'elle est déformée le long d'une partie du bord, ce qui a
+               notamment entraîné une altération de l'alignement des lettres de la première moitié
+               de la première ligne de la légende au revers et dans la colonne de droite à l'avers,
+               ainsi qu'une altération de la tête de la sainte, qui semble pencher vers la gauche.
+               Les revers étant par conséquent différents de ceux des pièces qui ne comportent pas
+               le titre de <hi rend="italic">comes</hi>, on pourrait s'interroger si, compte-tenu du
+               caractère exceptionnel de son choix iconographique, Alexandre a pu réutiliser une
+               moitié de son <hi rend="italic">boullotèrion</hi>, celle pour l'avers. L'état de
+               conservation de l'iconographie des exemplaires de l'IFEB et de Dumbarton Oaks est
+               médiocre et les photos des autres pièces ne sont pas très exploitables, toutefois,
+               s'il est évident que la conception est clairerment la même, il nous semble que la
+               réponse à la question posée doive être négative: la représentation de sainte
+               Catherine sur le groupe des sceaux dépourvus du titre de <hi rend="italic">comes</hi>
+               diffère de celle des autres, comme on peut le voir d'après le nimbe de la sainte,
+               bien séparé du bord supérieur dans le premier cas et se superposant à ce dernier dans
+               le deuxième cas.</p>
+            <!-- E. Stepanova, “S25, Seal of Alexander, Count of Gravina, with St. Catherine”, in Y. Piatnitsky, M. Mundell Mango, R. Cormack, E. Brunner, and O. Badderley (eds.), Sinai, Byzantium, Russia: Orthodox Art from the Sixth to the Twentieth Century, London, 2000, 212; -->
+            <!-- J. A. Cotsonis, The Religious Figural Imagery of Byzantine Lead Seals II: Studies on Images of the Saints and on Personal Piety, London, 2020, p. 136; Cotsonis states (at p. 141) -->
          </div>
          <div type="commentary" subtype="footnotes">
             <p xml:id="footnote-1"> À notre connaissance, la discussion la plus récente à ce sujet
@@ -406,7 +418,9 @@
             <p xml:id="footnote-2">Sur ces deux aspects et les hypothèses les concernant, voir
                      <bibl><ptr target="Prigent2012"/>, p. <citedRange unit="page"
                      >637-639</citedRange></bibl>; voir aussi <bibl><ptr target="Cheynet2023"/>, p.
-                     <citedRange unit="page">184-185</citedRange></bibl>. </p>
+                     <citedRange unit="page">184-185</citedRange></bibl>. Selon <bibl><ptr
+                     target="Safran2023"/>, p. <citedRange unit="page">99-100 et n.
+                  92</citedRange></bibl> l'explication du choix iconographique XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
             <p xml:id="footnote-3"> À ce propos, une erreur présente dans la <bibl><ptr target="PBW"
                   />, <citedRange unit="entry"><ref
                         target="http://pbw2016.kdl.kcl.ac.uk/boulloterion/3906/">boulloterion
@@ -419,7 +433,8 @@
                toutefois, au cours de l'inventaire de cette collection ayant eu lieu en 2024 dans le
                cadre du projet ANR-DFG DigiByzSeal, aucun sceau n'a été retrouvé qui correspond au
                numéro 184, alors que le sceau d'Alexandre de Gravina était présent sous le numéro
-               300, avec lequel il est mentionné ailleurs.</p>
+               300, avec lequel il est mentionné ailleurs (voir ici la bibliographie
+               additionnelle).</p>
             <!-- ????????? -->
             <p xml:id="footnote-4">
                <bibl>Sceau M-2221: <ptr target="Lihačev1991"/>, p. <citedRange unit="page"
@@ -433,7 +448,7 @@
          </div>
          <div type="bibliography" subtype="edition"/>
          <div type="bibliography" subtype="parallels">
-            <p>Muzeul Național de Istorie a României (Bucarest), 48/40: <bibl>
+            <p>1. Muzeul Național de Istorie a României (Bucarest), 48/40: <bibl>
                   <ptr target="Barnea1993"/>, <citedRange unit="part">10</citedRange></bibl>
                (retrouvé à Dorostolon) = <bibl><ptr target="JordanovCorpus2"/>, <citedRange
                      unit="part">150</citedRange></bibl> = <bibl><ptr target="JordanovCorpus3"/>,
@@ -444,15 +459,19 @@
                n'est pas complète et l'intègre en s'appuyant sur d'autres sceaux du même personnage
                et cite les examplaires de l'Hermitage et de la vente Spink, mais aussi le sceau
                IFEB: cette lecture du sceau de Dorostolon doit donc être rejetée).</p>
+            <p>2. Dumabarton Oaks (Washington, D.C.), BZS.1951.31.5.829 (<hi rend="italic">olim</hi>
+               Fogg 829): le sceau n'est actuellement pas visible dans le catalogue en ligne de
+               Dumbarton Oaks; nous tenons à remercier Jonathan Shea pour avoir bien voulu en
+               partager les images avec nous.</p>
          </div>
          <div type="bibliography" subtype="discussion">
             <p>Le sceau de l'IFEB est mentionné par <bibl><ptr target="Cheynet1995a"/>, p.
-               <citedRange unit="page">384</citedRange></bibl>, avec le numéro d'inventaire IFEB 300;
-               <bibl><ptr target="ZacosSpink2"/>, p. <citedRange unit="page">26</citedRange></bibl>,
-               avec le numéro d'inventaire IFEB 184; <bibl><ptr target="JordanovCorpus2"/>, p.
-                     <citedRange unit="part">115</citedRange></bibl> = <bibl><ptr
-                     target="JordanovCorpus3"/>, p. <citedRange unit="part">615</citedRange></bibl>,
-               avec le numéro d'inventaire IFEB 300 (2/22f)</p>
+                     <citedRange unit="page">384</citedRange></bibl>, avec le numéro d'inventaire
+               IFEB 300; <bibl><ptr target="ZacosSpink2"/>, p. <citedRange unit="page"
+                     >26</citedRange></bibl>, avec le numéro d'inventaire IFEB 184; <bibl><ptr
+                     target="JordanovCorpus2"/>, p. <citedRange unit="part">115</citedRange></bibl>
+               = <bibl><ptr target="JordanovCorpus3"/>, p. <citedRange unit="part"
+                  >615</citedRange></bibl>, avec le numéro d'inventaire IFEB 300 (2/22f).</p>
          </div>
       </body>
    </text>
